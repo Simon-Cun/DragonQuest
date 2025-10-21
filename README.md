@@ -48,7 +48,7 @@ It provides quick access to valuable resources and tools for daily travel.
 ---
 
 ## Input/Output
-**TBD**
+**This app won't necessarily have inputs/outputs. The inputs would possibly be what the user enters when they login/signup, or what they enter into the AI assistant. The output will be what is displayed on the screen to the user (the features that we will implement)**
 
  > ## Phase II
  > In addition to completing the "User Interface Specification" and "Class Diagram" sections below, you will need to:

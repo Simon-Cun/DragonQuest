@@ -8,9 +8,6 @@
 
 ## Project Description
 
----
-
-## Overview
 **Commuter App** is a mobile application designed to make the lives of commuters easier and more efficient.  
 It provides quick access to valuable resources and tools for daily travel.
 

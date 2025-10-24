@@ -1,15 +1,10 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/EvxoT0RF)
 [![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-2972f46106e565e64193e422d61a12cf1da4916b45550586e14ef0a7c637dd04.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=21165628)
 
-# Commuter App 
+# Text Adventure Game
 Authors: [Daniyal Ahmed](https://github.com/daniyal-ahmed10) • [Simon Cun](https://github.com/Simon-Cun/) • [Samuel You](https://github.com/EveningSt3r)• [Isaiah Dacio](https://github.com/IsaiahDacio5)
 
 ## Project Description
-
-**Commuter App** is a mobile application designed to make the lives of commuters easier and more efficient.  
-It provides quick access to valuable resources and tools for daily travel.
-
-This project is especially meaningful to us because some of our team members are commuters — we wanted to create an app that helps people navigate their everyday routines more smoothly.
 
 ---
 

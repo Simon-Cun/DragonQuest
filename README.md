@@ -4,7 +4,7 @@
  > Prompt text is any lines beginning with "\>"
  > Replace anything between \<...\> with your project specifics and remove angle brackets. For example, you need to name your project and replace the header right below this line with that title (no angle brackets). 
 # Commuter App 
-Authors: [Daniyal Ahmed]([url](https://github.com/daniyal-ahmed10)) • Simon • Samuel • Isaiah 
+Authors: [Daniyal Ahmed](https://github.com/daniyal-ahmed10) • Simon • Samuel • Isaiah 
 
 ## Project Description
 

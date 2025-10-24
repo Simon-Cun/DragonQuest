@@ -1,14 +1,14 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/EvxoT0RF)
 [![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-2972f46106e565e64193e422d61a12cf1da4916b45550586e14ef0a7c637dd04.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=21165628)
 
-# Text Adventure Game
+# Role Playing Adventure Game
 Authors: [Daniyal Ahmed](https://github.com/daniyal-ahmed10) • [Simon Cun](https://github.com/Simon-Cun/) • [Samuel You](https://github.com/EveningSt3r)• [Isaiah Dacio](https://github.com/IsaiahDacio5)
 
 ## Project Description
 
 In this game users can choose among different characters to play with. Characters are associated with different types of weapons and armors. At each step of the game, a narrative is presented and the user can select between different options. 
 
-This project is importnat to us because it will be a fun interative game.
+This project is importnat to us because it will be a fun interative game where we can put our coding skills to the test! We can practice our OOP and the ability to create an advanced architecture using input validation.
 
 ---
 
@@ -18,10 +18,11 @@ This project is importnat to us because it will be a fun interative game.
 ---
 
 ## Features (Planned / TBD)
-- Attack
-- Run
-- Inventory
-- Heal
+- Attack: When players come across enemies, they will have the option to attack 
+- Run: In some situations, the user can choose to to run from their enemies for the chance to escape
+- Inventory: The user can choose to acces their invecntory to see what abilities/weopons to use
+- Heal: Once the user is running low on health, they can re-heal and get back to full health
+- 
 
 ---
 

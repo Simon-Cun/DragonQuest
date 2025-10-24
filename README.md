@@ -6,26 +6,30 @@ Authors: [Daniyal Ahmed](https://github.com/daniyal-ahmed10) • [Simon Cun](htt
 
 ## Project Description
 
-In this game users can choose among different characters to play with. Characters are associated with different types of weapons and armors. At each step of the game, a narrative is presented and the user can select between different options.
+In this game users can choose among different characters to play with. Characters are associated with different types of weapons and armors. At each step of the game, a narrative is presented and the user can select between different options. 
+
+This project is importnat to us because it will be a fun interative game.
 
 ---
 
 ## Tech Stack
 - **C++**
-
+- **Terminal Based Interface CLI**
 ---
 
 ## Features (Planned / TBD)
-- **Traffic Log** — track and analyze commute times and traffic patterns from google maps api  
-- **AI Assistant** — provide intelligent commuting tips and updates just basic information regarding what you can do as a commuter (such as making friends, hangout spots, and study areas)  
-- **Nearby Destinations** — find useful locations close to the user using GPS (like where your classes are or maybe where you can park depending on your permit)
-- **ETC** - include graphs for information, maps, or best times to park
+- Attack
+- Run
+- Inventory
+- Heal
 
 ---
 
 ## Input/Output
-**This app won't necessarily have inputs/outputs. The inputs would possibly be what the user enters when they login/signup, or what they enter into the AI assistant. The output will be what is displayed on the screen to the user (the features that we will implement)**
 
+Input will mainly be single characters that will correspond to commands like "q" to quit or "a" to attack an enemy.
+
+Our output will be text prompts generated on the terminal showing what actions you can do like "heal, attack, inventory, and run".
 
 
 

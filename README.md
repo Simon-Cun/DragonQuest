@@ -30,9 +30,10 @@ We will use C++ for our backend and the terminal as our interface. The user will
 
 ## Input/Output
 
-Input will mainly be single characters that will correspond to commands like "q" to quit or "a" to attack an enemy.
+Input: The game will prompt the user with choices such as character selection (“Choose your class: “ and the options will be like mage, warrior, or archer. And based on your selection you will have stats that will determine your damage output and the amount of health you have. We will also have combat interactions which will let you choose to heal, attack, or run away. Also The user can go into their inventory and choose items that will change their stat points for their health or damage. For instance equipping a helmet will reduce damage by 4 or having a sword increases damage by 2.
 
-Our output will be text prompts generated on the terminal showing what actions you can do like "heal, attack, inventory, and run". 
+Output: The output will be valid choices the user has. Such as “An enemy has appeared here are your options: attack, heal, run away”. It will output the description of what is happening like is there an enemy and it will display your health and stats at the end of each move you do.
+
 
 
 

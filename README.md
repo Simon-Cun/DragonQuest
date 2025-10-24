@@ -6,9 +6,9 @@ Authors: [Daniyal Ahmed](https://github.com/daniyal-ahmed10) • [Simon Cun](htt
 
 ## Project Description
 
-In this game users can choose among different characters to play with. Characters are associated with different types of weapons and armors. At each step of the game, a narrative is presented and the user can select between different options. 
+We wanted to make an interactive game and apply C++ skills into making a text based RPG game in a terminal CLI. This interests us because it lets us explore cool and fun features, be creative with dialogue, and, in general, make our own video game.
 
-This project is important to us because it will be a fun interactive game where we can put our coding skills to the test! We can practice our OOP and the ability to create an advanced architecture using input validation. It will help us become more familiar with text-based interfaces and the C++ style guidelines. 
+We will use C++ for our backend and the terminal as our interface. The command line is the input that will be taken in and it will output dialogue and options you can do. To which you can type a letter corresponding to an action.
 
 ---
 

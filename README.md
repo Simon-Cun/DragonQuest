@@ -18,10 +18,10 @@ This project is importnat to us because it will be a fun interative game where w
 ---
 
 ## Features (Planned / TBD)
-- Attack: When players come across enemies, they will have the option to attack 
-- Run: In some situations, the user can choose to to run from their enemies for the chance to escape
-- Inventory: The user can choose to acces their invecntory to see what abilities/weopons to use
-- Heal: Once the user is running low on health, they can re-heal and get back to full health
+- Attack: When players come across enemies, they will have the option to attack, run, or use items. We will keep enemy encounters varied, and in our level-based system, include powerful bosses at the end to mark checkpoints.
+- Run: In some situations, the user can choose to to run from their enemies for the chance to escape. We will use the standard C++ random library to implement this feature.
+- Inventory: The user can choose to access their invecntory to see what abilities/weapons to use, as well as toggle between menus for easier access in and out of combat.
+- Items: Once the user is running low on health, they can re-heal and get back to full health. We will implement a wide variety of items to be used in combat such as weapon modifications, healing / strength items, and buffs and debuffs. 
 - 
 
 ---
@@ -30,7 +30,7 @@ This project is importnat to us because it will be a fun interative game where w
 
 Input will mainly be single characters that will correspond to commands like "q" to quit or "a" to attack an enemy.
 
-Our output will be text prompts generated on the terminal showing what actions you can do like "heal, attack, inventory, and run".
+Our output will be text prompts generated on the terminal showing what actions you can do like "heal, attack, inventory, and run". 
 
 
 

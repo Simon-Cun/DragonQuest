@@ -6,11 +6,13 @@ Authors: [Daniyal Ahmed](https://github.com/daniyal-ahmed10) • [Simon Cun](htt
 
 ## Project Description
 
-Oh no! A dragon has stolen all microprocessors from devices around the planet, and it's our job to save them!
+Oh no! The dragon and his minions have stolen all microprocessors from devices around the planet, and it's our job to save them! 
 
 We wanted to make an interactive game and apply C++ skills into making a text based RPG game in a terminal CLI. This interests us because it lets us explore cool and fun features, be creative with dialogue, and, in general, make our own video game.
 
 We will use C++ for our backend and the terminal as our interface. The user will use the command line to send character-based inputs, and the terminal will output dialogue and other user options. 
+
+The game will have two main components: Movement and Combat. The player will move around using direction keys, and upon entering a combat encounter, the game will notify the user. Combat will be turn-based and divided into three phases, direction, attack, and defense. In the choice phase the player will choose an option such as attack, run, or item. During the attack phase, the user will carry out their specified action, and the game will notify the user of damage, debuffs, and anything else relevant. In the defense phase, the opponent will carry out their turn and the game will notify the user of relevant stat changes and such.
 
 ---
 

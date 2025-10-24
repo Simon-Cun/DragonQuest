@@ -5,13 +5,11 @@
 Authors: [Daniyal Ahmed](https://github.com/daniyal-ahmed10) • [Simon Cun](https://github.com/Simon-Cun/) • [Samuel You](https://github.com/EveningSt3r)• [Isaiah Dacio](https://github.com/IsaiahDacio5)
 
 ## Project Description
-
+In this game users can choose among different characters to play with. Characters are associated with different types of weapons and armors. At each step of the game, a narrative is presented and the user can select between different options.
 ---
 
 ## Tech Stack
-- **Frontend:** React Native, NativeWindCSS
-- **Backend:** Firebase(Maybe), Node.js  
-- **Language:** Python, Next.js
+- **C++**
 
 ---
 

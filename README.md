@@ -1,20 +1,22 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/EvxoT0RF)
 [![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-2972f46106e565e64193e422d61a12cf1da4916b45550586e14ef0a7c637dd04.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=21165628)
 
-# Role Playing Adventure Game
+# Text-Based Game - Dragon Quest++
 Authors: [Daniyal Ahmed](https://github.com/daniyal-ahmed10) • [Simon Cun](https://github.com/Simon-Cun/) • [Samuel You](https://github.com/EveningSt3r)• [Isaiah Dacio](https://github.com/IsaiahDacio5)
 
 ## Project Description
 
+Oh no! A dragon has stolen Wi-Fi from the planet, and it's our job to save it!
+
 We wanted to make an interactive game and apply C++ skills into making a text based RPG game in a terminal CLI. This interests us because it lets us explore cool and fun features, be creative with dialogue, and, in general, make our own video game.
 
-We will use C++ for our backend and the terminal as our interface. The command line is the input that will be taken in and it will output dialogue and options you can do. To which you can type a letter corresponding to an action.
+We will use C++ for our backend and the terminal as our interface. The user will use the command line to send character-based inputs, and the terminal will output dialogue and other user options. 
 
 ---
 
 ## Tech Stack
 - **C++**
-- **Terminal Based Interface CLI**
+- **Command Line Interface (CLI)**
 ---
 
 ## Features (Planned / TBD)

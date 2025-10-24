@@ -6,7 +6,7 @@ Authors: [Daniyal Ahmed](https://github.com/daniyal-ahmed10) • [Simon Cun](htt
 
 ## Project Description
 
-Oh no! A dragon has stolen Wi-Fi from the planet, and it's our job to save it!
+Oh no! A dragon has stolen all microprocessors from devices around the planet, and it's our job to save them!
 
 We wanted to make an interactive game and apply C++ skills into making a text based RPG game in a terminal CLI. This interests us because it lets us explore cool and fun features, be creative with dialogue, and, in general, make our own video game.
 

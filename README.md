@@ -4,14 +4,14 @@
  > Prompt text is any lines beginning with "\>"
  > Replace anything between \<...\> with your project specifics and remove angle brackets. For example, you need to name your project and replace the header right below this line with that title (no angle brackets). 
 # Commuter App 
- > Authors: Daniyal • Simon • Samuel • Isaiah 
+Authors: [Daniyal Ahmed]([url](https://github.com/daniyal-ahmed10)) • Simon • Samuel • Isaiah 
 
 ## Project Description
 
 **Commuter App** is a mobile application designed to make the lives of commuters easier and more efficient.  
 It provides quick access to valuable resources and tools for daily travel.
 
-> This project is especially meaningful to us because some of our team members are commuters — we wanted to create an app that helps people navigate their everyday routines more smoothly.
+This project is especially meaningful to us because some of our team members are commuters — we wanted to create an app that helps people navigate their everyday routines more smoothly.
 
 ---
 

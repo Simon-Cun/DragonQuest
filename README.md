@@ -22,7 +22,6 @@ This project is importnat to us because it will be a fun interative game where w
 - Run: In some situations, the user can choose to to run from their enemies for the chance to escape. We will use the standard C++ random library to implement this feature.
 - Inventory: The user can choose to access their invecntory to see what abilities/weapons to use, as well as toggle between menus for easier access in and out of combat.
 - Items: Once the user is running low on health, they can re-heal and get back to full health. We will implement a wide variety of items to be used in combat such as weapon modifications, healing / strength items, and buffs and debuffs. 
-- 
 
 ---
 

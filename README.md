@@ -8,7 +8,7 @@ Authors: [Daniyal Ahmed](https://github.com/daniyal-ahmed10) • [Simon Cun](htt
 
 In this game users can choose among different characters to play with. Characters are associated with different types of weapons and armors. At each step of the game, a narrative is presented and the user can select between different options. 
 
-This project is importnat to us because it will be a fun interative game where we can put our coding skills to the test! We can practice our OOP and the ability to create an advanced architecture using input validation.
+This project is important to us because it will be a fun interactive game where we can put our coding skills to the test! We can practice our OOP and the ability to create an advanced architecture using input validation. It will help us become more familiar with text-based interfaces and the C++ style guidelines. 
 
 ---
 
@@ -18,10 +18,11 @@ This project is importnat to us because it will be a fun interative game where w
 ---
 
 ## Features (Planned / TBD)
-- Attack: When players come across enemies, they will have the option to attack, run, or use items. We will keep enemy encounters varied, and in our level-based system, include powerful bosses at the end to mark checkpoints.
-- Run: In some situations, the user can choose to to run from their enemies for the chance to escape. We will use the standard C++ random library to implement this feature.
-- Inventory: The user can choose to access their invecntory to see what abilities/weapons to use, as well as toggle between menus for easier access in and out of combat.
-- Items: Once the user is running low on health, they can re-heal and get back to full health. We will implement a wide variety of items to be used in combat such as weapon modifications, healing / strength items, and buffs and debuffs. 
+- **Attack:** When players come across enemies, they will have the option to attack, run, or use items. We will keep enemy encounters varied, and in our level-based system, include powerful bosses at the end to mark checkpoints.
+- **Run:** In some situations, the user can choose to to run from their enemies for the chance to escape. We will use the standard C++ random library to implement this feature.
+- **Inventory:** The user can choose to access their invecntory to see what abilities/weapons to use, as well as toggle between menus for easier access in and out of combat.
+- **Items:** Once the user is running low on health, they can re-heal and get back to full health. We will implement a wide variety of items to be used in combat such as weapon modifications, healing / strength items, and buffs and debuffs.
+- **Narrative/Dialogue:** Alongside a combat system we will implement a narrative and dialogue to give the user context on their surroundings and also keep them invested in what happens next. The dialogue will also provide a meaningful way for us to make sure the user is never lost or confused and progresses smoothly.
 
 ---
 

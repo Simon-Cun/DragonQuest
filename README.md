@@ -36,7 +36,7 @@ Input: The game will prompt the user with choices such as character selection (�
 
 Output: The output will be valid choices the user has. Such as “An enemy has appeared here are your options: attack, heal, run away”. It will output the description of what is happening like is there an enemy and it will display your health and stats at the end of each move you do.
 
-
+---
 
 
  > ## Phase II
@@ -56,6 +56,8 @@ Output: The output will be valid choices the user has. Such as “An enemy has a
 
 ### Navigation Diagram
 > Draw a diagram illustrating how the user can navigate from one screen to another. Here is an [example](https://creately.com/diagram/example/ikfqudv82/user-navigation-diagram-classic?r=v). Nodes represent the different screens in your program and arrows represent the way to navigate from one screen to another. It can be useful to label each symbol that represents a screen so that you can reference the screens in the next section or the rest of the document if necessary. Give a brief description of what the diagram represents.
+
+---
 
 ### Screen Layouts
 [Dragon Quest++ - Screen Layout](https://docs.google.com/document/d/1Ke-DGg1IT6af0jSFB3-Ns5cM8oQHCpyVCp6cDcoSUz4/edit?usp=sharing)
@@ -127,7 +129,7 @@ EXP: [CURRENT EXP] / [EXP TO LEVEL UP]
 [You have chosen to use [ACTION] ]
 [Screen clears when battle ends]
 
-
+---
 
 ## Class Diagram
 [Dragon Quest++ - Class Diagram](https://lucid.app/lucidchart/419219fc-910f-41ff-aebf-cfc0c0618d76/edit?beaconFlowId=9073B42EF962BC59&page=0_0&invitationId=inv_f315a160-fa9c-49ed-86b4-58bcf5f5f1c6#)
@@ -137,6 +139,8 @@ For characters, a single "Character" class encompasses all types of characters i
 The "BattleTime" class covers the game's battle system, including actions such as the action phase (attack, use an item from the inventory, or run), and the enemy attack (or defense) phase. Different actions are linked to separate classes. The "AttackAction" and "EnemyAttacks" classes are connected to the "Character" class since they both rely on the stats of different characters.
 
 The "CheckInventory" class covers the game's item system, which can both be accessed in and out of battle. Thus, both the "Player" and "BattleTime" classes use the "CheckInventory" class.
+
+---
  
  > ## Phase III
  > You will need to schedule a check-in for the second scrum meeting with the same reader you had your first scrum meeting with (using Calendly). Your entire team must be present. This meeting will occur on week 8 during lab time.

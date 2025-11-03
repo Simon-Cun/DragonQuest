@@ -39,8 +39,6 @@ Output: The output will be valid choices the user has. Such as “An enemy has a
 
 
 
-
-
  > ## Phase II
  > In addition to completing the "User Interface Specification" and "Class Diagram" sections below, you will need to:
  > * Create an "Epic" (note) for each feature. Place these epics in the `Product Backlog` column
@@ -62,7 +60,75 @@ Output: The output will be valid choices the user has. Such as “An enemy has a
 ### Screen Layouts
 [Dragon Quest++ - Screen Layout](https://docs.google.com/document/d/1Ke-DGg1IT6af0jSFB3-Ns5cM8oQHCpyVCp6cDcoSUz4/edit?usp=sharing)
 
-> Include the layout of each of your screens. The layout should describe the screen’s major components such as menus and prompts for user inputs and expected output, or any graphical user interface components if applicable (e.g. buttons, text boxes, etc). Explain what is on the layout, and the purpose of each menu item, button, etc. If many screens share the same layout, start by describing the general layout and then list the screens that will be using that layout and the differences between each of them.
+All screens will be in the "game box" window provided by the terminal's GUI.
+
+**STARTING SCREEN:** 
+Dragon Quest++
+...
+Press Enter to Start
+
+**GAME START:**
+[A brief blurb about the game's context and story]
+[Instructions]
+Press Enter to continue
+
+**CLASS SELECTION:**
+Please choose your class:
+*MAGE:* A powerful caster-type who has the ability to deal overpowering amounts of damage. Lower base DEF.
+*WARRIOR:* A jack-of-all-trades with moderate DEF, ATK, and HP. 
+*ROGUE:* An assassin-type who has the ability to randomly dodge attacks. DEF is replaced by STEALTH
+[User chooses class by typing M, W, or R, and pressing enter]
+
+**COMMAND MENU WHEN OUT OF COMBAT:**
+MOVE[M]
+INVENTORY[I]
+STATS[S]
+QUIT[Q]
+[User can access their inventory or progress through the world]
+[User types in their option and the screen will clear]
+
+**ENEMY ENCOUNTER:**
+You have encountered a [SLIME]!
+HP: 30
+ATK: 4
+DEF: 2
+
+What will you do?
+FIGHT[F]
+INVENTORY[I]
+RUN[R]
+
+[The screen lets the user choose between fighting, using items, or attempting to roll to run.]
+
+**INVENTORY SCREEN:**
+YOUR CURRENT CLASS: WARRIOR
+Items:
+HEALTH POTION x1
+GREATER HEALTH POTION x1
+WEAPONS:
+OATHSWORD
+TIGER'S FANG
+
+
+**STATS SCREEN:**
+YOUR CURRENT CLASS: WARRIOR
+HP: [CURRENT HP]/[MAX HP]
+ATK: [CURRENT ATK]
+DEF: [CURRENT DEF]
+
+EXP: [CURRENT EXP] / [EXP TO LEVEL UP]
+
+
+**FIGHT SCREEN:**
+(When user chooses to fight in an encounter)
+1. ATTACK WITH [NAME OF WEAPON] (Some weapons will have unique properties)
+2. BLOCK
+3. SPECIAL (Class-unique actions, like powerful spells for mages, or evasion boosts for rogues)
+[You have chosen to use [ACTION] ]
+[Screen clears when battle ends]
+
+
+
 ## Class Diagram
 [Dragon Quest++ - Class Diagram](https://lucid.app/lucidchart/419219fc-910f-41ff-aebf-cfc0c0618d76/edit?beaconFlowId=9073B42EF962BC59&page=0_0&invitationId=inv_f315a160-fa9c-49ed-86b4-58bcf5f5f1c6#)
 

@@ -66,7 +66,11 @@ Output: The output will be valid choices the user has. Such as “An enemy has a
 ## Class Diagram
 [Dragon Quest++ - Class Diagram](https://lucid.app/lucidchart/419219fc-910f-41ff-aebf-cfc0c0618d76/edit?beaconFlowId=9073B42EF962BC59&page=0_0&invitationId=inv_f315a160-fa9c-49ed-86b4-58bcf5f5f1c6#)
 
- > Include a **class diagram(s)** for your project and a **description** of the diagram(s). Your class diagram(s) should include all the main classes you plan for the project. This should be in sufficient detail that another group could pick up the project this point and successfully complete it. Use proper UML notation (as discussed in the course slides).
+For characters, a single "Character" class encompasses all types of characters in the game, including player types (i.e. Warrior, Rogue, Mage) and enemy types (i.e Slime, Goblin, Dragon, etc.). This keeps the game open to the addition of new characters further down the line. Different characters have their respective stats, including attack, defense, dodging, and health points. The "Player" class will include the user's name, but will inherit stats from the "Character" class.
+
+The "BattleTime" class covers the game's battle system, including actions such as the action phase (attack, use an item from the inventory, or run), and the enemy attack (or defense) phase. Different actions are linked to separate classes. The "AttackAction" and "EnemyAttacks" classes are connected to the "Character" class since they both rely on the stats of different characters.
+
+The "CheckInventory" class covers the game's item system, which can both be accessed in and out of battle. Thus, both the "Player" and "BattleTime" classes use the "CheckInventory" class.
  
  > ## Phase III
  > You will need to schedule a check-in for the second scrum meeting with the same reader you had your first scrum meeting with (using Calendly). Your entire team must be present. This meeting will occur on week 8 during lab time.

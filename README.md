@@ -1,4 +1,4 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/EvxoT0RF)
+<img width="1794" height="1378" alt="image" src="https://github.com/user-attachments/assets/617ab06f-30c3-4b20-9377-a2645c59515c" />[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/EvxoT0RF)
 [![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-2972f46106e565e64193e422d61a12cf1da4916b45550586e14ef0a7c637dd04.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=21165628)
 
 # Text-Based Game - Dragon Quest++
@@ -56,6 +56,9 @@ Output: The output will be valid choices the user has. Such as “An enemy has a
 
 ### Navigation Diagram
 [Dragon Quest++ Navigation Diagram](https://lucid.app/lucidchart/da3d09de-dd7b-4bbb-86ac-0af5aac0a730/edit?invitationId=inv_694466f5-6ded-4d73-b1d3-15401896f92a&page=0_0#)
+<img width="1794" height="1378" alt="image" src="https://github.com/user-attachments/assets/b54ca752-b6b5-41b4-bf19-1dd65a8bbdc1" />
+
+This navigation diagram shows how each screen is linked together starting from the starting screen to the end of the game. It shows the possible screens you could be at next depeneding on the user choices.
 
 ---
 

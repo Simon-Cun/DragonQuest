@@ -56,70 +56,195 @@ This navigation diagram shows how each screen is linked together starting from t
 
 All screens will be in the "game box" window provided by the terminal's GUI.
 
-**STARTING SCREEN:** 
+Dragon Quest++ Game Screen Layout
+
+Starting Screen
+
 Dragon Quest++
-...
-Press Enter to Start
 
-**GAME START:**
-[A brief blurb about the game's context and story]
-[Instructions]
-Press Enter to continue
+…
 
-**CLASS SELECTION:**
-Please choose your class:
-*MAGE:* A powerful caster-type who has the ability to deal overpowering amounts of damage. Lower base DEF.
-*WARRIOR:* A jack-of-all-trades with moderate DEF, ATK, and HP. 
-*ROGUE:* An assassin-type who has the ability to randomly dodge attacks. DEF is replaced by STEALTH
-[User chooses class by typing M, W, or R, and pressing enter]
+Press Enter To Start
+[Screen Clears and you go to the starting instruction]
 
-**COMMAND MENU WHEN OUT OF COMBAT:**
-MOVE[M]
-INVENTORY[I]
-STATS[S]
-QUIT[Q]
-[User can access their inventory or progress through the world]
-[User types in their option and the screen will clear]
 
-**ENEMY ENCOUNTER:**
-You have encountered a [SLIME]!
+Game Starting Instructions
+
+Welcome to “Dragon Quest++”
+
+[Insert Game Goal Here]
+[Instructions to how to play the game]
+
+Press Enter To Go To Next Screen
+[Screen Clears and you go to the Class Selection]
+
+
+Class Selection Page
+
+Please Choose Your Class:
+
+Mage
+Warrior
+Rogue
+
+(Choose your class by typing the name of the class and pressing enter)
+[Screen Clears and you go to the next screen]
+
+
+
+
+Command Menu When Out of Combat
+
+Move[M]
+
+Inventory [I]  
+
+Stats [S]
+
+Quit [T]
+
+(You can check your inventory to change equipment or display your current stats or move tooo progress through the game)
+[Select a move by typing the character and then the screen will clear and it will bring up a new screen that could be some form of Encounter Ex. Enemy, Chest, or Items]
+
+
+
+Encounter with  an Enemy
+
+You have encountered an Enemy!
+
+Stats:
 HP: 30
 ATK: 4
 DEF: 2
+Dodge: 1
 
+…
+
+[Encounter will depend on the monster and interaction between player and monster]
 What will you do?
-FIGHT[F]
-INVENTORY[I]
-RUN[R]
+Inventory [I]  //will bring user to inventory and back once something is used
+Actions [A]  //will move user to actions (Fight, flee, defend)
+Stats [I]  //will display stats and back to movesets screen
+[This screen gives the player option to choose from to overcome the Enemy obstacle, after]
+Dealt # Damage
 
-[The screen lets the user choose between fighting, using items, or attempting to roll to run.]
+[shows what action was made and the effects of the action, transition to enemy turn to attack ]
+Enemy hits you and deals # damage.
 
-**INVENTORY SCREEN:**
-YOUR CURRENT CLASS: WARRIOR
+[interactions will go back and forth until the player/ boss dies or if player can successfully flee]
+
+
+Item / Treasure Chest Encounter Screen
+
+You found a mysterious chest!
+Inside, you discover:
+Healing Potion
+Iron Sword
+
+[Item automatically added to inventory]
+(Screen clears and goes back to command menu)
+
+
+
+
+Boss Encounter
+
+You have encountered the Legendary Dragon!
+
+Stats:
+HP: 3000
+ATK: 100
+DEF: 200
+Dodge: 5
+
+The air grows heavy as you face your greatest foe.
+
+[Defeat the final boss to end the game]
+What will you do?
+Inventory [I]  //will bring user to inventory and back once something is used
+Actions [A]  //will move user to actions (Fight, flee, defend)
+Stats [I]  //will display stats and back to movesets screen
+[This screen gives the player option to choose from to overcome the Enemy obstacle, after]
+Dealt 100 Damage
+
+[shows what action was made and the effects of the action, transition to enemy turn to attack ]
+Dragon hits you and deals 100 damage.
+
+[interactions will go back and forth until the player/ boss dies or if player can successfully flee]
+
+
+Enemy Defeated
+
+You have defeated a slime.
+
+…
+
+You have received loot.
+[Press Enter to Go Back to Command Menu]
+(when you defeat an enemy you can relieve items that will be displayed here and added to your inventory)
+
+
+
+Victory Screen
+
+Congratulations, Hero! (When the dragon’s health goes to zero, you have successfully defeated the dragon)
+
+You have defeated The Dragon and restored peace to the land.
+
+Thank you for playing Dragon Quest++
+[Press Enter to return to the title screen]
+
+
+Game Over Screen
+
+Game Over (When your health goes to 0 your game ends and you can return to the starting screen to restart)
+
+Your adventure has come to an end.
+
+[Press Enter to return to the starting screen]
+
+
+Inventory Example
+
+Inventory:
+
 Items:
-HEALTH POTION x1
-GREATER HEALTH POTION x1
-WEAPONS:
-OATHSWORD
-TIGER'S FANG
+Weapons:
+Sword
+Dagger
+Staff
+Potions:
+Healing Potion
 
 
-**STATS SCREEN:**
-YOUR CURRENT CLASS: WARRIOR
-HP: [CURRENT HP]/[MAX HP]
-ATK: [CURRENT ATK]
-DEF: [CURRENT DEF]
-
-EXP: [CURRENT EXP] / [EXP TO LEVEL UP]
 
 
-**FIGHT SCREEN:**
-(When user chooses to fight in an encounter)
-1. ATTACK WITH [NAME OF WEAPON] (Some weapons will have unique properties)
-2. BLOCK
-3. SPECIAL (Class-unique actions, like powerful spells for mages, or evasion boosts for rogues)
-[You have chosen to use [ACTION] ]
-[Screen clears when battle ends]
+Stats:
+
+Class: Warrior
+
+Health Points (HP): [Current HP] / [Max HP]
+Attack (ATK): [Current ATK]
+Defense (DEF): [Current DEF]
+Dodge (Evasion)
+
+[command menu displays]
+
+Action Screen When In Combat
+
+Choose Your Action:
+
+Attack with [Name of Weapon]
+Block (Based on defense stat)
+Dodge (based on dodge stats)
+Flee (50 percent change to exit battle)
+
+You have chosen to use __
+
+[Screen clears onto moveset screen until the enemy is dead or the player is dead]
+
+
+
 
 ---
 

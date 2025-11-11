@@ -120,27 +120,6 @@ EXP: [CURRENT EXP] / [EXP TO LEVEL UP]
 3. SPECIAL (Class-unique actions, like powerful spells for mages, or evasion boosts for rogues)
 [You have chosen to use [ACTION] ]
 [Screen clears when battle ends]
-# Dragon Quest++ (Terminal RPG)
-
-Short description in one sentence.
-
-## Demo
-![30s Terminal Demo](./demo.gif)
-
-## Player Journey
-<!-- Mermaid flowchart shows the path -->
-```mermaid
-flowchart TD
-  A[Title]-->B[Instructions]-->C[Class]
-  C-->D{Command Menu}
-  D-->E[Enemy]
-  D-->F[Inventory]
-  D-->G[Stats]
-  D-->H[Quit]
-  E-->I{Actions}
-  I-->J[Victory → Loot]
-  I-->K[Game Over]
-  J-->D
 
 ---
 

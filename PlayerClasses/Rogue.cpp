@@ -1,5 +1,5 @@
-#include "../header/PlayerClasses.h"
-#include "../header/Rogue.h"
+#include "PlayerClasses.h"
+#include "Rogue.h"
 
 Rogue::Rogue() {
     playerATK = 10.0;

@@ -83,78 +83,78 @@ CMakeFiles/runPlayerTests.dir/tests/PlayerTests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runPlayerTests.dir/tests/PlayerTests.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/tests/PlayerTests.cpp -o CMakeFiles/runPlayerTests.dir/tests/PlayerTests.cpp.s
 
-CMakeFiles/runPlayerTests.dir/src/PlayerClasses.cpp.o: CMakeFiles/runPlayerTests.dir/flags.make
-CMakeFiles/runPlayerTests.dir/src/PlayerClasses.cpp.o: src/PlayerClasses.cpp
-CMakeFiles/runPlayerTests.dir/src/PlayerClasses.cpp.o: CMakeFiles/runPlayerTests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/runPlayerTests.dir/src/PlayerClasses.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runPlayerTests.dir/src/PlayerClasses.cpp.o -MF CMakeFiles/runPlayerTests.dir/src/PlayerClasses.cpp.o.d -o CMakeFiles/runPlayerTests.dir/src/PlayerClasses.cpp.o -c /class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/src/PlayerClasses.cpp
+CMakeFiles/runPlayerTests.dir/PlayerClasses/PlayerClasses.cpp.o: CMakeFiles/runPlayerTests.dir/flags.make
+CMakeFiles/runPlayerTests.dir/PlayerClasses/PlayerClasses.cpp.o: PlayerClasses/PlayerClasses.cpp
+CMakeFiles/runPlayerTests.dir/PlayerClasses/PlayerClasses.cpp.o: CMakeFiles/runPlayerTests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/runPlayerTests.dir/PlayerClasses/PlayerClasses.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runPlayerTests.dir/PlayerClasses/PlayerClasses.cpp.o -MF CMakeFiles/runPlayerTests.dir/PlayerClasses/PlayerClasses.cpp.o.d -o CMakeFiles/runPlayerTests.dir/PlayerClasses/PlayerClasses.cpp.o -c /class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/PlayerClasses/PlayerClasses.cpp
 
-CMakeFiles/runPlayerTests.dir/src/PlayerClasses.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/runPlayerTests.dir/src/PlayerClasses.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/src/PlayerClasses.cpp > CMakeFiles/runPlayerTests.dir/src/PlayerClasses.cpp.i
+CMakeFiles/runPlayerTests.dir/PlayerClasses/PlayerClasses.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/runPlayerTests.dir/PlayerClasses/PlayerClasses.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/PlayerClasses/PlayerClasses.cpp > CMakeFiles/runPlayerTests.dir/PlayerClasses/PlayerClasses.cpp.i
 
-CMakeFiles/runPlayerTests.dir/src/PlayerClasses.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runPlayerTests.dir/src/PlayerClasses.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/src/PlayerClasses.cpp -o CMakeFiles/runPlayerTests.dir/src/PlayerClasses.cpp.s
+CMakeFiles/runPlayerTests.dir/PlayerClasses/PlayerClasses.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runPlayerTests.dir/PlayerClasses/PlayerClasses.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/PlayerClasses/PlayerClasses.cpp -o CMakeFiles/runPlayerTests.dir/PlayerClasses/PlayerClasses.cpp.s
 
-CMakeFiles/runPlayerTests.dir/src/Mage.cpp.o: CMakeFiles/runPlayerTests.dir/flags.make
-CMakeFiles/runPlayerTests.dir/src/Mage.cpp.o: src/Mage.cpp
-CMakeFiles/runPlayerTests.dir/src/Mage.cpp.o: CMakeFiles/runPlayerTests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/runPlayerTests.dir/src/Mage.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runPlayerTests.dir/src/Mage.cpp.o -MF CMakeFiles/runPlayerTests.dir/src/Mage.cpp.o.d -o CMakeFiles/runPlayerTests.dir/src/Mage.cpp.o -c /class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/src/Mage.cpp
+CMakeFiles/runPlayerTests.dir/PlayerClasses/Mage.cpp.o: CMakeFiles/runPlayerTests.dir/flags.make
+CMakeFiles/runPlayerTests.dir/PlayerClasses/Mage.cpp.o: PlayerClasses/Mage.cpp
+CMakeFiles/runPlayerTests.dir/PlayerClasses/Mage.cpp.o: CMakeFiles/runPlayerTests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/runPlayerTests.dir/PlayerClasses/Mage.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runPlayerTests.dir/PlayerClasses/Mage.cpp.o -MF CMakeFiles/runPlayerTests.dir/PlayerClasses/Mage.cpp.o.d -o CMakeFiles/runPlayerTests.dir/PlayerClasses/Mage.cpp.o -c /class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/PlayerClasses/Mage.cpp
 
-CMakeFiles/runPlayerTests.dir/src/Mage.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/runPlayerTests.dir/src/Mage.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/src/Mage.cpp > CMakeFiles/runPlayerTests.dir/src/Mage.cpp.i
+CMakeFiles/runPlayerTests.dir/PlayerClasses/Mage.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/runPlayerTests.dir/PlayerClasses/Mage.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/PlayerClasses/Mage.cpp > CMakeFiles/runPlayerTests.dir/PlayerClasses/Mage.cpp.i
 
-CMakeFiles/runPlayerTests.dir/src/Mage.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runPlayerTests.dir/src/Mage.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/src/Mage.cpp -o CMakeFiles/runPlayerTests.dir/src/Mage.cpp.s
+CMakeFiles/runPlayerTests.dir/PlayerClasses/Mage.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runPlayerTests.dir/PlayerClasses/Mage.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/PlayerClasses/Mage.cpp -o CMakeFiles/runPlayerTests.dir/PlayerClasses/Mage.cpp.s
 
-CMakeFiles/runPlayerTests.dir/src/Warrior.cpp.o: CMakeFiles/runPlayerTests.dir/flags.make
-CMakeFiles/runPlayerTests.dir/src/Warrior.cpp.o: src/Warrior.cpp
-CMakeFiles/runPlayerTests.dir/src/Warrior.cpp.o: CMakeFiles/runPlayerTests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/runPlayerTests.dir/src/Warrior.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runPlayerTests.dir/src/Warrior.cpp.o -MF CMakeFiles/runPlayerTests.dir/src/Warrior.cpp.o.d -o CMakeFiles/runPlayerTests.dir/src/Warrior.cpp.o -c /class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/src/Warrior.cpp
+CMakeFiles/runPlayerTests.dir/PlayerClasses/Warrior.cpp.o: CMakeFiles/runPlayerTests.dir/flags.make
+CMakeFiles/runPlayerTests.dir/PlayerClasses/Warrior.cpp.o: PlayerClasses/Warrior.cpp
+CMakeFiles/runPlayerTests.dir/PlayerClasses/Warrior.cpp.o: CMakeFiles/runPlayerTests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/runPlayerTests.dir/PlayerClasses/Warrior.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runPlayerTests.dir/PlayerClasses/Warrior.cpp.o -MF CMakeFiles/runPlayerTests.dir/PlayerClasses/Warrior.cpp.o.d -o CMakeFiles/runPlayerTests.dir/PlayerClasses/Warrior.cpp.o -c /class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/PlayerClasses/Warrior.cpp
 
-CMakeFiles/runPlayerTests.dir/src/Warrior.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/runPlayerTests.dir/src/Warrior.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/src/Warrior.cpp > CMakeFiles/runPlayerTests.dir/src/Warrior.cpp.i
+CMakeFiles/runPlayerTests.dir/PlayerClasses/Warrior.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/runPlayerTests.dir/PlayerClasses/Warrior.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/PlayerClasses/Warrior.cpp > CMakeFiles/runPlayerTests.dir/PlayerClasses/Warrior.cpp.i
 
-CMakeFiles/runPlayerTests.dir/src/Warrior.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runPlayerTests.dir/src/Warrior.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/src/Warrior.cpp -o CMakeFiles/runPlayerTests.dir/src/Warrior.cpp.s
+CMakeFiles/runPlayerTests.dir/PlayerClasses/Warrior.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runPlayerTests.dir/PlayerClasses/Warrior.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/PlayerClasses/Warrior.cpp -o CMakeFiles/runPlayerTests.dir/PlayerClasses/Warrior.cpp.s
 
-CMakeFiles/runPlayerTests.dir/src/Rogue.cpp.o: CMakeFiles/runPlayerTests.dir/flags.make
-CMakeFiles/runPlayerTests.dir/src/Rogue.cpp.o: src/Rogue.cpp
-CMakeFiles/runPlayerTests.dir/src/Rogue.cpp.o: CMakeFiles/runPlayerTests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/runPlayerTests.dir/src/Rogue.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runPlayerTests.dir/src/Rogue.cpp.o -MF CMakeFiles/runPlayerTests.dir/src/Rogue.cpp.o.d -o CMakeFiles/runPlayerTests.dir/src/Rogue.cpp.o -c /class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/src/Rogue.cpp
+CMakeFiles/runPlayerTests.dir/PlayerClasses/Rogue.cpp.o: CMakeFiles/runPlayerTests.dir/flags.make
+CMakeFiles/runPlayerTests.dir/PlayerClasses/Rogue.cpp.o: PlayerClasses/Rogue.cpp
+CMakeFiles/runPlayerTests.dir/PlayerClasses/Rogue.cpp.o: CMakeFiles/runPlayerTests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/runPlayerTests.dir/PlayerClasses/Rogue.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/runPlayerTests.dir/PlayerClasses/Rogue.cpp.o -MF CMakeFiles/runPlayerTests.dir/PlayerClasses/Rogue.cpp.o.d -o CMakeFiles/runPlayerTests.dir/PlayerClasses/Rogue.cpp.o -c /class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/PlayerClasses/Rogue.cpp
 
-CMakeFiles/runPlayerTests.dir/src/Rogue.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/runPlayerTests.dir/src/Rogue.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/src/Rogue.cpp > CMakeFiles/runPlayerTests.dir/src/Rogue.cpp.i
+CMakeFiles/runPlayerTests.dir/PlayerClasses/Rogue.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/runPlayerTests.dir/PlayerClasses/Rogue.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/PlayerClasses/Rogue.cpp > CMakeFiles/runPlayerTests.dir/PlayerClasses/Rogue.cpp.i
 
-CMakeFiles/runPlayerTests.dir/src/Rogue.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runPlayerTests.dir/src/Rogue.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/src/Rogue.cpp -o CMakeFiles/runPlayerTests.dir/src/Rogue.cpp.s
+CMakeFiles/runPlayerTests.dir/PlayerClasses/Rogue.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runPlayerTests.dir/PlayerClasses/Rogue.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/PlayerClasses/Rogue.cpp -o CMakeFiles/runPlayerTests.dir/PlayerClasses/Rogue.cpp.s
 
 # Object files for target runPlayerTests
 runPlayerTests_OBJECTS = \
 "CMakeFiles/runPlayerTests.dir/tests/PlayerTests.cpp.o" \
-"CMakeFiles/runPlayerTests.dir/src/PlayerClasses.cpp.o" \
-"CMakeFiles/runPlayerTests.dir/src/Mage.cpp.o" \
-"CMakeFiles/runPlayerTests.dir/src/Warrior.cpp.o" \
-"CMakeFiles/runPlayerTests.dir/src/Rogue.cpp.o"
+"CMakeFiles/runPlayerTests.dir/PlayerClasses/PlayerClasses.cpp.o" \
+"CMakeFiles/runPlayerTests.dir/PlayerClasses/Mage.cpp.o" \
+"CMakeFiles/runPlayerTests.dir/PlayerClasses/Warrior.cpp.o" \
+"CMakeFiles/runPlayerTests.dir/PlayerClasses/Rogue.cpp.o"
 
 # External object files for target runPlayerTests
 runPlayerTests_EXTERNAL_OBJECTS =
 
 bin/runPlayerTests: CMakeFiles/runPlayerTests.dir/tests/PlayerTests.cpp.o
-bin/runPlayerTests: CMakeFiles/runPlayerTests.dir/src/PlayerClasses.cpp.o
-bin/runPlayerTests: CMakeFiles/runPlayerTests.dir/src/Mage.cpp.o
-bin/runPlayerTests: CMakeFiles/runPlayerTests.dir/src/Warrior.cpp.o
-bin/runPlayerTests: CMakeFiles/runPlayerTests.dir/src/Rogue.cpp.o
+bin/runPlayerTests: CMakeFiles/runPlayerTests.dir/PlayerClasses/PlayerClasses.cpp.o
+bin/runPlayerTests: CMakeFiles/runPlayerTests.dir/PlayerClasses/Mage.cpp.o
+bin/runPlayerTests: CMakeFiles/runPlayerTests.dir/PlayerClasses/Warrior.cpp.o
+bin/runPlayerTests: CMakeFiles/runPlayerTests.dir/PlayerClasses/Rogue.cpp.o
 bin/runPlayerTests: CMakeFiles/runPlayerTests.dir/build.make
 bin/runPlayerTests: lib/libgmock.a
 bin/runPlayerTests: lib/libgtest.a

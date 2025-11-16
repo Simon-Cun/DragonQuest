@@ -1,5 +1,5 @@
-#include "../header/PlayerClasses.h"
-#include "../header/Warrior.h"
+#include "PlayerClasses.h"
+#include "Warrior.h"
 
 Warrior::Warrior() {
     playerATK = 10.0;

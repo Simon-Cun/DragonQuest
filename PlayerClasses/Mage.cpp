@@ -1,5 +1,5 @@
-#include "../header/PlayerClasses.h"
-#include "../header/Mage.h"
+#include "PlayerClasses.h"
+#include "Mage.h"
 
 Mage::Mage() {
     playerATK = 25.0;

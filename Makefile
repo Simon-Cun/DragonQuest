@@ -226,101 +226,101 @@ gtest_main/fast:
 	$(MAKE) $(MAKESILENT) -f googletest/googletest/CMakeFiles/gtest_main.dir/build.make googletest/googletest/CMakeFiles/gtest_main.dir/build
 .PHONY : gtest_main/fast
 
-src/Mage.o: src/Mage.cpp.o
-.PHONY : src/Mage.o
+PlayerClasses/Mage.o: PlayerClasses/Mage.cpp.o
+.PHONY : PlayerClasses/Mage.o
 
 # target to build an object file
-src/Mage.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/runPlayerTests.dir/build.make CMakeFiles/runPlayerTests.dir/src/Mage.cpp.o
-.PHONY : src/Mage.cpp.o
+PlayerClasses/Mage.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runPlayerTests.dir/build.make CMakeFiles/runPlayerTests.dir/PlayerClasses/Mage.cpp.o
+.PHONY : PlayerClasses/Mage.cpp.o
 
-src/Mage.i: src/Mage.cpp.i
-.PHONY : src/Mage.i
+PlayerClasses/Mage.i: PlayerClasses/Mage.cpp.i
+.PHONY : PlayerClasses/Mage.i
 
 # target to preprocess a source file
-src/Mage.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/runPlayerTests.dir/build.make CMakeFiles/runPlayerTests.dir/src/Mage.cpp.i
-.PHONY : src/Mage.cpp.i
+PlayerClasses/Mage.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runPlayerTests.dir/build.make CMakeFiles/runPlayerTests.dir/PlayerClasses/Mage.cpp.i
+.PHONY : PlayerClasses/Mage.cpp.i
 
-src/Mage.s: src/Mage.cpp.s
-.PHONY : src/Mage.s
+PlayerClasses/Mage.s: PlayerClasses/Mage.cpp.s
+.PHONY : PlayerClasses/Mage.s
 
 # target to generate assembly for a file
-src/Mage.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/runPlayerTests.dir/build.make CMakeFiles/runPlayerTests.dir/src/Mage.cpp.s
-.PHONY : src/Mage.cpp.s
+PlayerClasses/Mage.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runPlayerTests.dir/build.make CMakeFiles/runPlayerTests.dir/PlayerClasses/Mage.cpp.s
+.PHONY : PlayerClasses/Mage.cpp.s
 
-src/PlayerClasses.o: src/PlayerClasses.cpp.o
-.PHONY : src/PlayerClasses.o
+PlayerClasses/PlayerClasses.o: PlayerClasses/PlayerClasses.cpp.o
+.PHONY : PlayerClasses/PlayerClasses.o
 
 # target to build an object file
-src/PlayerClasses.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/runPlayerTests.dir/build.make CMakeFiles/runPlayerTests.dir/src/PlayerClasses.cpp.o
-.PHONY : src/PlayerClasses.cpp.o
+PlayerClasses/PlayerClasses.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runPlayerTests.dir/build.make CMakeFiles/runPlayerTests.dir/PlayerClasses/PlayerClasses.cpp.o
+.PHONY : PlayerClasses/PlayerClasses.cpp.o
 
-src/PlayerClasses.i: src/PlayerClasses.cpp.i
-.PHONY : src/PlayerClasses.i
+PlayerClasses/PlayerClasses.i: PlayerClasses/PlayerClasses.cpp.i
+.PHONY : PlayerClasses/PlayerClasses.i
 
 # target to preprocess a source file
-src/PlayerClasses.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/runPlayerTests.dir/build.make CMakeFiles/runPlayerTests.dir/src/PlayerClasses.cpp.i
-.PHONY : src/PlayerClasses.cpp.i
+PlayerClasses/PlayerClasses.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runPlayerTests.dir/build.make CMakeFiles/runPlayerTests.dir/PlayerClasses/PlayerClasses.cpp.i
+.PHONY : PlayerClasses/PlayerClasses.cpp.i
 
-src/PlayerClasses.s: src/PlayerClasses.cpp.s
-.PHONY : src/PlayerClasses.s
+PlayerClasses/PlayerClasses.s: PlayerClasses/PlayerClasses.cpp.s
+.PHONY : PlayerClasses/PlayerClasses.s
 
 # target to generate assembly for a file
-src/PlayerClasses.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/runPlayerTests.dir/build.make CMakeFiles/runPlayerTests.dir/src/PlayerClasses.cpp.s
-.PHONY : src/PlayerClasses.cpp.s
+PlayerClasses/PlayerClasses.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runPlayerTests.dir/build.make CMakeFiles/runPlayerTests.dir/PlayerClasses/PlayerClasses.cpp.s
+.PHONY : PlayerClasses/PlayerClasses.cpp.s
 
-src/Rogue.o: src/Rogue.cpp.o
-.PHONY : src/Rogue.o
+PlayerClasses/Rogue.o: PlayerClasses/Rogue.cpp.o
+.PHONY : PlayerClasses/Rogue.o
 
 # target to build an object file
-src/Rogue.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/runPlayerTests.dir/build.make CMakeFiles/runPlayerTests.dir/src/Rogue.cpp.o
-.PHONY : src/Rogue.cpp.o
+PlayerClasses/Rogue.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runPlayerTests.dir/build.make CMakeFiles/runPlayerTests.dir/PlayerClasses/Rogue.cpp.o
+.PHONY : PlayerClasses/Rogue.cpp.o
 
-src/Rogue.i: src/Rogue.cpp.i
-.PHONY : src/Rogue.i
+PlayerClasses/Rogue.i: PlayerClasses/Rogue.cpp.i
+.PHONY : PlayerClasses/Rogue.i
 
 # target to preprocess a source file
-src/Rogue.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/runPlayerTests.dir/build.make CMakeFiles/runPlayerTests.dir/src/Rogue.cpp.i
-.PHONY : src/Rogue.cpp.i
+PlayerClasses/Rogue.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runPlayerTests.dir/build.make CMakeFiles/runPlayerTests.dir/PlayerClasses/Rogue.cpp.i
+.PHONY : PlayerClasses/Rogue.cpp.i
 
-src/Rogue.s: src/Rogue.cpp.s
-.PHONY : src/Rogue.s
+PlayerClasses/Rogue.s: PlayerClasses/Rogue.cpp.s
+.PHONY : PlayerClasses/Rogue.s
 
 # target to generate assembly for a file
-src/Rogue.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/runPlayerTests.dir/build.make CMakeFiles/runPlayerTests.dir/src/Rogue.cpp.s
-.PHONY : src/Rogue.cpp.s
+PlayerClasses/Rogue.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runPlayerTests.dir/build.make CMakeFiles/runPlayerTests.dir/PlayerClasses/Rogue.cpp.s
+.PHONY : PlayerClasses/Rogue.cpp.s
 
-src/Warrior.o: src/Warrior.cpp.o
-.PHONY : src/Warrior.o
+PlayerClasses/Warrior.o: PlayerClasses/Warrior.cpp.o
+.PHONY : PlayerClasses/Warrior.o
 
 # target to build an object file
-src/Warrior.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/runPlayerTests.dir/build.make CMakeFiles/runPlayerTests.dir/src/Warrior.cpp.o
-.PHONY : src/Warrior.cpp.o
+PlayerClasses/Warrior.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runPlayerTests.dir/build.make CMakeFiles/runPlayerTests.dir/PlayerClasses/Warrior.cpp.o
+.PHONY : PlayerClasses/Warrior.cpp.o
 
-src/Warrior.i: src/Warrior.cpp.i
-.PHONY : src/Warrior.i
+PlayerClasses/Warrior.i: PlayerClasses/Warrior.cpp.i
+.PHONY : PlayerClasses/Warrior.i
 
 # target to preprocess a source file
-src/Warrior.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/runPlayerTests.dir/build.make CMakeFiles/runPlayerTests.dir/src/Warrior.cpp.i
-.PHONY : src/Warrior.cpp.i
+PlayerClasses/Warrior.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runPlayerTests.dir/build.make CMakeFiles/runPlayerTests.dir/PlayerClasses/Warrior.cpp.i
+.PHONY : PlayerClasses/Warrior.cpp.i
 
-src/Warrior.s: src/Warrior.cpp.s
-.PHONY : src/Warrior.s
+PlayerClasses/Warrior.s: PlayerClasses/Warrior.cpp.s
+.PHONY : PlayerClasses/Warrior.s
 
 # target to generate assembly for a file
-src/Warrior.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/runPlayerTests.dir/build.make CMakeFiles/runPlayerTests.dir/src/Warrior.cpp.s
-.PHONY : src/Warrior.cpp.s
+PlayerClasses/Warrior.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/runPlayerTests.dir/build.make CMakeFiles/runPlayerTests.dir/PlayerClasses/Warrior.cpp.s
+.PHONY : PlayerClasses/Warrior.cpp.s
 
 tests/PlayerTests.o: tests/PlayerTests.cpp.o
 .PHONY : tests/PlayerTests.o
@@ -363,18 +363,18 @@ help:
 	@echo "... gtest"
 	@echo "... gtest_main"
 	@echo "... runPlayerTests"
-	@echo "... src/Mage.o"
-	@echo "... src/Mage.i"
-	@echo "... src/Mage.s"
-	@echo "... src/PlayerClasses.o"
-	@echo "... src/PlayerClasses.i"
-	@echo "... src/PlayerClasses.s"
-	@echo "... src/Rogue.o"
-	@echo "... src/Rogue.i"
-	@echo "... src/Rogue.s"
-	@echo "... src/Warrior.o"
-	@echo "... src/Warrior.i"
-	@echo "... src/Warrior.s"
+	@echo "... PlayerClasses/Mage.o"
+	@echo "... PlayerClasses/Mage.i"
+	@echo "... PlayerClasses/Mage.s"
+	@echo "... PlayerClasses/PlayerClasses.o"
+	@echo "... PlayerClasses/PlayerClasses.i"
+	@echo "... PlayerClasses/PlayerClasses.s"
+	@echo "... PlayerClasses/Rogue.o"
+	@echo "... PlayerClasses/Rogue.i"
+	@echo "... PlayerClasses/Rogue.s"
+	@echo "... PlayerClasses/Warrior.o"
+	@echo "... PlayerClasses/Warrior.i"
+	@echo "... PlayerClasses/Warrior.s"
 	@echo "... tests/PlayerTests.o"
 	@echo "... tests/PlayerTests.i"
 	@echo "... tests/PlayerTests.s"

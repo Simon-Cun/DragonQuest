@@ -211,7 +211,7 @@ CMakeFiles/runPlayerTests.dir/tests/PlayerTests.cpp.o: \
  /class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/googletest/googletest/include/gtest/gtest-typed-test.h \
  /class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/googletest/googletest/include/gtest/gtest_pred_impl.h \
  /class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/googletest/googletest/include/gtest/gtest_prod.h \
- /class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/tests/../header/PlayerClasses.h \
- /class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/tests/../header/Mage.h \
- /class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/tests/../header/Warrior.h \
- /class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/tests/../header/Rogue.h
+ /class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/tests/../PlayerClasses/PlayerClasses.h \
+ /class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/tests/../PlayerClasses/Mage.h \
+ /class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/tests/../PlayerClasses/Warrior.h \
+ /class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/tests/../PlayerClasses/Rogue.h

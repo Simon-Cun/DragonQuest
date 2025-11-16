@@ -8,10 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/src/Mage.cpp" "CMakeFiles/runPlayerTests.dir/src/Mage.cpp.o" "gcc" "CMakeFiles/runPlayerTests.dir/src/Mage.cpp.o.d"
-  "/class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/src/PlayerClasses.cpp" "CMakeFiles/runPlayerTests.dir/src/PlayerClasses.cpp.o" "gcc" "CMakeFiles/runPlayerTests.dir/src/PlayerClasses.cpp.o.d"
-  "/class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/src/Rogue.cpp" "CMakeFiles/runPlayerTests.dir/src/Rogue.cpp.o" "gcc" "CMakeFiles/runPlayerTests.dir/src/Rogue.cpp.o.d"
-  "/class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/src/Warrior.cpp" "CMakeFiles/runPlayerTests.dir/src/Warrior.cpp.o" "gcc" "CMakeFiles/runPlayerTests.dir/src/Warrior.cpp.o.d"
+  "/class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/PlayerClasses/Mage.cpp" "CMakeFiles/runPlayerTests.dir/PlayerClasses/Mage.cpp.o" "gcc" "CMakeFiles/runPlayerTests.dir/PlayerClasses/Mage.cpp.o.d"
+  "/class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/PlayerClasses/PlayerClasses.cpp" "CMakeFiles/runPlayerTests.dir/PlayerClasses/PlayerClasses.cpp.o" "gcc" "CMakeFiles/runPlayerTests.dir/PlayerClasses/PlayerClasses.cpp.o.d"
+  "/class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/PlayerClasses/Rogue.cpp" "CMakeFiles/runPlayerTests.dir/PlayerClasses/Rogue.cpp.o" "gcc" "CMakeFiles/runPlayerTests.dir/PlayerClasses/Rogue.cpp.o.d"
+  "/class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/PlayerClasses/Warrior.cpp" "CMakeFiles/runPlayerTests.dir/PlayerClasses/Warrior.cpp.o" "gcc" "CMakeFiles/runPlayerTests.dir/PlayerClasses/Warrior.cpp.o.d"
   "/class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/tests/PlayerTests.cpp" "CMakeFiles/runPlayerTests.dir/tests/PlayerTests.cpp.o" "gcc" "CMakeFiles/runPlayerTests.dir/tests/PlayerTests.cpp.o.d"
   )
 

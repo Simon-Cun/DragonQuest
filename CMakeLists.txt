@@ -4,10 +4,10 @@ add_subdirectory(googletest)
 
 add_executable(runPlayerTests
   tests/PlayerTests.cpp
-  src/PlayerClasses.cpp
-  src/Mage.cpp
-  src/Warrior.cpp
-  src/Rogue.cpp
+  PlayerClasses/PlayerClasses.cpp
+  PlayerClasses/Mage.cpp
+  PlayerClasses/Warrior.cpp
+  PlayerClasses/Rogue.cpp
 )
 
 target_link_libraries(runPlayerTests gmock gtest gtest_main)

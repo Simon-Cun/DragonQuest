@@ -1,8 +1,8 @@
 #include "gtest/gtest.h"
-#include "../PlayerClasses/PlayerClasses.h"
-#include "../PlayerClasses/Mage.h"
-#include "../PlayerClasses/Warrior.h"
-#include "../PlayerClasses/Rogue.h"
+#include "PlayerClasses.h"
+#include "Mage.h"
+#include "Warrior.h"
+#include "Rogue.h"
 
 TEST(PlayerTests, PlayerClassesConstructorWorks) {
     EXPECT_NO_THROW({PlayerClasses aPlayer;});

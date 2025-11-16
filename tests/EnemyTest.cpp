@@ -11,7 +11,7 @@ TEST(EnemyTest, SetHealthStatWorks) {
 TEST(EnemyTest, SetAttackStatWorks) {
     Enemy enemy;
     const float newAttack = 75.0;
-    enemy.setHealthStat(newAttack);
+    enemy.setAttackStat(newAttack);
     EXPECT_EQ(enemy.getAttackStat(), newAttack);
 }
 

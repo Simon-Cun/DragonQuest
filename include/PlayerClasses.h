@@ -1,9 +1,6 @@
 #pragma once
 #include <string>
 
-#define PLAYERCLASSES_H
-#ifdef PLAYERCLASSES_H
-
 class PlayerClasses {
  protected:
     std::string playerName;
@@ -34,4 +31,3 @@ class PlayerClasses {
     float getPlayerHP();
 };
 
-#endif

@@ -134,6 +134,7 @@ The "BattleTime" class covers the game's battle system, including actions such a
 The "GameDriver" class covers interactions with the game outside of battle (ie. dialogue, path scenarios, menu interactions, etc.).
 
 **SOLID Principles**
+
 PlayerClasses, Mage, Warrior, Rogue: 
 1. SRP - PlayerClasses controls the name and stats of the player, while Mage, Warrior, and Rogue only set base stats
 2. OCP - More player types can be added without modifying PlayerClasses
@@ -141,6 +142,27 @@ PlayerClasses, Mage, Warrior, Rogue:
 4. ISP - Mage, Warrior, and Rogue do not implement unused methods
 5. DIP - The rest of the program depends on abstractions with PlayerClasses, not on Mage, Warrior, or Rogue
 
+Enemy and related enemy type subclasses:
+1. SRP - 
+2. OCP - 
+3. LSP - 
+4. ISP - 
+5. DIP -
+
+BattleTime:
+1. SRP - 
+2. OCP - 
+3. LSP - 
+4. ISP - 
+5. DIP -
+
+GameDriver:
+1. SRP - 
+2. OCP - 
+3. LSP - 
+4. ISP - 
+5. DIP -
+   
 ---
  
  > ## Phase III

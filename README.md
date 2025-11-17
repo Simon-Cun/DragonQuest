@@ -56,53 +56,97 @@ This navigation diagram shows how each screen is linked together starting from t
 
 All screens will be in the "game box" window provided by the terminal's GUI.
 
-================================================
+
+===============================================
+
+**Starting Screen:**
+Dragon Quest++
+...
+Press Enter to Start
+
+
+===============================================
+
+**GAME START:**
+A brief blurb about the game's context and story
+Instructions
+Press Enter to continue
+
+
+===============================================
+
+**CLASS SELECTION:**
+Please choose your class:
+- **MAGE**: A powerful caster-type who has the ability to deal overpowering amounts of damage. Lower base DEF.
+- **WARRIOR**: A jack-of-all-trades with moderate DEF, ATK, and HP. 
+- **ROGUE**: An assassin-type who has the ability to randomly dodge attacks. DEF is replaced by STEALTH
+User chooses class by typing M, W, or R, and pressing enter
+
+===============================================
+
+
+**COMMAND MENU WHEN OUT OF COMBAT:**
+- MOVE = M
+- INVENTORY = I
+- STATS = S
+- QUIT = Q
+User can access their inventory or progress through the world
+User types in their option and the screen will clear
 
 ================================================
-ENEMY ENCOUNTER:
+
+
+**ENEMY ENCOUNTER:**
 You have encountered a SLIME!
-HP: 30
-ATK: 4
-DEF: 2
+- HP: 30
+- ATK: 4
+- DEF: 2
 
 What will you do?
-FIGHT[F]
-INVENTORY[I]
-RUN[R]
+- FIGHT = F
+- INVENTORY = I
+- RUN = R
 
 The screen lets the user choose between fighting, using items, or attempting to roll to run.
-=================================================
 
 =================================================
-INVENTORY SCREEN:
-YOUR CURRENT CLASS: WARRIOR
-Items:
-HEALTH POTION x1
-GREATER HEALTH POTION x1
-WEAPONS:
-OATHSWORD
-TIGER'S FANG
-=================================================
+
+
+**INVENTORY SCREEN:**
+YOUR CURRENT CLASS: **WARRIOR**
+*Items:*
+- HEALTH POTION x1
+- GREATER HEALTH POTION x1
+- WEAPONS:
+- OATHSWORD
+- TIGER'S FANG
 
 =================================================
-STATS SCREEN:
-YOUR CURRENT CLASS: WARRIOR
-HP: [CURRENT HP]/[MAX HP]
-ATK: [CURRENT ATK]
-DEF: [CURRENT DEF]
 
-EXP: [CURRENT EXP] / [EXP TO LEVEL UP]
+
+**STATS SCREEN:**
+YOUR CURRENT CLASS: **WARRIOR**
+- HP: CURRENT / MAX
+- ATK: CURRENT
+- DEF: CURRENT
+
+- EXP: CURRENT / EXP TO LVL UP
+
 =================================================
 
-=================================================
-FIGHT SCREEN:
+
+**FIGHT SCREEN:**
 (When user chooses to fight in an encounter)
-1. ATTACK WITH [NAME OF WEAPON] (Some weapons will have unique properties)
-2. BLOCK
-3. SPECIAL (Class-unique actions, like powerful spells for mages, or evasion boosts for rogues)
-You have chosen to use [ACTION] 
+- ATTACK WITH (NAME OF WEAPON) (Some weapons will have unique properties)
+- BLOCK
+- SPECIAL (Class-unique actions, like powerful spells for mages, or evasion boosts for rogues)
+You have chosen to use ACTION
 Screen clears when battle ends
-=================================================
+
+---
+
+
+
 
 
 ## Class Diagram

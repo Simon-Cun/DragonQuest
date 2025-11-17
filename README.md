@@ -178,11 +178,11 @@ Enemy and related enemy type subclasses:
 5. DIP - Enemies does not depend on enemy. The program depends on enemy, not on ogre, robot, etc.
 
 BattleTime:
-1. SRP - 
-2. OCP - 
-3. LSP - 
-4. ISP - 
-5. DIP -
+1. SRP - BattleTime manages the battle system which include turn handling, actions, and combat flow.
+2. OCP - BattleTime works entirely through abstract classes meaning you can add new player and enemy classes all without modifying BattleTime itself.
+3. LSP - Any subclass of PlayerClasses or Enemy can be used in BattleTime without breaking behavior, because the class only depends on the base-class methods.
+4. ISP - BattleTime only depends on a small, specific set of methods from PlayerClasses and Enemy. It isn’t forced to rely on unused or irrelevant methods.
+5. DIP - BattleTime depends on abstractions (PlayerClasses and Enemy), not concrete classes like Mage or Ogre. This makes the class flexible and easy to extend.
 
 GameDriver:
 1. Single Responsibility Principle (SRP) - I applied SRP by making GameDriver responsible only for handling the overall game flow and user interaction. I specifically avoided putting any combat logic or stat calculations in GameDriver and instead split up that work to BattleTime, PlayerClasses, and Enemy. This change kept the driver clearer and easier to understand because it only coordinates screens and choicesand isn't in charge of everything. It also makes future changes safer, since I can modify battle logic or stats without having to worry about the driver.

@@ -125,6 +125,7 @@ EXP: [CURRENT EXP] / [EXP TO LEVEL UP]
 
 ## Class Diagram
 [Dragon Quest++ - Class Diagram](https://lucid.app/lucidchart/419219fc-910f-41ff-aebf-cfc0c0618d76/edit?beaconFlowId=9073B42EF962BC59&page=0_0&invitationId=inv_f315a160-fa9c-49ed-86b4-58bcf5f5f1c6#)
+<img width="1122" height="488" alt="Image" src="https://github.com/user-attachments/assets/ffde4b6b-38ab-4d37-a245-8534d07a92bf" />
 
 For characters, a single "Character" class encompasses all types of characters in the game, including player types (i.e. Warrior, Rogue, Mage) and enemy types (i.e Slime, Goblin, Dragon, etc.). This keeps the game open to the addition of new characters further down the line. Different characters have their respective stats, including attack, defense, dodging, and health points. The "Player" class will include the user's name, but will inherit stats from the "Character" class.
 

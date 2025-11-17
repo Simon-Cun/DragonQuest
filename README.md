@@ -43,7 +43,7 @@ Output: The output will be valid choices the user has. Such as “An enemy has a
  
 ## User Interface Specification
 
-### Navigation Diagram
+## Navigation Diagram
 [Dragon Quest++ Navigation Diagram](https://lucid.app/lucidchart/da3d09de-dd7b-4bbb-86ac-0af5aac0a730/edit?invitationId=inv_694466f5-6ded-4d73-b1d3-15401896f92a&page=0_0#)
 <img width="1794" height="1378" alt="image" src="https://github.com/user-attachments/assets/b54ca752-b6b5-41b4-bf19-1dd65a8bbdc1" />
 
@@ -51,7 +51,7 @@ This navigation diagram shows how each screen is linked together starting from t
 
 ---
 
-### Screen Layouts
+## Screen Layouts
 [Dragon Quest++ - Screen Layout](https://docs.google.com/document/d/1Ke-DGg1IT6af0jSFB3-Ns5cM8oQHCpyVCp6cDcoSUz4/edit?usp=sharing)
 
 All screens will be in the "game box" window provided by the terminal's GUI.
@@ -133,7 +133,9 @@ The "BattleTime" class covers the game's battle system, including actions such a
 
 The "GameDriver" class covers interactions with the game outside of battle (ie. dialogue, path scenarios, menu interactions, etc.).
 
-**SOLID Principles**
+---
+
+### Classes and SOLID Principles
 
 PlayerClasses, Mage, Warrior, Rogue: 
 1. SRP - PlayerClasses controls the name and stats of the player, while Mage, Warrior, and Rogue only set base stats

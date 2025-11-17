@@ -57,21 +57,21 @@ This navigation diagram shows how each screen is linked together starting from t
 All screens will be in the "game box" window provided by the terminal's GUI.
 
 ===================================================================================
-**STARTING SCREEN:** 
+*STARTING SCREEN:* 
 Dragon Quest++
 ...
 Press Enter to Start
 ===================================================================================
 
 ===================================================================================
-**GAME START:**
+*GAME START:*
 [A brief blurb about the game's context and story]
 [Instructions]
 Press Enter to continue
 ===================================================================================
 
 ===================================================================================
-**CLASS SELECTION:**
+*CLASS SELECTION:*
 Please choose your class:
 *MAGE:* A powerful caster-type who has the ability to deal overpowering amounts of damage. Lower base DEF.
 *WARRIOR:* A jack-of-all-trades with moderate DEF, ATK, and HP. 
@@ -80,7 +80,7 @@ Please choose your class:
 ===================================================================================
 
 ===================================================================================
-**COMMAND MENU WHEN OUT OF COMBAT:**
+*COMMAND MENU WHEN OUT OF COMBAT:*
 MOVE[M]
 INVENTORY[I]
 STATS[S]
@@ -90,7 +90,7 @@ QUIT[Q]
 ===================================================================================
 
 ===================================================================================
-**ENEMY ENCOUNTER:**
+*ENEMY ENCOUNTER:*
 You have encountered a [SLIME]!
 HP: 30
 ATK: 4
@@ -105,7 +105,7 @@ RUN[R]
 ===================================================================================
 
 ===================================================================================
-**INVENTORY SCREEN:**
+*INVENTORY SCREEN:*
 YOUR CURRENT CLASS: WARRIOR
 Items:
 HEALTH POTION x1
@@ -116,7 +116,7 @@ TIGER'S FANG
 ===================================================================================
 
 ===================================================================================
-**STATS SCREEN:**
+*STATS SCREEN:*
 YOUR CURRENT CLASS: WARRIOR
 HP: [CURRENT HP]/[MAX HP]
 ATK: [CURRENT ATK]
@@ -126,7 +126,7 @@ EXP: [CURRENT EXP] / [EXP TO LEVEL UP]
 ===================================================================================
 
 ===================================================================================
-**FIGHT SCREEN:**
+*FIGHT SCREEN:*
 (When user chooses to fight in an encounter)
 1. ATTACK WITH [NAME OF WEAPON] (Some weapons will have unique properties)
 2. BLOCK

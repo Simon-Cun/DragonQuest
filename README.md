@@ -57,7 +57,7 @@ This navigation diagram shows how each screen is linked together starting from t
 All screens will be in the "game box" window provided by the terminal's GUI.
 
 ===============================================
-STARTING SCREEN:
+Starting Screen
 Dragon Quest++
 ...
 Press Enter to Start

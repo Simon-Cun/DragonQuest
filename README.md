@@ -56,37 +56,6 @@ This navigation diagram shows how each screen is linked together starting from t
 
 All screens will be in the "game box" window provided by the terminal's GUI.
 
-===============================================
-Starting Screen
-Dragon Quest++
-...
-Press Enter to Start
-===============================================
-
-===============================================
-GAME START:
-A brief blurb about the game's context and story
-Instructions
-Press Enter to continue
-===============================================
-
-===============================================
-CLASS SELECTION:
-Please choose your class:
-*MAGE:* A powerful caster-type who has the ability to deal overpowering amounts of damage. Lower base DEF.
-*WARRIOR:* A jack-of-all-trades with moderate DEF, ATK, and HP. 
-*ROGUE:* An assassin-type who has the ability to randomly dodge attacks. DEF is replaced by STEALTH
-User chooses class by typing M, W, or R, and pressing enter
-===============================================
-
-===============================================
-COMMAND MENU WHEN OUT OF COMBAT:
-MOVE[M]
-INVENTORY[I]
-STATS[S]
-QUIT[Q]
-User can access their inventory or progress through the world
-User types in their option and the screen will clear
 ================================================
 
 ================================================
@@ -134,7 +103,7 @@ FIGHT SCREEN:
 You have chosen to use [ACTION] 
 Screen clears when battle ends
 =================================================
----
+
 
 ## Class Diagram
 [Dragon Quest++ - Class Diagram](https://lucid.app/lucidchart/419219fc-910f-41ff-aebf-cfc0c0618d76/edit?beaconFlowId=9073B42EF962BC59&page=0_0&invitationId=inv_f315a160-fa9c-49ed-86b4-58bcf5f5f1c6#)

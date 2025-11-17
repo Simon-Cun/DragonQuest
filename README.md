@@ -161,14 +161,13 @@ The "GameDriver" class covers interactions with the game outside of battle (ie. 
 
 ---
 
-### Classes and SOLID Principles
+### Class Diagram and SOLID Principles
 
 PlayerClasses, Mage, Warrior, Rogue: 
-1. SRP - PlayerClasses controls the name and stats of the player, while Mage, Warrior, and Rogue only set base stats
-2. OCP - More player types can be added without modifying PlayerClasses
-3. LSP - Since Mage, Warrior, and Rogue only set base stats, they cannot break expected behavior
-4. ISP - Mage, Warrior, and Rogue do not implement unused methods
-5. DIP - The rest of the program depends on abstractions with PlayerClasses, not on Mage, Warrior, or Rogue
+2. Open-Closed Principle (OCP) - The player types (Mage, Warrior, Rogue) only set base stats for PlayerClasses. With this, more player types can be added without modifying PlayerClasses. For example, we can implement a Cleric player type without having to change PlayerClasses to accomodate extra moves.
+3. Liskov Substitution Principle (LSP) - Again, Mage, Warrior, and Rogue only set base stats. Thus, the player types cannot break the expected behavior in PlayerClasses. Also, the player tdo not add new constraints on the base class.
+4. Interface Segregation Principle (ISP) - Mage, Warrior, and Rogue do not implement unused methods since they only set base stats.
+
 
 Enemy and related enemy type subclasses:
 1. SRP - Enemy controls enemy stats, while subclasses like Ogre, Robot, etc. control their specific stats, delegating each thing to one class

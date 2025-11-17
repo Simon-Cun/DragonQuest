@@ -153,28 +153,32 @@ Screen clears when battle ends
 [Dragon Quest++ - Class Diagram](https://lucid.app/lucidchart/419219fc-910f-41ff-aebf-cfc0c0618d76/edit?beaconFlowId=9073B42EF962BC59&page=0_0&invitationId=inv_f315a160-fa9c-49ed-86b4-58bcf5f5f1c6#)
 <img width="1122" height="488" alt="Image" src="https://github.com/user-attachments/assets/ffde4b6b-38ab-4d37-a245-8534d07a92bf" />
 
-For characters, a single "Character" class encompasses all types of characters in the game, including player types (i.e. Warrior, Rogue, Mage) and enemy types (i.e Slime, Goblin, Dragon, etc.). This keeps the game open to the addition of new characters further down the line. Different characters have their respective stats, including attack, defense, dodging, and health points. The "Player" class will include the user's name, but will inherit stats from the "Character" class.
+For playable characters, a single "PlayerClasses" base class encompasses all types of players in the game (i.e. Warrior, Rogue, Mage). The type subclasses set the base stats for the instantiated PlayerClasses.
 
-The "BattleTime" class covers the game's battle system, including actions such as the action phase (attack, use an item from the inventory, or run), and the enemy attack (or defense) phase. Different actions are linked to separate classes. The "AttackAction" and "EnemyAttacks" classes are connected to the "Character" class since they both rely on the stats of different characters.
+For enemy characters, an "Enemy" base class encompasses all types of enemies in the game (i.e Slime, Goblin, Dragon, etc.). The type subclasses also set the base stats for instantiated Enemy classes.
 
-The "GameDriver" class covers interactions with the game outside of battle (ie. dialogue, path scenarios, menu interactions, etc.).
+This keeps the game open to the addition of new characters and enemies further down the line. Different characters have their respective stats, including attack, defense, dodging, and health points. The "PlayerClasses" class goes a little further to include the user's name and type.
+
+The "BattleTime" class covers the game's battle system, covering actions under the user's turn (attack, use an item from the inventory, or run), and the enemy's turn (user defends). Different actions depend on the stats found in PlayerClasses and Enemy.
+
+The "GameDriver" class covers interactions with the game outside of battle (ie. dialogue, path scenarios, menu interactions, etc.). The GameDriver class also handles battles through functions implemented by the BattleTime class.
 
 ---
 
 ### Class Diagram and SOLID Principles
 
 PlayerClasses, Mage, Warrior, Rogue: 
-2. Open-Closed Principle (OCP) - The player types (Mage, Warrior, Rogue) only set base stats for PlayerClasses. With this, more player types can be added without modifying PlayerClasses. For example, we can implement a Cleric player type without having to change PlayerClasses to accomodate extra moves.
-3. Liskov Substitution Principle (LSP) - Again, Mage, Warrior, and Rogue only set base stats. Thus, the player types cannot break the expected behavior in PlayerClasses. Also, the player tdo not add new constraints on the base class.
-4. Interface Segregation Principle (ISP) - Mage, Warrior, and Rogue do not implement unused methods since they only set base stats.
+1. Open-Closed Principle (OCP) - The player types (Mage, Warrior, Rogue) only set base stats for PlayerClasses. With this, more player types can be added without modifying PlayerClasses. For example, we can implement a Cleric player type without having to change PlayerClasses to accomodate extra moves.
+2. Liskov Substitution Principle (LSP) - Again, Mage, Warrior, and Rogue only set base stats. Thus, the player types cannot break the expected behavior in PlayerClasses. Also, the player tdo not add new constraints on the base class.
+3. Interface Segregation Principle (ISP) - Mage, Warrior, and Rogue do not implement unused methods since they only set base stats.
 
 
 Enemy and related enemy type subclasses:
-1. SRP - Enemy controls enemy stats, while subclasses like Ogre, Robot, etc. control their specific stats, delegating each thing to one class. Each class only has one responsibility in the overall program.
-2. OCP - More enemies can be added without modifying the enemy class and all enemy class updates will carry over. Enemies is open for modification but the subclasses cannot damage it. 
-3. LSP - Enemy sublcasses cannot break enemy, as enemy only provides base stats and the getters and setters which the subclasses cannot modify. The subclasses only inherit what they need.
-4. ISP - Enemy subclasses use all of enemy's methods at least once and do not implement unused methods, therefore not having the user carry the baggage of separate enemy classes that are not needed (ogre does not need robot)
-5. DIP - Enemies does not depend on enemy. The program depends on enemy, not on ogre, robot, etc. The game driver instantiates using Enemy, which then instantiates the subclasses.
+1. Single Responsibility Principle (SRP) - Enemy controls enemy stats, while subclasses like Ogre, Robot, etc. control their specific stats, delegating each thing to one class. Each class only has one responsibility in the overall program.
+2. Open-Closed Principle (OCP) - More enemies can be added without modifying the enemy class and all enemy class updates will carry over. Enemies is open for modification but the subclasses cannot damage it. 
+3. Liskov Substitution Principle (LSP) - Enemy sublcasses cannot break enemy, as enemy only provides base stats and the getters and setters which the subclasses cannot modify. The subclasses only inherit what they need.
+4. Interface Segregation Principe (ISP) - Enemy subclasses use all of enemy's methods at least once and do not implement unused methods, therefore not having the user carry the baggage of separate enemy classes that are not needed (ogre does not need robot)
+5. Dependency Inversion Principle (DIP) - Enemies does not depend on enemy. The program depends on enemy, not on ogre, robot, etc. The game driver instantiates using Enemy, which then instantiates the subclasses.
 
 BattleTime:
 1. SRP - BattleTime manages the battle system which include turn handling, actions, and combat flow.
@@ -185,24 +189,17 @@ BattleTime:
 
 GameDriver:
 1. Single Responsibility Principle (SRP) - I applied SRP by making GameDriver responsible only for handling the overall game flow and user interaction. I specifically avoided putting any combat logic or stat calculations in GameDriver and instead split up that work to BattleTime, PlayerClasses, and Enemy. This change kept the driver clearer and easier to understand because it only coordinates screens and choicesand isn't in charge of everything. It also makes future changes safer, since I can modify battle logic or stats without having to worry about the driver.
-2. Open/Closed Principle (OCP) - I applied OCP by having GameDriver work with the PlayerClasses type instead of hardcoding behavior for Mage, Warrior, and Rogue. The driver just chooses which subclass to create based on user input, but it doesn’t need to change if we want to add a new class. This means the code is open for extension but cannot be modified.
+2. Open-Closed Principle (OCP) - I applied OCP by having GameDriver work with the PlayerClasses type instead of hardcoding behavior for Mage, Warrior, and Rogue. The driver just chooses which subclass to create based on user input, but it doesn’t need to change if we want to add a new class. This means the code is open for extension but cannot be modified.
    
 ---
  
  > ## Phase III
  > You will need to schedule a check-in for the second scrum meeting with the same reader you had your first scrum meeting with (using Calendly). Your entire team must be present. This meeting will occur on week 8 during lab time.
- 
- > BEFORE the meeting you should do the following:
- > * Update your class diagram from Phase II to include any feedback you received from your TA/grader.
- > * Considering the SOLID design principles, reflect back on your class diagram and think about how you can use the SOLID principles to improve your design. You should then update the README.md file by adding the following:
- >   * A new class diagram incorporating your changes after considering the SOLID principles.
- >   * For each update in your class diagram, you must explain in 3-4 sentences:
- >     * What SOLID principle(s) did you apply?
- >     * How did you apply it? i.e. describe the change.
- >     * How did this change help you write better code?
+
  > * Perform a new sprint plan like you did in Phase II.
+>    
  > * Make sure that your README file (and Project board) are up-to-date reflecting the current status of your project and the most recent class diagram. Previous versions of the README file should still be visible through your commit history.
->  * Each team member should also submit the Peer Evaluation Form on Canvas for phase III. In this form, you need to fill in the names of all team members, the percentage of work contributed by each member for phase III, and a description of their contributions. Remember that each team member should submit the form individually.
+
  
 > During the meeting with your reader you will discuss: 
  > * How effective your last sprint was (each member should talk about what they did)

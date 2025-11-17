@@ -159,11 +159,8 @@ BattleTime:
 5. DIP -
 
 GameDriver:
-1. SRP - 
-2. OCP - 
-3. LSP - 
-4. ISP - 
-5. DIP -
+1. Single Responsibility Principle (SRP) - I applied SRP by making GameDriver responsible only for handling the overall game flow and user interaction. I specifically avoided putting any combat logic or stat calculations in GameDriver and instead split up that work to BattleTime, PlayerClasses, and Enemy. This change kept the driver clearer and easier to understand because it only coordinates screens and choicesand isn't in charge of everything. It also makes future changes safer, since I can modify battle logic or stats without having to worry about the driver.
+2. Open/Closed Principle (OCP) - I applied OCP by having GameDriver work with the PlayerClasses type instead of hardcoding behavior for Mage, Warrior, and Rogue. The driver just chooses which subclass to create based on user input, but it doesn’t need to change if we want to add a new class. This means the code is open for extension but cannot be modified.
    
 ---
  

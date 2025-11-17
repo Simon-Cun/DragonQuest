@@ -56,23 +56,30 @@ This navigation diagram shows how each screen is linked together starting from t
 
 All screens will be in the "game box" window provided by the terminal's GUI.
 
+===================================================================================
 **STARTING SCREEN:** 
 Dragon Quest++
 ...
 Press Enter to Start
+===================================================================================
 
+===================================================================================
 **GAME START:**
 [A brief blurb about the game's context and story]
 [Instructions]
 Press Enter to continue
+===================================================================================
 
+===================================================================================
 **CLASS SELECTION:**
 Please choose your class:
 *MAGE:* A powerful caster-type who has the ability to deal overpowering amounts of damage. Lower base DEF.
 *WARRIOR:* A jack-of-all-trades with moderate DEF, ATK, and HP. 
 *ROGUE:* An assassin-type who has the ability to randomly dodge attacks. DEF is replaced by STEALTH
 [User chooses class by typing M, W, or R, and pressing enter]
+===================================================================================
 
+===================================================================================
 **COMMAND MENU WHEN OUT OF COMBAT:**
 MOVE[M]
 INVENTORY[I]
@@ -80,7 +87,9 @@ STATS[S]
 QUIT[Q]
 [User can access their inventory or progress through the world]
 [User types in their option and the screen will clear]
+===================================================================================
 
+===================================================================================
 **ENEMY ENCOUNTER:**
 You have encountered a [SLIME]!
 HP: 30
@@ -93,7 +102,9 @@ INVENTORY[I]
 RUN[R]
 
 [The screen lets the user choose between fighting, using items, or attempting to roll to run.]
+===================================================================================
 
+===================================================================================
 **INVENTORY SCREEN:**
 YOUR CURRENT CLASS: WARRIOR
 Items:
@@ -102,8 +113,9 @@ GREATER HEALTH POTION x1
 WEAPONS:
 OATHSWORD
 TIGER'S FANG
+===================================================================================
 
-
+===================================================================================
 **STATS SCREEN:**
 YOUR CURRENT CLASS: WARRIOR
 HP: [CURRENT HP]/[MAX HP]
@@ -111,8 +123,9 @@ ATK: [CURRENT ATK]
 DEF: [CURRENT DEF]
 
 EXP: [CURRENT EXP] / [EXP TO LEVEL UP]
+===================================================================================
 
-
+===================================================================================
 **FIGHT SCREEN:**
 (When user chooses to fight in an encounter)
 1. ATTACK WITH [NAME OF WEAPON] (Some weapons will have unique properties)
@@ -120,7 +133,7 @@ EXP: [CURRENT EXP] / [EXP TO LEVEL UP]
 3. SPECIAL (Class-unique actions, like powerful spells for mages, or evasion boosts for rogues)
 [You have chosen to use [ACTION] ]
 [Screen clears when battle ends]
-
+===================================================================================
 ---
 
 ## Class Diagram
@@ -145,11 +158,11 @@ PlayerClasses, Mage, Warrior, Rogue:
 5. DIP - The rest of the program depends on abstractions with PlayerClasses, not on Mage, Warrior, or Rogue
 
 Enemy and related enemy type subclasses:
-1. SRP - 
-2. OCP - 
-3. LSP - 
-4. ISP - 
-5. DIP -
+1. SRP - Enemy controls enemy stats, while subclasses like Ogre, Robot, etc. control their specific stats, delegating each thing to one class
+2. OCP - More enemies can be added without modifying the enemy class and all enemy class updates will carry over
+3. LSP - Enemy sublcasses cannot break enemy, as enemy only provides base stats and the getters and setters which the subclasses cannot modify
+4. ISP - Enemy subclasses use all of enemy's methods at least once and do not implement unused methods
+5. DIP - Enemies does not depend on enemy. The program depends on enemy, not on ogre, robot, etc.
 
 BattleTime:
 1. SRP - 

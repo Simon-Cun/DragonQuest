@@ -170,11 +170,11 @@ PlayerClasses, Mage, Warrior, Rogue:
 
 
 Enemy and related enemy type subclasses:
-1. SRP - Enemy controls enemy stats, while subclasses like Ogre, Robot, etc. control their specific stats, delegating each thing to one class
-2. OCP - More enemies can be added without modifying the enemy class and all enemy class updates will carry over
-3. LSP - Enemy sublcasses cannot break enemy, as enemy only provides base stats and the getters and setters which the subclasses cannot modify
-4. ISP - Enemy subclasses use all of enemy's methods at least once and do not implement unused methods
-5. DIP - Enemies does not depend on enemy. The program depends on enemy, not on ogre, robot, etc.
+1. SRP - Enemy controls enemy stats, while subclasses like Ogre, Robot, etc. control their specific stats, delegating each thing to one class. Each class only has one responsibility in the overall program.
+2. OCP - More enemies can be added without modifying the enemy class and all enemy class updates will carry over. Enemies is open for modification but the subclasses cannot damage it. 
+3. LSP - Enemy sublcasses cannot break enemy, as enemy only provides base stats and the getters and setters which the subclasses cannot modify. The subclasses only inherit what they need.
+4. ISP - Enemy subclasses use all of enemy's methods at least once and do not implement unused methods, therefore not having the user carry the baggage of separate enemy classes that are not needed (ogre does not need robot)
+5. DIP - Enemies does not depend on enemy. The program depends on enemy, not on ogre, robot, etc. The game driver instantiates using Enemy, which then instantiates the subclasses.
 
 BattleTime:
 1. SRP - BattleTime manages the battle system which include turn handling, actions, and combat flow.

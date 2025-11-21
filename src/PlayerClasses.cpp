@@ -4,6 +4,7 @@
 #include <stdexcept>
 
 PlayerClasses::PlayerClasses() : playerName(""), playerType(""), playerLVL(1), playerEXPTracker(0.0),
+                                 playerATK(0.0), playerDEF(0.0), playerDodge(0.0), playerHP(50.0), hasWeapon(false) {}
                                  playerATK(0.0), playerDEF(0.0), playerDodge(0.0), playerHP(50.0), 
                                  battlesFought(0), battlesWon(0), damageDealt(0), damageTaken(0) {}
 
@@ -17,6 +18,10 @@ void PlayerClasses::setPlayerType(std::string inputType) {
     if (inputType == "M") playerType = "MAGE";
     else if (inputType == "R") playerType = "ROGUE";
     else if (inputType == "W") playerType = "WARRIOR";
+}
+
+void PlayerClasses::setHasWeapon(bool weaponHave) {
+    hasWeapon = weaponHave;
 }
 
 const std::string PlayerClasses::getPlayerType() {return playerType;}

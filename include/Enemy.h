@@ -8,6 +8,7 @@ class Enemy {
         float expDrop;
         float healthStat;
         float runChance;
+        float dropChance;
     public:
         Enemy();
         ~Enemy();
@@ -16,6 +17,7 @@ class Enemy {
         void setExpDrop(float);
         void setHealthStat(float);
         void setRunChance(float);
+        void setDropChance(float);
         float calcAttackDamage(float);
 
         float getAttackStat();

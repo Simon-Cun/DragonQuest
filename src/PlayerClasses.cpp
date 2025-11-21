@@ -5,6 +5,8 @@
 
 PlayerClasses::PlayerClasses() : playerName(""), playerType(""), playerLVL(1), playerEXPTracker(0.0),
                                  playerATK(0.0), playerDEF(0.0), playerDodge(0.0), playerHP(50.0), hasWeapon(false) {}
+                                 playerATK(0.0), playerDEF(0.0), playerDodge(0.0), playerHP(50.0), 
+                                 battlesFought(0), battlesWon(0), damageDealt(0), damageTaken(0) {}
 
 void PlayerClasses::setPlayerName(std::string inputName) {playerName = inputName;}
 
@@ -90,3 +92,15 @@ float PlayerClasses::getPlayerDodge() {return playerDodge;}
 void PlayerClasses::setPlayerHP(float inputHP) {playerHP = inputHP;}
 
 float PlayerClasses::getPlayerHP() {return playerHP;}
+
+void PlayerClasses::printStats() const {
+    std::cout << "===== PLAYER STATS =====\n";
+    std::cout << "Name: " << playerName << "\n";
+    std::cout << "Class: " << playerType << "\n";
+    std::cout << "Level: " << playerLVL << "\n";
+    std::cout << "HP: " << playerHP << "\n";
+    std::cout << "ATK: " << playerATK << "\n";
+    std::cout << "DEF: " << playerDEF << "\n";
+    std::cout << "Dodge: " << playerDodge << "\n";
+    std::cout << "========================\n";
+}

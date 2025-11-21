@@ -12,6 +12,10 @@ class PlayerClasses {
     float playerDodge;
     float playerHP;
     bool hasWeapon;
+    int battlesFought;
+   int battlesWon;
+   int damageDealt;
+   int damageTaken;
 
  public:
     PlayerClasses();
@@ -31,5 +35,6 @@ class PlayerClasses {
     float getPlayerDodge();
     void setPlayerHP(float inputHP);
     float getPlayerHP();
+    void printStats() const;
 };
 

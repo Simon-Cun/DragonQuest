@@ -4,7 +4,6 @@
 #include <cstdlib>
 #include <ctime>
 
-
 #include "PlayerClasses.h"
 #include "Enemy.h"
 #include "BattleTime.h"
@@ -12,33 +11,50 @@
 #include "Warrior.h"
 #include "Rogue.h"
 
+#include "Slime.h"
+#include "Goblin.h"
+#include "Ogre.h"
+#include "Robot.h"
+#include "Dragon.h"
+
 class GameDriver {
 public:
     GameDriver();
-    void Menu();   // entry point
+    void Menu();
 
 private:
     std::unique_ptr<PlayerClasses> player;
     std::string playerName;
 
-    // flow pieces
+    bool foughtSlime;
+    bool foughtGoblin;
+    bool foughtOgre;
+    bool foughtRobot;
+
     void showTitleScreen();
     void showIntroDialogue();
     void choosePlayerName();
     void choosePlayerClass();
-    void startFirstBattle();
+    void explorationLoop();
+    void fightEnemy(Enemy& e);
 
-    // helpers
     std::string getLine();
+    int randPercent();
 };
 
-GameDriver::GameDriver() : player(nullptr), playerName("Hero") {}
+GameDriver::GameDriver()
+    : player(nullptr), playerName("Hero"),
+      foughtSlime(false), foughtGoblin(false),
+      foughtOgre(false), foughtRobot(false) {}
 
-// read one whole line from stdin
 std::string GameDriver::getLine() {
     std::string s;
     std::getline(std::cin, s);
     return s;
+}
+
+int GameDriver::randPercent() {
+    return rand() % 100;
 }
 
 void GameDriver::showTitleScreen() {
@@ -46,31 +62,28 @@ void GameDriver::showTitleScreen() {
     std::cout << "           Dragon Quest++            \n";
     std::cout << "=====================================\n\n";
     std::cout << "Press Enter to Start...";
-    (void)getLine();
+    getLine();
     std::cout << "\n";
 }
 
 void GameDriver::showIntroDialogue() {
     std::cout << "Welcome, traveler.\n\n";
-    std::cout << "The land of Far Far Away has fallen under the shadow of a great Dragon.\n";
-    std::cout << "Monsters roam the roads and villages live in fear.\n\n";
-    std::cout << "Only a true hero can stand against this evil.\n";
-    std::cout << "Today, that hero might be you.\n\n";
+    std::cout << "The land is filled with enemies.\n";
+    std::cout << "Defeat all of them to challenge the Dragon.\n\n";
     std::cout << "Press Enter to continue...";
-    (void)getLine();
+    getLine();
     std::cout << "\n";
 }
 
 void GameDriver::choosePlayerName() {
-    std::cout << "First, what is your name, hero?\n";
+    std::cout << "What is your name?\n";
     std::cout << "Enter your name: ";
     std::string name = getLine();
-    if (!name.empty()) {
-        playerName = name;
-    }
+    if (!name.empty()) playerName = name;
+
     std::cout << "\nGreetings, " << playerName << ".\n\n";
     std::cout << "Press Enter to choose your class...";
-    (void)getLine();
+    getLine();
     std::cout << "\n";
 }
 
@@ -94,50 +107,85 @@ void GameDriver::choosePlayerClass() {
             player = std::make_unique<Rogue>();
             break;
         } else {
-            std::cout << "Invalid choice. Please try again.\n";
+            std::cout << "Invalid choice. Try again.\n";
         }
     }
 
-    // Your base class API:
-    //   void setPlayerName(std::string);
-    //   const std::string getPlayerType();
     player->setPlayerName(playerName);
 
-    std::cout << "\nYou have chosen the path of the "
-              << player->getPlayerType() << ".\n\n";
+    std::cout << "\nYou chose: " << player->getPlayerType() << "\n\n";
     std::cout << "Press Enter to begin your adventure...";
-    (void)getLine();
+    getLine();
     std::cout << "\n";
 }
 
-void GameDriver::startFirstBattle() {
-    std::cout << "You step beyond the safety of the village...\n";
-    std::cout << "A weak monster jumps out from the tall grass!\n\n";
-    std::cout << "A Slime appears!\n\n";
-    std::cout << "Press Enter to begin the battle...";
-    getLine();
-    std::cout << "\n";
-
-    Slime slime;                // Fully initialized by constructor
-    BattleTime battle;          // Uses your default constructor
-    battle.startBattle(*player, slime);
-    
-    std::cout << "\nThe battle has ended.\n";
-    std::cout << "Press Enter to exit the game...";
-    getLine();
+void GameDriver::fightEnemy(Enemy& e) {
+    BattleTime battle;
+    battle.startBattle(*player, e);
 }
 
+void GameDriver::explorationLoop() {
+    std::cout << "Your adventure begins...\n\n";
+
+    while (true) {
+        if (foughtSlime && foughtGoblin && foughtOgre && foughtRobot) {
+            std::cout << "\nThe ground shakes... The DRAGON approaches!\n";
+            Dragon dragon;
+            fightEnemy(dragon);
+            std::cout << "\nYou defeated the DRAGON! You beat the game!\n";
+            return;
+        }
+
+        std::cout << "\nMove forward? (Press Enter)";
+        getLine();
+
+        int roll = randPercent();
+
+        if (roll < 50) {
+            std::cout << "You move forward cautiously... Nothing happens.\n";
+        }
+        else if (roll < 80) {
+            std::cout << "A monster appears!\n";
+            if (!foughtSlime) {
+                Slime s;
+                fightEnemy(s);
+                foughtSlime = true;
+            }
+            else if (!foughtGoblin) {
+                Goblin g;
+                fightEnemy(g);
+                foughtGoblin = true;
+            }
+            else if (!foughtOgre) {
+                Ogre o;
+                fightEnemy(o);
+                foughtOgre = true;
+            }
+            else if (!foughtRobot) {
+                Robot r;
+                fightEnemy(r);
+                foughtRobot = true;
+            }
+
+            std::cout << "\nEnemy defeated! Continue your journey...\n";
+        }
+        else {
+            std::cout << "You found mysterious loot on the ground!\n";
+            std::cout << "(Loot system not implemented yet.)\n";
+        }
+    }
+}
 
 void GameDriver::Menu() {
     showTitleScreen();
     showIntroDialogue();
     choosePlayerName();
     choosePlayerClass();
-    startFirstBattle(); // hands control to BattleTime
+    explorationLoop();
 }
 
 int main() {
-    std::srand(static_cast<unsigned>(std::time(nullptr))); // for rand() in BattleTime
+    srand(static_cast<unsigned>(time(nullptr)));
     GameDriver driver;
     driver.Menu();
     return 0;

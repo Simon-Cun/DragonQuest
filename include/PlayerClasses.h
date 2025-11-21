@@ -11,6 +11,7 @@ class PlayerClasses {
     float playerDEF;
     float playerDodge;
     float playerHP;
+    bool hasWeapon;
 
  public:
     PlayerClasses();
@@ -20,6 +21,7 @@ class PlayerClasses {
     const std::string getPlayerType();
     void addEXP(float inputEXP);
     void levelUp();
+    void setHasWeapon(bool);
     int getPlayerLevel();
     void setPlayerATK(float inputATK);
     float getPlayerATK();

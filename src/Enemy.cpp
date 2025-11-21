@@ -2,10 +2,14 @@
 
 
 Enemy::Enemy() 
-: attackStat(0), defenseStat(0), healthStat(100), expDrop(100), runChance(0.05) {}
+: attackStat(0), defenseStat(0), healthStat(100), expDrop(100), runChance(0.05), dropChance(0.05) {}
 
 Enemy::~Enemy() {
     // N/A
+}
+
+void Enemy::setDropChance(float stat) {
+    dropChance = stat;
 }
 
 float Enemy::calcAttackDamage(float oppDefense) {

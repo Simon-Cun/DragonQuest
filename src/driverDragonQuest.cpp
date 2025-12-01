@@ -112,13 +112,12 @@ void GameDriver::choosePlayerClass() {
 
 void GameDriver::startFirstBattle() {
     std::cout << "You step beyond the safety of the village...\n";
-    std::cout << "A weak monster jumps out from the tall grass!\n\n";
-    std::cout << "A Slime appears!\n\n";
+    Slime slime;                // Fully initialized by constructor
+    std::cout << "A " << slime.getEnemyType() << " weak monster jumps out from the tall grass!\n\n";
     std::cout << "Press Enter to begin the battle...";
     getLine();
     std::cout << "\n";
 
-    Slime slime;                // Fully initialized by constructor
     BattleTime battle;          // Uses your default constructor
     battle.startBattle(*player, slime);
     

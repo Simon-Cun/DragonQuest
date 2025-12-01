@@ -3,11 +3,13 @@
 
 class Enemy {
     protected:
+        std::string enemyType;
         float attackStat;
         float defenseStat;
         float expDrop;
         float healthStat;
         float runChance;
+        float dropChance;
     public:
         Enemy();
         ~Enemy();
@@ -16,6 +18,7 @@ class Enemy {
         void setExpDrop(float);
         void setHealthStat(float);
         void setRunChance(float);
+        void setEnemyType(const std::string& type);
         float calcAttackDamage(float);
 
         float getAttackStat();
@@ -23,4 +26,6 @@ class Enemy {
         float getExpDrop();
         float getHealthStat();
         float getRunChance();
+        std::string getEnemyType() const;
+
 };

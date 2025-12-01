@@ -1,6 +1,7 @@
 #include "Dragon.h"
 
 Dragon::Dragon() {
+    setEnemyType("Dragon");
     setAttackStat(100.0);
     setDefenseStat(100.0);
     setHealthStat(1000.0);

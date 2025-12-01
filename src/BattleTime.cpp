@@ -9,7 +9,7 @@ using namespace std;
 BattleTime::BattleTime() : isBlocking(false) {}
 
 void BattleTime::startBattle(PlayerClasses& player, Enemy& enemy) {
-    cout << "A " << enemy.getDefenseStat() << " DEF enemy appears!\n";
+    cout << "A " << enemy.getEnemyType() << " DEF enemy appears!\n";
 
     while (player.getPlayerHP() > 0 && enemy.getHealthStat() > 0) {
 
@@ -32,7 +32,7 @@ void BattleTime::startBattle(PlayerClasses& player, Enemy& enemy) {
 void BattleTime::displayBattleMenu(PlayerClasses& player, Enemy& enemy) {
     cout << "\n========== BATTLE ==========\n";
     cout << "Your HP: " << player.getPlayerHP() << "\n";
-    cout << "Enemy HP: " << enemy.getHealthStat() << "\n\n";
+    cout << enemy.getEnemyType() << " HP: " << enemy.getHealthStat() << "\n\n";
     cout << "[A] Attack\n";
     cout << "[H] Heal\n";
     cout << "[D] Defend (block half damage)\n";

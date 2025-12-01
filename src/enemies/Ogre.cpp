@@ -1,6 +1,7 @@
 #include "Ogre.h"
 
 Ogre::Ogre() {
+    setEnemyType("Ogre");
     setAttackStat(15.0);
     setDefenseStat(10.0);
     setHealthStat(60.0);

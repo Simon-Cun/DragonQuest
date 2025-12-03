@@ -133,10 +133,6 @@ void GameDriver::choosePlayerClass() {
 
     std::cout << "Your quest awaits. \n\n"
               << "Press Enter to begin your adventure...";
-    player->setPlayerName(playerName);
-
-    std::cout << "\nYou chose: " << player->getPlayerType() << "\n\n";
-    std::cout << "Press Enter to begin your adventure...";
     (void)getLine();
     std::cout << "\n";
 }

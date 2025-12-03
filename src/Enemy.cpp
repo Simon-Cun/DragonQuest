@@ -66,3 +66,7 @@ float Enemy::getRunChance() {
 float Enemy::getExpDrop() {
     return expDrop;
 }
+
+std::string Enemy::getEnemyType() const {
+    return enemyType;
+}

@@ -36,6 +36,7 @@ private:
     void showIntroDialogue();
     void choosePlayerName();
     void choosePlayerClass();
+    void startFirstBattle();
     void explorationLoop();
     void fightEnemy(Enemy& e);
 
@@ -133,10 +134,6 @@ void GameDriver::choosePlayerClass() {
 
     std::cout << "Your quest awaits. \n\n"
               << "Press Enter to begin your adventure...";
-    player->setPlayerName(playerName);
-
-    std::cout << "\nYou chose: " << player->getPlayerType() << "\n\n";
-    std::cout << "Press Enter to begin your adventure...";
     (void)getLine();
     std::cout << "\n";
 }
@@ -150,7 +147,7 @@ void GameDriver::startFirstBattle() {
     std::cout << "\n";
 
     BattleTime battle;          // Uses your default constructor
-    battle.startBattle(*player, slime);
+    battle.startBattle(player, slime);
     
     std::cout << "\nThe battle has ended.\n";
     std::cout << "Press Enter to exit the game...";

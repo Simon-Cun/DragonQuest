@@ -499,7 +499,16 @@ CMakeFiles/game.dir/src/PlayerClasses.cpp.o: src/PlayerClasses.cpp \
   /usr/include/c++/8/bits/basic_ios.tcc \
   /usr/include/c++/8/bits/ostream.tcc \
   /usr/include/c++/8/istream \
-  /usr/include/c++/8/bits/istream.tcc
+  /usr/include/c++/8/bits/istream.tcc \
+  /usr/include/c++/8/algorithm \
+  /usr/include/c++/8/utility \
+  /usr/include/c++/8/bits/stl_relops.h \
+  /usr/include/c++/8/bits/stl_algo.h \
+  /usr/include/c++/8/bits/algorithmfwd.h \
+  /usr/include/c++/8/bits/stl_heap.h \
+  /usr/include/c++/8/bits/stl_tempbuf.h \
+  /usr/include/c++/8/bits/stl_construct.h \
+  /usr/include/c++/8/bits/uniform_int_dist.h
 
 CMakeFiles/game.dir/src/driverDragonQuest.cpp.o: src/driverDragonQuest.cpp \
   /usr/include/stdc-predef.h \

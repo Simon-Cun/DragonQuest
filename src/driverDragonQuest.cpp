@@ -36,6 +36,7 @@ private:
     void showIntroDialogue();
     void choosePlayerName();
     void choosePlayerClass();
+    void startFirstBattle();
     void explorationLoop();
     void fightEnemy(Enemy& e);
 

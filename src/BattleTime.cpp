@@ -27,6 +27,8 @@ void BattleTime::startBattle(PlayerClasses& player, Enemy& enemy) {
     if (player.getPlayerHP() <= 0) {
         cout << "You were defeated...\n";
     }
+
+    player.addEXP(enemy.getExpDrop());
 }
 
 void BattleTime::displayBattleMenu(PlayerClasses& player, Enemy& enemy) {

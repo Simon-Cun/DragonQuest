@@ -12,19 +12,17 @@ void PlayerClasses::setPlayerName(std::string inputName) {playerName = inputName
 
 const std::string PlayerClasses::getPlayerName() {return playerName;}
 
-void PlayerClasses::setPlayerType(std::string inputType) {
-    if (inputType != "M" && inputType != "R" && inputType != "W") throw std::runtime_error("Invalid Type");
-    
-    if (inputType == "M") playerType = "MAGE";
-    else if (inputType == "R") playerType = "ROGUE";
-    else if (inputType == "W") playerType = "WARRIOR";
+void PlayerClasses::setPlayerType(char inputType) {
+    if (inputType == 'M') playerType = "Mage";
+    else if (inputType == 'R') playerType = "Rogue";
+    else if (inputType == 'W') playerType = "Warrior";
 }
+
+const std::string PlayerClasses::getPlayerType() {return playerType;}
 
 void PlayerClasses::setHasWeapon(bool weaponHave) {
     hasWeapon = weaponHave;
 }
-
-const std::string PlayerClasses::getPlayerType() {return playerType;}
 
 
 void PlayerClasses::addEXP(float inputEXP) {playerEXPTracker += inputEXP;}

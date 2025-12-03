@@ -1,6 +1,7 @@
 #include "Goblin.h"
 
 Goblin::Goblin() {
+    setEnemyType("Goblin");
     setAttackStat(10.5);
     setDefenseStat(10.5);
     setHealthStat(50.0);

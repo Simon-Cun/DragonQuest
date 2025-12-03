@@ -133,8 +133,28 @@ void GameDriver::choosePlayerClass() {
 
     std::cout << "Your quest awaits. \n\n"
               << "Press Enter to begin your adventure...";
+    player->setPlayerName(playerName);
+
+    std::cout << "\nYou chose: " << player->getPlayerType() << "\n\n";
+    std::cout << "Press Enter to begin your adventure...";
+    (void)getLine();
+    std::cout << "\n";
+}
+
+void GameDriver::startFirstBattle() {
+    std::cout << "You step beyond the safety of the village...\n";
+    Slime slime;                // Fully initialized by constructor
+    std::cout << "A " << slime.getEnemyType() << " weak monster jumps out from the tall grass!\n\n";
+    std::cout << "Press Enter to begin the battle...";
     getLine();
     std::cout << "\n";
+
+    BattleTime battle;          // Uses your default constructor
+    battle.startBattle(*player, slime);
+    
+    std::cout << "\nThe battle has ended.\n";
+    std::cout << "Press Enter to exit the game...";
+    getLine();
 }
 
 void GameDriver::fightEnemy(Enemy& e) {

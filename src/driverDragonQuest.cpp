@@ -146,7 +146,7 @@ void GameDriver::startFirstBattle() {
     std::cout << "\n";
 
     BattleTime battle;          // Uses your default constructor
-    battle.startBattle(*player, slime);
+    battle.startBattle(player, slime);
     
     std::cout << "\nThe battle has ended.\n";
     std::cout << "Press Enter to exit the game...";

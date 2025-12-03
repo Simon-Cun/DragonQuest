@@ -22,7 +22,7 @@ class PlayerClasses {
     PlayerClasses();
     void setPlayerName(std::string inputName);
     const std::string getPlayerName();
-    void setPlayerType(std::string inputType);
+    void setPlayerType(char inputType);
     const std::string getPlayerType();
     void addEXP(float inputEXP);
     void levelUp();

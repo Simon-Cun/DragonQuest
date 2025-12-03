@@ -1,10 +1,11 @@
 #include "PlayerClasses.h"
 #include <iostream>
 #include <string>
+#include <algorithm>
 #include <stdexcept>
 
 PlayerClasses::PlayerClasses() : playerName(""), playerType(""), playerLVL(1), playerEXPTracker(0.0),
-                                 playerATK(0.0), playerDEF(0.0), playerDodge(0.0), playerHP(50.0), 
+                                 playerATK(0.0), playerDEF(0.0), playerDodge(0.0), playerHP(50.0), hasWeapon(false),
                                  battlesFought(0), battlesWon(0), damageDealt(0), damageTaken(0) {}
 
 void PlayerClasses::setPlayerName(std::string inputName) {playerName = inputName;}
@@ -17,6 +18,10 @@ void PlayerClasses::setPlayerType(std::string inputType) {
     if (inputType == "M") playerType = "MAGE";
     else if (inputType == "R") playerType = "ROGUE";
     else if (inputType == "W") playerType = "WARRIOR";
+}
+
+void PlayerClasses::setHasWeapon(bool weaponHave) {
+    hasWeapon = weaponHave;
 }
 
 const std::string PlayerClasses::getPlayerType() {return playerType;}
@@ -32,6 +37,7 @@ void PlayerClasses::levelUp() {  //LVL starts at 1, max at LVL 5
             setPlayerDEF(playerDEF / 4 * 5);
             setPlayerDodge(playerDodge / 4 * 5);
             setPlayerHP(playerHP / 4 * 5);
+            setPlayerMAXHP(playerMAXHP / 4 * 5);
         }
     }
 
@@ -42,6 +48,7 @@ void PlayerClasses::levelUp() {  //LVL starts at 1, max at LVL 5
             setPlayerDEF(playerDEF / 3 * 4);
             setPlayerDodge(playerDodge / 3 * 4);
             setPlayerHP(playerHP / 3 * 4);
+            setPlayerMAXHP(playerMAXHP / 3 * 4);
         }
     }
 
@@ -52,6 +59,7 @@ void PlayerClasses::levelUp() {  //LVL starts at 1, max at LVL 5
             setPlayerDEF(playerDEF / 2 * 3);
             setPlayerDodge(playerDodge / 2 * 3);
             setPlayerHP(playerHP / 2 * 3);
+            setPlayerMAXHP(playerMAXHP / 2 * 3);
         }
     }
 
@@ -62,6 +70,7 @@ void PlayerClasses::levelUp() {  //LVL starts at 1, max at LVL 5
             setPlayerDEF(playerDEF * 2);
             setPlayerDodge(playerDodge * 2);
             setPlayerHP(playerHP * 2);
+            setPlayerMAXHP(playerMAXHP * 2);
         }
     }
 }
@@ -73,6 +82,9 @@ void PlayerClasses::setPlayerATK(float inputATK) {playerATK = inputATK;}
 
 float PlayerClasses::getPlayerATK() {return playerATK;}
 
+void PlayerClasses::setPlayerMAXHP(float inputMAXHP) {playerMAXHP = inputMAXHP;}
+
+float PlayerClasses::getPlayerMAXHP() {return playerMAXHP;}
 
 void PlayerClasses::setPlayerDEF(float inputDEF) {playerDEF = inputDEF;}
 
@@ -84,7 +96,10 @@ void PlayerClasses::setPlayerDodge(float inputDodge) {playerDodge = inputDodge;}
 float PlayerClasses::getPlayerDodge() {return playerDodge;}
 
 
-void PlayerClasses::setPlayerHP(float inputHP) {playerHP = inputHP;}
+void PlayerClasses::setPlayerHP(float inputHP) {
+    playerHP = std::min(playerMAXHP, std::max(0.0f, inputHP));
+    // minimum is 0 maximum is maxHP
+}
 
 float PlayerClasses::getPlayerHP() {return playerHP;}
 

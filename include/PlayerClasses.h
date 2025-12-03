@@ -11,6 +11,8 @@ class PlayerClasses {
     float playerDEF;
     float playerDodge;
     float playerHP;
+    float playerMAXHP;
+    bool hasWeapon;
     int battlesFought;
    int battlesWon;
    int damageDealt;
@@ -24,11 +26,14 @@ class PlayerClasses {
     const std::string getPlayerType();
     void addEXP(float inputEXP);
     void levelUp();
+    void setHasWeapon(bool);
     int getPlayerLevel();
     void setPlayerATK(float inputATK);
     float getPlayerATK();
     void setPlayerDEF(float inputDEF);
     float getPlayerDEF();
+    void setPlayerMAXHP(float inputMAXHP);
+    float getPlayerMAXHP();
     void setPlayerDodge(float inputDodge);
     float getPlayerDodge();
     void setPlayerHP(float inputHP);

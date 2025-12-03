@@ -19,6 +19,7 @@ class Enemy {
         void setHealthStat(float);
         void setRunChance(float);
         void setEnemyType(const std::string& type);
+        void setDropChance(float);
         float calcAttackDamage(float);
 
         float getAttackStat();

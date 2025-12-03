@@ -1,7 +1,10 @@
 #pragma once
 #include "PlayerClasses.h"
 #include "Enemy.h"
+
+#ifdef GTEST
 #include "gtest/gtest_prod.h"
+#endif
 
 class BattleTime {
 public:
@@ -10,12 +13,14 @@ public:
     void startBattle(PlayerClasses& player, Enemy& enemy);
 
 private:
+#ifdef GTEST
     FRIEND_TEST(BattleTimeTest, HandleAttack);
     FRIEND_TEST(BattleTimeTest, HandleHeal);
     FRIEND_TEST(BattleTimeTest, HandleDefend);
     FRIEND_TEST(BattleTimeTest, HandleRunSuccess);
     FRIEND_TEST(BattleTimeTest, HandleRunFail);
     FRIEND_TEST(BattleTimeTest, EnemyTurn);
+#endif
     
     bool isBlocking;
 

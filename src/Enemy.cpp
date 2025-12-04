@@ -43,6 +43,9 @@ void Enemy::setExpDrop(float stat) {
     expDrop = stat;
 }
 
+void Enemy::setEnemyType(const std::string& type) {
+    enemyType = type;
+}
 
 float Enemy::getAttackStat() {
     return attackStat;
@@ -62,4 +65,8 @@ float Enemy::getRunChance() {
 
 float Enemy::getExpDrop() {
     return expDrop;
+}
+
+std::string Enemy::getEnemyType() const {
+    return enemyType;
 }

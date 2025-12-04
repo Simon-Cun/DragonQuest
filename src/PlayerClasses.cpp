@@ -29,22 +29,21 @@ void PlayerClasses::setPlayerName(std::string inputName) {playerName = inputName
 
 const std::string PlayerClasses::getPlayerName() {return playerName;}
 
-void PlayerClasses::setPlayerType(std::string inputType) {
-    if (inputType != "M" && inputType != "R" && inputType != "W") throw std::runtime_error("Invalid Type");
-    
-    if (inputType == "M") playerType = "MAGE";
-    else if (inputType == "R") playerType = "ROGUE";
-    else if (inputType == "W") playerType = "WARRIOR";
-}
-
-void PlayerClasses::setHasWeapon(bool weaponHave) {
-    hasWeapon = weaponHave;
+void PlayerClasses::setPlayerType(char inputType) {
+    if (inputType == 'M') playerType = "Mage";
+    else if (inputType == 'R') playerType = "Rogue";
+    else if (inputType == 'W') playerType = "Warrior";
 }
 
 const std::string PlayerClasses::getPlayerType() {return playerType;}
 
+void PlayerClasses::setHasWeapon(bool weaponHave) {hasWeapon = weaponHave;}
 
-void PlayerClasses::addEXP(float inputEXP) {playerEXPTracker += inputEXP;}
+
+void PlayerClasses::addEXP(float inputEXP) {
+    playerEXPTracker += inputEXP;
+    levelUp();
+}
 
 void PlayerClasses::levelUp() {  //LVL starts at 1, max at LVL 5
     if (playerEXPTracker >= 500.0) {
@@ -55,6 +54,7 @@ void PlayerClasses::levelUp() {  //LVL starts at 1, max at LVL 5
             setPlayerDodge(playerDodge / 4 * 5);
             setPlayerHP(playerHP / 4 * 5);
             setPlayerMAXHP(playerMAXHP / 4 * 5);
+            std::cout << "You leveled up to LVL 5!\n\n";
         }
     }
 
@@ -66,6 +66,7 @@ void PlayerClasses::levelUp() {  //LVL starts at 1, max at LVL 5
             setPlayerDodge(playerDodge / 3 * 4);
             setPlayerHP(playerHP / 3 * 4);
             setPlayerMAXHP(playerMAXHP / 3 * 4);
+            std::cout << "You leveled up to LVL 4!\n\n";
         }
     }
 
@@ -77,6 +78,7 @@ void PlayerClasses::levelUp() {  //LVL starts at 1, max at LVL 5
             setPlayerDodge(playerDodge / 2 * 3);
             setPlayerHP(playerHP / 2 * 3);
             setPlayerMAXHP(playerMAXHP / 2 * 3);
+            std::cout << "You leveled up to LVL 3!\n\n";
         }
     }
 
@@ -88,6 +90,7 @@ void PlayerClasses::levelUp() {  //LVL starts at 1, max at LVL 5
             setPlayerDodge(playerDodge * 2);
             setPlayerHP(playerHP * 2);
             setPlayerMAXHP(playerMAXHP * 2);
+            std::cout << "You leveled up to LVL 2!\n\n";
         }
     }
 }

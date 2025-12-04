@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <cctype>
 #include <memory>
 #include <cstdlib>
 #include <ctime>
@@ -23,7 +24,7 @@ public:
     void Menu();
 
 private:
-    std::unique_ptr<PlayerClasses> player;
+    PlayerClasses player;
     std::string playerName;
 
     bool foughtSlime;
@@ -35,6 +36,7 @@ private:
     void showIntroDialogue();
     void choosePlayerName();
     void choosePlayerClass();
+    void startFirstBattle();
     void explorationLoop();
     void fightEnemy(Enemy& e);
 
@@ -43,7 +45,7 @@ private:
 };
 
 GameDriver::GameDriver()
-    : player(nullptr), playerName("Hero"),
+    : player(), playerName("Hero"),
       foughtSlime(false), foughtGoblin(false),
       foughtOgre(false), foughtRobot(false) {}
 
@@ -88,33 +90,50 @@ void GameDriver::choosePlayerName() {
 }
 
 void GameDriver::choosePlayerClass() {
-    std::cout << "Choose your class:\n\n";
-    std::cout << "  [1] Mage\n";
-    std::cout << "  [2] Warrior\n";
-    std::cout << "  [3] Rogue\n\n";
+    std::cout << "Choose your class:\n\n"
+              << "  [M] Mage\n"
+              << "  [W] Warrior\n"
+              << "  [R] Rogue\n\n"
+              << "Or view class stats:\n\n"
+              << "  [S] Stats\n\n";
 
+    char choice;
     while (true) {
-        std::cout << "Enter 1, 2, or 3: ";
-        std::string choice = getLine();
+        std::cout << "Enter M, W, R, or S: ";
+        std::cin >> choice;
+        choice = toupper(choice);
 
-        if (choice == "1") {
-            player = std::make_unique<Mage>();
+        if (choice != 'M' && choice != 'W' && choice != 'R' && choice != 'S') {
+            std::cout << "\nInvalid choice. Enter again \n\n";
+        }
+        else if (choice == 'M') {
+            player = Mage();
+            std::cout << "Brave hero, you have chosen the Mystic Mage\n\n";
             break;
-        } else if (choice == "2") {
-            player = std::make_unique<Warrior>();
+        }
+        else if (choice == 'W') {
+            player = Warrior();
+            std::cout << "Brave hero, you have chosen the Weathered Warrior\n\n";
             break;
-        } else if (choice == "3") {
-            player = std::make_unique<Rogue>();
+        }
+        else if (choice == 'R') {
+            player = Rogue();
+            std::cout << "Brave hero, you have chosen the Razorfoot Rogue\n\n";
             break;
-        } else {
-            std::cout << "Invalid choice. Try again.\n";
+        }
+        else if (choice == 'S') {
+            std::cout << "\n===== MAGE =====      ==== WARRIOR ====      ===== ROGUE =====\n"
+                      << "  ATK:    25.0          ATK:     10.0          ATK:     10.0\n"
+                      << "  DEF:     5.0          DEF:     25.0          DEF:     10.0\n"
+                      << "  Dodge:   5.0          Dodge:    5.0          Dodge:   25.0\n"
+                      << "================      =================      =================\n\n";
         }
     }
+    player.setPlayerType(choice);
+    player.setPlayerName(playerName);
 
-    player->setPlayerName(playerName);
-
-    std::cout << "\nYou chose: " << player->getPlayerType() << "\n\n";
-    std::cout << "Press Enter to begin your adventure...";
+    std::cout << "Your quest awaits. \n\n"
+              << "Press Enter to begin your adventure...";
     (void)getLine();
     std::cout << "\n";
 }
@@ -128,7 +147,7 @@ void GameDriver::startFirstBattle() {
     std::cout << "\n";
 
     BattleTime battle;          // Uses your default constructor
-    battle.startBattle(*player, slime);
+    battle.startBattle(player, slime);
     
     std::cout << "\nThe battle has ended.\n";
     std::cout << "Press Enter to exit the game...";
@@ -137,7 +156,7 @@ void GameDriver::startFirstBattle() {
 
 void GameDriver::fightEnemy(Enemy& e) {
     BattleTime battle;
-    battle.startBattle(*player, e);
+    battle.startBattle(player, e);
 }
 
 void GameDriver::explorationLoop() {

@@ -31,32 +31,27 @@ TEST(PlayerTests, GetPlayerName) {
     EXPECT_EQ(p.getPlayerName(), "Meep");
 }
 
-TEST(PlayerTests, TypeIsInvalid) {
-    PlayerClasses p;
-    EXPECT_THROW({p.setPlayerType("Warrior");}, std::runtime_error);
-}
-
 TEST(PlayerTests, SetPlayerType) {
     PlayerClasses p;
-    EXPECT_NO_THROW({p.setPlayerType("W");});
+    EXPECT_NO_THROW({p.setPlayerType('W');});
 }
 
 TEST(PlayerTests, GetPlayerTypeWarrior) {
     PlayerClasses p;
-    p.setPlayerType("W");
-    EXPECT_EQ(p.getPlayerType(), "WARRIOR");
+    p.setPlayerType('W');
+    EXPECT_EQ(p.getPlayerType(), "Warrior");
 }
 
 TEST(PlayerTests, GetPlayerTypeMage) {
     PlayerClasses p;
-    p.setPlayerType("M");
-    EXPECT_EQ(p.getPlayerType(), "MAGE");
+    p.setPlayerType('M');
+    EXPECT_EQ(p.getPlayerType(), "Mage");
 }
 
 TEST(PlayerTests, GetPlayerTypeRogue) {
     PlayerClasses p;
-    p.setPlayerType("R");
-    EXPECT_EQ(p.getPlayerType(), "ROGUE");
+    p.setPlayerType('R');
+    EXPECT_EQ(p.getPlayerType(), "Rogue");
 }
 
 TEST(PlayerTests, AddEXP) {

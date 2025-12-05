@@ -216,7 +216,10 @@ GameDriver:
  ## Installation/Usage
  > Instructions on installing and running your application
 Clone the repository
-git clone https://github.com/<your-org-or-username>/final-project-dahme007-scun002-syou029-idaci001.git
+git clone
+```
+https://github.com/<your-org-or-username>/final-project-dahme007-scun002-syou029-idaci001.git
+```
 cd final-project-dahme007-scun002-syou029-idaci001
 
 Create a build directory

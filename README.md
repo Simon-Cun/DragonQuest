@@ -202,6 +202,8 @@ GameDriver:
  
  ## Screenshots
  > Screenshots of the input/output after running your application
+> <img width="1578" height="1025" alt="image" src="https://github.com/user-attachments/assets/0697cb23-c941-41d8-8b4e-f395ab78577b" />
+
  ## Installation/Usage
  > Instructions on installing and running your application
  ## Testing

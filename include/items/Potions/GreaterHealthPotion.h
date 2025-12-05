@@ -2,5 +2,6 @@
 #include "Potion.h"
 
 class GreaterHealthPotion : public Potion {
-    GreaterHealthPotion();
+    public:
+        GreaterHealthPotion();
 };

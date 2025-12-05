@@ -11,7 +11,6 @@
 #include "Warrior.h"
 #include "Rogue.h"
 
-// Items
 #include "Items.h"
 #include "Frostforged.h"
 #include "Thunderfury.h"
@@ -23,7 +22,6 @@
 #include "Obsidiansentinel.h"
 #include "Dragonsbane.h"
 
-// Enemies
 #include "Slime.h"
 #include "Goblin.h"
 #include "Ogre.h"
@@ -39,7 +37,6 @@ private:
     PlayerClasses player;
     std::string playerName;
 
-    // Item instances used for loot
     Dragonsbane dragonsbane;
     Frostforged frostforged;
     Thunderfury thunderfury;
@@ -64,4 +61,4 @@ private:
     int randPercent();
 };
 
-#endif // GAMEDRIVER_H
+#endif

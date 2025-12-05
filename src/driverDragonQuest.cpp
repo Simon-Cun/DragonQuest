@@ -18,7 +18,6 @@ int main() {
         std::cin >> again;
         again = static_cast<char>(std::toupper(again));
 
-        // Clear input buffer for any later getline calls
         std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 
     } while (again == 'Y');

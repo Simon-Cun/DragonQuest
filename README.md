@@ -202,7 +202,7 @@ GameDriver:
 <img width="882" height="972" alt="image" src="https://github.com/user-attachments/assets/16fcc36b-c1da-4503-8100-4a27640657bf" />
 
 
-**Viewing Inventory and Stats after Battle & Moving through the Game (Input → Output)**
+**Viewing Inventory, Stats after Battle, & Moving through the Game (Input → Output)**
 <img width="882" height="892" alt="image" src="https://github.com/user-attachments/assets/930cf6f4-7c5e-4615-8b1d-ec013c9ffbe4" />
 <img width="882" height="1020" alt="image" src="https://github.com/user-attachments/assets/553b6330-d0fe-423f-a7c7-674e2522c079" />
 <img width="882" height="291" alt="image" src="https://github.com/user-attachments/assets/7c74559b-606a-440d-94a5-be8f58091b40" />

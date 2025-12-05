@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/include -I/class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/include/players -I/class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/include/enemies
+CXX_INCLUDES = -I/class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/include -I/class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/include/players -I/class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/include/enemies -I/class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/include/items -I/class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/include/items/Armors -I/class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/include/items/Potions -I/class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/include/items/Weapons
 
 CXX_FLAGS = -std=gnu++17
 

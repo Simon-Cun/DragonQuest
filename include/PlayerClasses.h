@@ -1,6 +1,7 @@
 #pragma once
 #include "Items.h"
 #include <string>
+#include <vector>
 
 class PlayerClasses {
  protected:

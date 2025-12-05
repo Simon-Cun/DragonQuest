@@ -3,6 +3,7 @@ CMakeFiles/game.dir/src/BattleTime.cpp.o: \
  /usr/include/stdc-predef.h \
  /class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/include/BattleTime.h \
  /class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/include/PlayerClasses.h \
+ /class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/include/Items.h \
  /usr/include/c++/8/string \
  /usr/include/c++/8/x86_64-redhat-linux/bits/c++config.h \
  /usr/include/bits/wordsize.h \
@@ -97,7 +98,12 @@ CMakeFiles/game.dir/src/BattleTime.cpp.o: \
  /usr/include/linux/errno.h /usr/include/asm/errno.h \
  /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
  /usr/include/bits/types/error_t.h \
- /usr/include/c++/8/bits/basic_string.tcc \
+ /usr/include/c++/8/bits/basic_string.tcc /usr/include/c++/8/vector \
+ /usr/include/c++/8/bits/stl_construct.h \
+ /usr/include/c++/8/bits/stl_uninitialized.h /usr/include/c++/8/utility \
+ /usr/include/c++/8/bits/stl_relops.h \
+ /usr/include/c++/8/bits/stl_vector.h \
+ /usr/include/c++/8/bits/stl_bvector.h /usr/include/c++/8/bits/vector.tcc \
  /class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/include/Enemy.h \
  /usr/include/c++/8/iostream /usr/include/c++/8/ostream \
  /usr/include/c++/8/ios /usr/include/c++/8/bits/ios_base.h \
@@ -117,9 +123,7 @@ CMakeFiles/game.dir/src/BattleTime.cpp.o: \
  /usr/include/c++/8/bits/basic_ios.tcc \
  /usr/include/c++/8/bits/ostream.tcc /usr/include/c++/8/istream \
  /usr/include/c++/8/bits/istream.tcc /usr/include/c++/8/algorithm \
- /usr/include/c++/8/utility /usr/include/c++/8/bits/stl_relops.h \
  /usr/include/c++/8/bits/stl_algo.h \
  /usr/include/c++/8/bits/algorithmfwd.h \
  /usr/include/c++/8/bits/stl_heap.h /usr/include/c++/8/bits/stl_tempbuf.h \
- /usr/include/c++/8/bits/stl_construct.h \
  /usr/include/c++/8/bits/uniform_int_dist.h

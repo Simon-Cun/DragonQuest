@@ -10,6 +10,10 @@ include_directories(
     ${CMAKE_SOURCE_DIR}/include
     ${CMAKE_SOURCE_DIR}/include/players
     ${CMAKE_SOURCE_DIR}/include/enemies
+    ${CMAKE_SOURCE_DIR}/include/items
+    ${CMAKE_SOURCE_DIR}/include/items/Armors
+    ${CMAKE_SOURCE_DIR}/include/items/Potions
+    ${CMAKE_SOURCE_DIR}/include/items/Weapons
 )
 
 # ===================================================================
@@ -83,4 +87,18 @@ add_executable(game
     src/enemies/Ogre.cpp
     src/enemies/Dragon.cpp
     src/enemies/Robot.cpp
+
+    src/Items/Items.cpp
+
+    src/Items/Armors/Armor.cpp
+    src/Items/Armors/Dragonsbane.cpp
+    src/Items/Armors/Obsidiansentinel.cpp
+
+    src/Items/Potions/Potion.cpp
+    src/Items/Potions/GreaterHealthPotion.cpp
+    src/Items/Potions/LesserHealthPotion.cpp
+
+    src/Items/Weapons/Weapon.cpp
+    src/Items/Weapons/Frostforged.cpp
+    src/Items/Weapons/Thunderfury.cpp
 )

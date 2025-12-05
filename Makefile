@@ -322,6 +322,246 @@ src/Enemy.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/Enemy.cpp.s
 .PHONY : src/Enemy.cpp.s
 
+src/Items/Armors/Armor.o: src/Items/Armors/Armor.cpp.o
+.PHONY : src/Items/Armors/Armor.o
+
+# target to build an object file
+src/Items/Armors/Armor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/Items/Armors/Armor.cpp.o
+.PHONY : src/Items/Armors/Armor.cpp.o
+
+src/Items/Armors/Armor.i: src/Items/Armors/Armor.cpp.i
+.PHONY : src/Items/Armors/Armor.i
+
+# target to preprocess a source file
+src/Items/Armors/Armor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/Items/Armors/Armor.cpp.i
+.PHONY : src/Items/Armors/Armor.cpp.i
+
+src/Items/Armors/Armor.s: src/Items/Armors/Armor.cpp.s
+.PHONY : src/Items/Armors/Armor.s
+
+# target to generate assembly for a file
+src/Items/Armors/Armor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/Items/Armors/Armor.cpp.s
+.PHONY : src/Items/Armors/Armor.cpp.s
+
+src/Items/Armors/Dragonsbane.o: src/Items/Armors/Dragonsbane.cpp.o
+.PHONY : src/Items/Armors/Dragonsbane.o
+
+# target to build an object file
+src/Items/Armors/Dragonsbane.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/Items/Armors/Dragonsbane.cpp.o
+.PHONY : src/Items/Armors/Dragonsbane.cpp.o
+
+src/Items/Armors/Dragonsbane.i: src/Items/Armors/Dragonsbane.cpp.i
+.PHONY : src/Items/Armors/Dragonsbane.i
+
+# target to preprocess a source file
+src/Items/Armors/Dragonsbane.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/Items/Armors/Dragonsbane.cpp.i
+.PHONY : src/Items/Armors/Dragonsbane.cpp.i
+
+src/Items/Armors/Dragonsbane.s: src/Items/Armors/Dragonsbane.cpp.s
+.PHONY : src/Items/Armors/Dragonsbane.s
+
+# target to generate assembly for a file
+src/Items/Armors/Dragonsbane.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/Items/Armors/Dragonsbane.cpp.s
+.PHONY : src/Items/Armors/Dragonsbane.cpp.s
+
+src/Items/Armors/Obsidiansentinel.o: src/Items/Armors/Obsidiansentinel.cpp.o
+.PHONY : src/Items/Armors/Obsidiansentinel.o
+
+# target to build an object file
+src/Items/Armors/Obsidiansentinel.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/Items/Armors/Obsidiansentinel.cpp.o
+.PHONY : src/Items/Armors/Obsidiansentinel.cpp.o
+
+src/Items/Armors/Obsidiansentinel.i: src/Items/Armors/Obsidiansentinel.cpp.i
+.PHONY : src/Items/Armors/Obsidiansentinel.i
+
+# target to preprocess a source file
+src/Items/Armors/Obsidiansentinel.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/Items/Armors/Obsidiansentinel.cpp.i
+.PHONY : src/Items/Armors/Obsidiansentinel.cpp.i
+
+src/Items/Armors/Obsidiansentinel.s: src/Items/Armors/Obsidiansentinel.cpp.s
+.PHONY : src/Items/Armors/Obsidiansentinel.s
+
+# target to generate assembly for a file
+src/Items/Armors/Obsidiansentinel.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/Items/Armors/Obsidiansentinel.cpp.s
+.PHONY : src/Items/Armors/Obsidiansentinel.cpp.s
+
+src/Items/Items.o: src/Items/Items.cpp.o
+.PHONY : src/Items/Items.o
+
+# target to build an object file
+src/Items/Items.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/Items/Items.cpp.o
+.PHONY : src/Items/Items.cpp.o
+
+src/Items/Items.i: src/Items/Items.cpp.i
+.PHONY : src/Items/Items.i
+
+# target to preprocess a source file
+src/Items/Items.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/Items/Items.cpp.i
+.PHONY : src/Items/Items.cpp.i
+
+src/Items/Items.s: src/Items/Items.cpp.s
+.PHONY : src/Items/Items.s
+
+# target to generate assembly for a file
+src/Items/Items.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/Items/Items.cpp.s
+.PHONY : src/Items/Items.cpp.s
+
+src/Items/Potions/GreaterHealthPotion.o: src/Items/Potions/GreaterHealthPotion.cpp.o
+.PHONY : src/Items/Potions/GreaterHealthPotion.o
+
+# target to build an object file
+src/Items/Potions/GreaterHealthPotion.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/Items/Potions/GreaterHealthPotion.cpp.o
+.PHONY : src/Items/Potions/GreaterHealthPotion.cpp.o
+
+src/Items/Potions/GreaterHealthPotion.i: src/Items/Potions/GreaterHealthPotion.cpp.i
+.PHONY : src/Items/Potions/GreaterHealthPotion.i
+
+# target to preprocess a source file
+src/Items/Potions/GreaterHealthPotion.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/Items/Potions/GreaterHealthPotion.cpp.i
+.PHONY : src/Items/Potions/GreaterHealthPotion.cpp.i
+
+src/Items/Potions/GreaterHealthPotion.s: src/Items/Potions/GreaterHealthPotion.cpp.s
+.PHONY : src/Items/Potions/GreaterHealthPotion.s
+
+# target to generate assembly for a file
+src/Items/Potions/GreaterHealthPotion.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/Items/Potions/GreaterHealthPotion.cpp.s
+.PHONY : src/Items/Potions/GreaterHealthPotion.cpp.s
+
+src/Items/Potions/LesserHealthPotion.o: src/Items/Potions/LesserHealthPotion.cpp.o
+.PHONY : src/Items/Potions/LesserHealthPotion.o
+
+# target to build an object file
+src/Items/Potions/LesserHealthPotion.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/Items/Potions/LesserHealthPotion.cpp.o
+.PHONY : src/Items/Potions/LesserHealthPotion.cpp.o
+
+src/Items/Potions/LesserHealthPotion.i: src/Items/Potions/LesserHealthPotion.cpp.i
+.PHONY : src/Items/Potions/LesserHealthPotion.i
+
+# target to preprocess a source file
+src/Items/Potions/LesserHealthPotion.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/Items/Potions/LesserHealthPotion.cpp.i
+.PHONY : src/Items/Potions/LesserHealthPotion.cpp.i
+
+src/Items/Potions/LesserHealthPotion.s: src/Items/Potions/LesserHealthPotion.cpp.s
+.PHONY : src/Items/Potions/LesserHealthPotion.s
+
+# target to generate assembly for a file
+src/Items/Potions/LesserHealthPotion.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/Items/Potions/LesserHealthPotion.cpp.s
+.PHONY : src/Items/Potions/LesserHealthPotion.cpp.s
+
+src/Items/Potions/Potion.o: src/Items/Potions/Potion.cpp.o
+.PHONY : src/Items/Potions/Potion.o
+
+# target to build an object file
+src/Items/Potions/Potion.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/Items/Potions/Potion.cpp.o
+.PHONY : src/Items/Potions/Potion.cpp.o
+
+src/Items/Potions/Potion.i: src/Items/Potions/Potion.cpp.i
+.PHONY : src/Items/Potions/Potion.i
+
+# target to preprocess a source file
+src/Items/Potions/Potion.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/Items/Potions/Potion.cpp.i
+.PHONY : src/Items/Potions/Potion.cpp.i
+
+src/Items/Potions/Potion.s: src/Items/Potions/Potion.cpp.s
+.PHONY : src/Items/Potions/Potion.s
+
+# target to generate assembly for a file
+src/Items/Potions/Potion.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/Items/Potions/Potion.cpp.s
+.PHONY : src/Items/Potions/Potion.cpp.s
+
+src/Items/Weapons/Frostforged.o: src/Items/Weapons/Frostforged.cpp.o
+.PHONY : src/Items/Weapons/Frostforged.o
+
+# target to build an object file
+src/Items/Weapons/Frostforged.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/Items/Weapons/Frostforged.cpp.o
+.PHONY : src/Items/Weapons/Frostforged.cpp.o
+
+src/Items/Weapons/Frostforged.i: src/Items/Weapons/Frostforged.cpp.i
+.PHONY : src/Items/Weapons/Frostforged.i
+
+# target to preprocess a source file
+src/Items/Weapons/Frostforged.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/Items/Weapons/Frostforged.cpp.i
+.PHONY : src/Items/Weapons/Frostforged.cpp.i
+
+src/Items/Weapons/Frostforged.s: src/Items/Weapons/Frostforged.cpp.s
+.PHONY : src/Items/Weapons/Frostforged.s
+
+# target to generate assembly for a file
+src/Items/Weapons/Frostforged.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/Items/Weapons/Frostforged.cpp.s
+.PHONY : src/Items/Weapons/Frostforged.cpp.s
+
+src/Items/Weapons/Thunderfury.o: src/Items/Weapons/Thunderfury.cpp.o
+.PHONY : src/Items/Weapons/Thunderfury.o
+
+# target to build an object file
+src/Items/Weapons/Thunderfury.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/Items/Weapons/Thunderfury.cpp.o
+.PHONY : src/Items/Weapons/Thunderfury.cpp.o
+
+src/Items/Weapons/Thunderfury.i: src/Items/Weapons/Thunderfury.cpp.i
+.PHONY : src/Items/Weapons/Thunderfury.i
+
+# target to preprocess a source file
+src/Items/Weapons/Thunderfury.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/Items/Weapons/Thunderfury.cpp.i
+.PHONY : src/Items/Weapons/Thunderfury.cpp.i
+
+src/Items/Weapons/Thunderfury.s: src/Items/Weapons/Thunderfury.cpp.s
+.PHONY : src/Items/Weapons/Thunderfury.s
+
+# target to generate assembly for a file
+src/Items/Weapons/Thunderfury.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/Items/Weapons/Thunderfury.cpp.s
+.PHONY : src/Items/Weapons/Thunderfury.cpp.s
+
+src/Items/Weapons/Weapon.o: src/Items/Weapons/Weapon.cpp.o
+.PHONY : src/Items/Weapons/Weapon.o
+
+# target to build an object file
+src/Items/Weapons/Weapon.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/Items/Weapons/Weapon.cpp.o
+.PHONY : src/Items/Weapons/Weapon.cpp.o
+
+src/Items/Weapons/Weapon.i: src/Items/Weapons/Weapon.cpp.i
+.PHONY : src/Items/Weapons/Weapon.i
+
+# target to preprocess a source file
+src/Items/Weapons/Weapon.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/Items/Weapons/Weapon.cpp.i
+.PHONY : src/Items/Weapons/Weapon.cpp.i
+
+src/Items/Weapons/Weapon.s: src/Items/Weapons/Weapon.cpp.s
+.PHONY : src/Items/Weapons/Weapon.s
+
+# target to generate assembly for a file
+src/Items/Weapons/Weapon.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/Items/Weapons/Weapon.cpp.s
+.PHONY : src/Items/Weapons/Weapon.cpp.s
+
 src/PlayerClasses.o: src/PlayerClasses.cpp.o
 .PHONY : src/PlayerClasses.o
 
@@ -714,6 +954,36 @@ help:
 	@echo "... src/Enemy.o"
 	@echo "... src/Enemy.i"
 	@echo "... src/Enemy.s"
+	@echo "... src/Items/Armors/Armor.o"
+	@echo "... src/Items/Armors/Armor.i"
+	@echo "... src/Items/Armors/Armor.s"
+	@echo "... src/Items/Armors/Dragonsbane.o"
+	@echo "... src/Items/Armors/Dragonsbane.i"
+	@echo "... src/Items/Armors/Dragonsbane.s"
+	@echo "... src/Items/Armors/Obsidiansentinel.o"
+	@echo "... src/Items/Armors/Obsidiansentinel.i"
+	@echo "... src/Items/Armors/Obsidiansentinel.s"
+	@echo "... src/Items/Items.o"
+	@echo "... src/Items/Items.i"
+	@echo "... src/Items/Items.s"
+	@echo "... src/Items/Potions/GreaterHealthPotion.o"
+	@echo "... src/Items/Potions/GreaterHealthPotion.i"
+	@echo "... src/Items/Potions/GreaterHealthPotion.s"
+	@echo "... src/Items/Potions/LesserHealthPotion.o"
+	@echo "... src/Items/Potions/LesserHealthPotion.i"
+	@echo "... src/Items/Potions/LesserHealthPotion.s"
+	@echo "... src/Items/Potions/Potion.o"
+	@echo "... src/Items/Potions/Potion.i"
+	@echo "... src/Items/Potions/Potion.s"
+	@echo "... src/Items/Weapons/Frostforged.o"
+	@echo "... src/Items/Weapons/Frostforged.i"
+	@echo "... src/Items/Weapons/Frostforged.s"
+	@echo "... src/Items/Weapons/Thunderfury.o"
+	@echo "... src/Items/Weapons/Thunderfury.i"
+	@echo "... src/Items/Weapons/Thunderfury.s"
+	@echo "... src/Items/Weapons/Weapon.o"
+	@echo "... src/Items/Weapons/Weapon.i"
+	@echo "... src/Items/Weapons/Weapon.s"
 	@echo "... src/PlayerClasses.o"
 	@echo "... src/PlayerClasses.i"
 	@echo "... src/PlayerClasses.s"

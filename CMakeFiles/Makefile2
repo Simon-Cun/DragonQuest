@@ -142,7 +142,7 @@ CMakeFiles/runPlayerTests.dir/all: googletest/googletest/CMakeFiles/gtest.dir/al
 CMakeFiles/runPlayerTests.dir/all: googletest/googletest/CMakeFiles/gtest_main.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/runPlayerTests.dir/build.make CMakeFiles/runPlayerTests.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/runPlayerTests.dir/build.make CMakeFiles/runPlayerTests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/CMakeFiles --progress-num=43,44,45,46,47,48 "Built target runPlayerTests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/CMakeFiles --progress-num=53,54,55,56,57,58 "Built target runPlayerTests"
 .PHONY : CMakeFiles/runPlayerTests.dir/all
 
 # Build rule for subdir invocation for target.
@@ -170,7 +170,7 @@ CMakeFiles/runEnemyTests.dir/all: googletest/googletest/CMakeFiles/gtest.dir/all
 CMakeFiles/runEnemyTests.dir/all: googletest/googletest/CMakeFiles/gtest_main.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/runEnemyTests.dir/build.make CMakeFiles/runEnemyTests.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/runEnemyTests.dir/build.make CMakeFiles/runEnemyTests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/CMakeFiles --progress-num=35,36,37,38,39,40,41,42 "Built target runEnemyTests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/CMakeFiles --progress-num=45,46,47,48,49,50,51,52 "Built target runEnemyTests"
 .PHONY : CMakeFiles/runEnemyTests.dir/all
 
 # Build rule for subdir invocation for target.
@@ -198,7 +198,7 @@ CMakeFiles/runBattleTests.dir/all: googletest/googletest/CMakeFiles/gtest.dir/al
 CMakeFiles/runBattleTests.dir/all: googletest/googletest/CMakeFiles/gtest_main.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/runBattleTests.dir/build.make CMakeFiles/runBattleTests.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/runBattleTests.dir/build.make CMakeFiles/runBattleTests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/CMakeFiles --progress-num=22,23,24,25,26,27,28,29,30,31,32,33,34 "Built target runBattleTests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/CMakeFiles --progress-num=32,33,34,35,36,37,38,39,40,41,42,43,44 "Built target runBattleTests"
 .PHONY : CMakeFiles/runBattleTests.dir/all
 
 # Build rule for subdir invocation for target.
@@ -224,12 +224,12 @@ CMakeFiles/runBattleTests.dir/clean:
 CMakeFiles/game.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13 "Built target game"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23 "Built target game"
 .PHONY : CMakeFiles/game.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/game.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/CMakeFiles 23
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/game.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/CMakeFiles 0
 .PHONY : CMakeFiles/game.dir/rule
@@ -250,7 +250,7 @@ CMakeFiles/game.dir/clean:
 googletest/googlemock/CMakeFiles/gmock.dir/all: googletest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f googletest/googlemock/CMakeFiles/gmock.dir/build.make googletest/googlemock/CMakeFiles/gmock.dir/depend
 	$(MAKE) $(MAKESILENT) -f googletest/googlemock/CMakeFiles/gmock.dir/build.make googletest/googlemock/CMakeFiles/gmock.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/CMakeFiles --progress-num=14,15 "Built target gmock"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/CMakeFiles --progress-num=24,25 "Built target gmock"
 .PHONY : googletest/googlemock/CMakeFiles/gmock.dir/all
 
 # Build rule for subdir invocation for target.
@@ -277,7 +277,7 @@ googletest/googlemock/CMakeFiles/gmock_main.dir/all: googletest/googlemock/CMake
 googletest/googlemock/CMakeFiles/gmock_main.dir/all: googletest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f googletest/googlemock/CMakeFiles/gmock_main.dir/build.make googletest/googlemock/CMakeFiles/gmock_main.dir/depend
 	$(MAKE) $(MAKESILENT) -f googletest/googlemock/CMakeFiles/gmock_main.dir/build.make googletest/googlemock/CMakeFiles/gmock_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/CMakeFiles --progress-num=16,17 "Built target gmock_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/CMakeFiles --progress-num=26,27 "Built target gmock_main"
 .PHONY : googletest/googlemock/CMakeFiles/gmock_main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -303,7 +303,7 @@ googletest/googlemock/CMakeFiles/gmock_main.dir/clean:
 googletest/googletest/CMakeFiles/gtest.dir/all:
 	$(MAKE) $(MAKESILENT) -f googletest/googletest/CMakeFiles/gtest.dir/build.make googletest/googletest/CMakeFiles/gtest.dir/depend
 	$(MAKE) $(MAKESILENT) -f googletest/googletest/CMakeFiles/gtest.dir/build.make googletest/googletest/CMakeFiles/gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/CMakeFiles --progress-num=18,19 "Built target gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/CMakeFiles --progress-num=28,29 "Built target gtest"
 .PHONY : googletest/googletest/CMakeFiles/gtest.dir/all
 
 # Build rule for subdir invocation for target.
@@ -329,7 +329,7 @@ googletest/googletest/CMakeFiles/gtest.dir/clean:
 googletest/googletest/CMakeFiles/gtest_main.dir/all: googletest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f googletest/googletest/CMakeFiles/gtest_main.dir/build.make googletest/googletest/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) $(MAKESILENT) -f googletest/googletest/CMakeFiles/gtest_main.dir/build.make googletest/googletest/CMakeFiles/gtest_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/CMakeFiles --progress-num=20,21 "Built target gtest_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/CMakeFiles --progress-num=30,31 "Built target gtest_main"
 .PHONY : googletest/googletest/CMakeFiles/gtest_main.dir/all
 
 # Build rule for subdir invocation for target.

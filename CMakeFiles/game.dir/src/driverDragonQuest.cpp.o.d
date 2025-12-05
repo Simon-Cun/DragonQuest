@@ -130,7 +130,19 @@ CMakeFiles/game.dir/src/driverDragonQuest.cpp.o: \
  /usr/include/c++/8/bits/atomic_base.h \
  /usr/include/c++/8/bits/atomic_lockfree_defines.h \
  /usr/include/c++/8/backward/auto_ptr.h /usr/include/c++/8/ctime \
+ /class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/include/Items.h \
+ /class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/include/items/Weapons/Frostforged.h \
+ /class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/include/items/Weapons/Weapon.h \
+ /class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/include/items/Weapons/Thunderfury.h \
+ /class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/include/items/Potions/Potion.h \
+ /class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/include/items/Armors/Armor.h \
+ /class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/include/items/Potions/LesserHealthPotion.h \
+ /class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/include/items/Potions/GreaterHealthPotion.h \
+ /class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/include/items/Armors/Obsidiansentinel.h \
+ /class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/include/items/Armors/Dragonsbane.h \
  /class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/include/PlayerClasses.h \
+ /usr/include/c++/8/vector /usr/include/c++/8/bits/stl_vector.h \
+ /usr/include/c++/8/bits/stl_bvector.h /usr/include/c++/8/bits/vector.tcc \
  /class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/include/Enemy.h \
  /class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/include/BattleTime.h \
  /class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/include/players/Mage.h \

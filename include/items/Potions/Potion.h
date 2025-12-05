@@ -9,6 +9,7 @@ class Potion : public Items {
         float attackMod;
 
     public:
+        Potion();
         void setHealthMod(float);
         void setAttackMod(float);
 };

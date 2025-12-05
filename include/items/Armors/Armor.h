@@ -8,6 +8,7 @@ class Armor : public Items {
         float defenseMod;
         float dodgeMod;
     public:
+        Armor();
         void setDefenseMod(float);
         void setDodgeMod(float);
 };

@@ -13,12 +13,19 @@ void Enemy::setDropChance(float stat) {
 }
 
 float Enemy::calcAttackDamage(float oppDefense) {
+    // float minspread = 0.90;
+    // float maxspread = 1.10;
+    // float spread = float(rand() / RAND_MAX);
+    // spread = minspread + spread * (maxspread - minspread);
+    // float basedmg = attackStat * spread;
+    // const float scaleconstant = 100.0;
+
+    // float dmgred = oppDefense / (oppDefense + scaleconstant);
     float totalDMG = attackStat - oppDefense;
     if(totalDMG < 0.0) {
         totalDMG = 0.0;
     }
     return totalDMG;
-
 }
 
 void Enemy::setRunChance(float stat) {

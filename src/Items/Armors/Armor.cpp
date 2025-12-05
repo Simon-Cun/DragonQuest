@@ -4,9 +4,7 @@
 #include <string>
 using namespace std;
 
-Armor::Armor() : defenseMod(10), dodgeMod(0) {
-
-}
+Armor::Armor() : defenseMod(10), dodgeMod(0) {}
 
 void Armor::setDefenseMod(float def) {
     defenseMod = def;

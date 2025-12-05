@@ -237,6 +237,146 @@ CMakeFiles/game.dir/src/enemies/Robot.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/enemies/Robot.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/src/enemies/Robot.cpp -o CMakeFiles/game.dir/src/enemies/Robot.cpp.s
 
+CMakeFiles/game.dir/src/Items/Items.cpp.o: CMakeFiles/game.dir/flags.make
+CMakeFiles/game.dir/src/Items/Items.cpp.o: src/Items/Items.cpp
+CMakeFiles/game.dir/src/Items/Items.cpp.o: CMakeFiles/game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/game.dir/src/Items/Items.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/src/Items/Items.cpp.o -MF CMakeFiles/game.dir/src/Items/Items.cpp.o.d -o CMakeFiles/game.dir/src/Items/Items.cpp.o -c /class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/src/Items/Items.cpp
+
+CMakeFiles/game.dir/src/Items/Items.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.dir/src/Items/Items.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/src/Items/Items.cpp > CMakeFiles/game.dir/src/Items/Items.cpp.i
+
+CMakeFiles/game.dir/src/Items/Items.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/Items/Items.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/src/Items/Items.cpp -o CMakeFiles/game.dir/src/Items/Items.cpp.s
+
+CMakeFiles/game.dir/src/Items/Armors/Armor.cpp.o: CMakeFiles/game.dir/flags.make
+CMakeFiles/game.dir/src/Items/Armors/Armor.cpp.o: src/Items/Armors/Armor.cpp
+CMakeFiles/game.dir/src/Items/Armors/Armor.cpp.o: CMakeFiles/game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/game.dir/src/Items/Armors/Armor.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/src/Items/Armors/Armor.cpp.o -MF CMakeFiles/game.dir/src/Items/Armors/Armor.cpp.o.d -o CMakeFiles/game.dir/src/Items/Armors/Armor.cpp.o -c /class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/src/Items/Armors/Armor.cpp
+
+CMakeFiles/game.dir/src/Items/Armors/Armor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.dir/src/Items/Armors/Armor.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/src/Items/Armors/Armor.cpp > CMakeFiles/game.dir/src/Items/Armors/Armor.cpp.i
+
+CMakeFiles/game.dir/src/Items/Armors/Armor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/Items/Armors/Armor.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/src/Items/Armors/Armor.cpp -o CMakeFiles/game.dir/src/Items/Armors/Armor.cpp.s
+
+CMakeFiles/game.dir/src/Items/Armors/Dragonsbane.cpp.o: CMakeFiles/game.dir/flags.make
+CMakeFiles/game.dir/src/Items/Armors/Dragonsbane.cpp.o: src/Items/Armors/Dragonsbane.cpp
+CMakeFiles/game.dir/src/Items/Armors/Dragonsbane.cpp.o: CMakeFiles/game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/game.dir/src/Items/Armors/Dragonsbane.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/src/Items/Armors/Dragonsbane.cpp.o -MF CMakeFiles/game.dir/src/Items/Armors/Dragonsbane.cpp.o.d -o CMakeFiles/game.dir/src/Items/Armors/Dragonsbane.cpp.o -c /class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/src/Items/Armors/Dragonsbane.cpp
+
+CMakeFiles/game.dir/src/Items/Armors/Dragonsbane.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.dir/src/Items/Armors/Dragonsbane.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/src/Items/Armors/Dragonsbane.cpp > CMakeFiles/game.dir/src/Items/Armors/Dragonsbane.cpp.i
+
+CMakeFiles/game.dir/src/Items/Armors/Dragonsbane.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/Items/Armors/Dragonsbane.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/src/Items/Armors/Dragonsbane.cpp -o CMakeFiles/game.dir/src/Items/Armors/Dragonsbane.cpp.s
+
+CMakeFiles/game.dir/src/Items/Armors/Obsidiansentinel.cpp.o: CMakeFiles/game.dir/flags.make
+CMakeFiles/game.dir/src/Items/Armors/Obsidiansentinel.cpp.o: src/Items/Armors/Obsidiansentinel.cpp
+CMakeFiles/game.dir/src/Items/Armors/Obsidiansentinel.cpp.o: CMakeFiles/game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/game.dir/src/Items/Armors/Obsidiansentinel.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/src/Items/Armors/Obsidiansentinel.cpp.o -MF CMakeFiles/game.dir/src/Items/Armors/Obsidiansentinel.cpp.o.d -o CMakeFiles/game.dir/src/Items/Armors/Obsidiansentinel.cpp.o -c /class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/src/Items/Armors/Obsidiansentinel.cpp
+
+CMakeFiles/game.dir/src/Items/Armors/Obsidiansentinel.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.dir/src/Items/Armors/Obsidiansentinel.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/src/Items/Armors/Obsidiansentinel.cpp > CMakeFiles/game.dir/src/Items/Armors/Obsidiansentinel.cpp.i
+
+CMakeFiles/game.dir/src/Items/Armors/Obsidiansentinel.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/Items/Armors/Obsidiansentinel.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/src/Items/Armors/Obsidiansentinel.cpp -o CMakeFiles/game.dir/src/Items/Armors/Obsidiansentinel.cpp.s
+
+CMakeFiles/game.dir/src/Items/Potions/Potion.cpp.o: CMakeFiles/game.dir/flags.make
+CMakeFiles/game.dir/src/Items/Potions/Potion.cpp.o: src/Items/Potions/Potion.cpp
+CMakeFiles/game.dir/src/Items/Potions/Potion.cpp.o: CMakeFiles/game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/game.dir/src/Items/Potions/Potion.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/src/Items/Potions/Potion.cpp.o -MF CMakeFiles/game.dir/src/Items/Potions/Potion.cpp.o.d -o CMakeFiles/game.dir/src/Items/Potions/Potion.cpp.o -c /class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/src/Items/Potions/Potion.cpp
+
+CMakeFiles/game.dir/src/Items/Potions/Potion.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.dir/src/Items/Potions/Potion.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/src/Items/Potions/Potion.cpp > CMakeFiles/game.dir/src/Items/Potions/Potion.cpp.i
+
+CMakeFiles/game.dir/src/Items/Potions/Potion.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/Items/Potions/Potion.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/src/Items/Potions/Potion.cpp -o CMakeFiles/game.dir/src/Items/Potions/Potion.cpp.s
+
+CMakeFiles/game.dir/src/Items/Potions/GreaterHealthPotion.cpp.o: CMakeFiles/game.dir/flags.make
+CMakeFiles/game.dir/src/Items/Potions/GreaterHealthPotion.cpp.o: src/Items/Potions/GreaterHealthPotion.cpp
+CMakeFiles/game.dir/src/Items/Potions/GreaterHealthPotion.cpp.o: CMakeFiles/game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/game.dir/src/Items/Potions/GreaterHealthPotion.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/src/Items/Potions/GreaterHealthPotion.cpp.o -MF CMakeFiles/game.dir/src/Items/Potions/GreaterHealthPotion.cpp.o.d -o CMakeFiles/game.dir/src/Items/Potions/GreaterHealthPotion.cpp.o -c /class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/src/Items/Potions/GreaterHealthPotion.cpp
+
+CMakeFiles/game.dir/src/Items/Potions/GreaterHealthPotion.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.dir/src/Items/Potions/GreaterHealthPotion.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/src/Items/Potions/GreaterHealthPotion.cpp > CMakeFiles/game.dir/src/Items/Potions/GreaterHealthPotion.cpp.i
+
+CMakeFiles/game.dir/src/Items/Potions/GreaterHealthPotion.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/Items/Potions/GreaterHealthPotion.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/src/Items/Potions/GreaterHealthPotion.cpp -o CMakeFiles/game.dir/src/Items/Potions/GreaterHealthPotion.cpp.s
+
+CMakeFiles/game.dir/src/Items/Potions/LesserHealthPotion.cpp.o: CMakeFiles/game.dir/flags.make
+CMakeFiles/game.dir/src/Items/Potions/LesserHealthPotion.cpp.o: src/Items/Potions/LesserHealthPotion.cpp
+CMakeFiles/game.dir/src/Items/Potions/LesserHealthPotion.cpp.o: CMakeFiles/game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/game.dir/src/Items/Potions/LesserHealthPotion.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/src/Items/Potions/LesserHealthPotion.cpp.o -MF CMakeFiles/game.dir/src/Items/Potions/LesserHealthPotion.cpp.o.d -o CMakeFiles/game.dir/src/Items/Potions/LesserHealthPotion.cpp.o -c /class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/src/Items/Potions/LesserHealthPotion.cpp
+
+CMakeFiles/game.dir/src/Items/Potions/LesserHealthPotion.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.dir/src/Items/Potions/LesserHealthPotion.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/src/Items/Potions/LesserHealthPotion.cpp > CMakeFiles/game.dir/src/Items/Potions/LesserHealthPotion.cpp.i
+
+CMakeFiles/game.dir/src/Items/Potions/LesserHealthPotion.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/Items/Potions/LesserHealthPotion.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/src/Items/Potions/LesserHealthPotion.cpp -o CMakeFiles/game.dir/src/Items/Potions/LesserHealthPotion.cpp.s
+
+CMakeFiles/game.dir/src/Items/Weapons/Weapon.cpp.o: CMakeFiles/game.dir/flags.make
+CMakeFiles/game.dir/src/Items/Weapons/Weapon.cpp.o: src/Items/Weapons/Weapon.cpp
+CMakeFiles/game.dir/src/Items/Weapons/Weapon.cpp.o: CMakeFiles/game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/game.dir/src/Items/Weapons/Weapon.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/src/Items/Weapons/Weapon.cpp.o -MF CMakeFiles/game.dir/src/Items/Weapons/Weapon.cpp.o.d -o CMakeFiles/game.dir/src/Items/Weapons/Weapon.cpp.o -c /class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/src/Items/Weapons/Weapon.cpp
+
+CMakeFiles/game.dir/src/Items/Weapons/Weapon.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.dir/src/Items/Weapons/Weapon.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/src/Items/Weapons/Weapon.cpp > CMakeFiles/game.dir/src/Items/Weapons/Weapon.cpp.i
+
+CMakeFiles/game.dir/src/Items/Weapons/Weapon.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/Items/Weapons/Weapon.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/src/Items/Weapons/Weapon.cpp -o CMakeFiles/game.dir/src/Items/Weapons/Weapon.cpp.s
+
+CMakeFiles/game.dir/src/Items/Weapons/Frostforged.cpp.o: CMakeFiles/game.dir/flags.make
+CMakeFiles/game.dir/src/Items/Weapons/Frostforged.cpp.o: src/Items/Weapons/Frostforged.cpp
+CMakeFiles/game.dir/src/Items/Weapons/Frostforged.cpp.o: CMakeFiles/game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/game.dir/src/Items/Weapons/Frostforged.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/src/Items/Weapons/Frostforged.cpp.o -MF CMakeFiles/game.dir/src/Items/Weapons/Frostforged.cpp.o.d -o CMakeFiles/game.dir/src/Items/Weapons/Frostforged.cpp.o -c /class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/src/Items/Weapons/Frostforged.cpp
+
+CMakeFiles/game.dir/src/Items/Weapons/Frostforged.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.dir/src/Items/Weapons/Frostforged.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/src/Items/Weapons/Frostforged.cpp > CMakeFiles/game.dir/src/Items/Weapons/Frostforged.cpp.i
+
+CMakeFiles/game.dir/src/Items/Weapons/Frostforged.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/Items/Weapons/Frostforged.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/src/Items/Weapons/Frostforged.cpp -o CMakeFiles/game.dir/src/Items/Weapons/Frostforged.cpp.s
+
+CMakeFiles/game.dir/src/Items/Weapons/Thunderfury.cpp.o: CMakeFiles/game.dir/flags.make
+CMakeFiles/game.dir/src/Items/Weapons/Thunderfury.cpp.o: src/Items/Weapons/Thunderfury.cpp
+CMakeFiles/game.dir/src/Items/Weapons/Thunderfury.cpp.o: CMakeFiles/game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/game.dir/src/Items/Weapons/Thunderfury.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/src/Items/Weapons/Thunderfury.cpp.o -MF CMakeFiles/game.dir/src/Items/Weapons/Thunderfury.cpp.o.d -o CMakeFiles/game.dir/src/Items/Weapons/Thunderfury.cpp.o -c /class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/src/Items/Weapons/Thunderfury.cpp
+
+CMakeFiles/game.dir/src/Items/Weapons/Thunderfury.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.dir/src/Items/Weapons/Thunderfury.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/src/Items/Weapons/Thunderfury.cpp > CMakeFiles/game.dir/src/Items/Weapons/Thunderfury.cpp.i
+
+CMakeFiles/game.dir/src/Items/Weapons/Thunderfury.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/Items/Weapons/Thunderfury.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/src/Items/Weapons/Thunderfury.cpp -o CMakeFiles/game.dir/src/Items/Weapons/Thunderfury.cpp.s
+
 # Object files for target game
 game_OBJECTS = \
 "CMakeFiles/game.dir/src/driverDragonQuest.cpp.o" \
@@ -250,7 +390,17 @@ game_OBJECTS = \
 "CMakeFiles/game.dir/src/enemies/Goblin.cpp.o" \
 "CMakeFiles/game.dir/src/enemies/Ogre.cpp.o" \
 "CMakeFiles/game.dir/src/enemies/Dragon.cpp.o" \
-"CMakeFiles/game.dir/src/enemies/Robot.cpp.o"
+"CMakeFiles/game.dir/src/enemies/Robot.cpp.o" \
+"CMakeFiles/game.dir/src/Items/Items.cpp.o" \
+"CMakeFiles/game.dir/src/Items/Armors/Armor.cpp.o" \
+"CMakeFiles/game.dir/src/Items/Armors/Dragonsbane.cpp.o" \
+"CMakeFiles/game.dir/src/Items/Armors/Obsidiansentinel.cpp.o" \
+"CMakeFiles/game.dir/src/Items/Potions/Potion.cpp.o" \
+"CMakeFiles/game.dir/src/Items/Potions/GreaterHealthPotion.cpp.o" \
+"CMakeFiles/game.dir/src/Items/Potions/LesserHealthPotion.cpp.o" \
+"CMakeFiles/game.dir/src/Items/Weapons/Weapon.cpp.o" \
+"CMakeFiles/game.dir/src/Items/Weapons/Frostforged.cpp.o" \
+"CMakeFiles/game.dir/src/Items/Weapons/Thunderfury.cpp.o"
 
 # External object files for target game
 game_EXTERNAL_OBJECTS =
@@ -267,9 +417,19 @@ bin/game: CMakeFiles/game.dir/src/enemies/Goblin.cpp.o
 bin/game: CMakeFiles/game.dir/src/enemies/Ogre.cpp.o
 bin/game: CMakeFiles/game.dir/src/enemies/Dragon.cpp.o
 bin/game: CMakeFiles/game.dir/src/enemies/Robot.cpp.o
+bin/game: CMakeFiles/game.dir/src/Items/Items.cpp.o
+bin/game: CMakeFiles/game.dir/src/Items/Armors/Armor.cpp.o
+bin/game: CMakeFiles/game.dir/src/Items/Armors/Dragonsbane.cpp.o
+bin/game: CMakeFiles/game.dir/src/Items/Armors/Obsidiansentinel.cpp.o
+bin/game: CMakeFiles/game.dir/src/Items/Potions/Potion.cpp.o
+bin/game: CMakeFiles/game.dir/src/Items/Potions/GreaterHealthPotion.cpp.o
+bin/game: CMakeFiles/game.dir/src/Items/Potions/LesserHealthPotion.cpp.o
+bin/game: CMakeFiles/game.dir/src/Items/Weapons/Weapon.cpp.o
+bin/game: CMakeFiles/game.dir/src/Items/Weapons/Frostforged.cpp.o
+bin/game: CMakeFiles/game.dir/src/Items/Weapons/Thunderfury.cpp.o
 bin/game: CMakeFiles/game.dir/build.make
 bin/game: CMakeFiles/game.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable bin/game"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/class/classes/idaci001/final-project-dahme007-scun002-syou029-idaci001/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Linking CXX executable bin/game"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/game.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

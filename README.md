@@ -102,8 +102,9 @@ You have encountered a SLIME!
 - DEF: 2
 
 What will you do?
-- FIGHT = F
-- INVENTORY = I
+- ATTACK = A
+- HEAL = H
+- DEFEND = D
 - RUN = R
 
 The screen lets the user choose between fighting, using items, or attempting to roll to run.
@@ -124,22 +125,20 @@ YOUR CURRENT CLASS: **WARRIOR**
 
 
 **STATS SCREEN:**
+NAME: (users name)
 YOUR CURRENT CLASS: **WARRIOR**
+- LEVEL: CURRENT LEVEL
 - HP: CURRENT / MAX
 - ATK: CURRENT
 - DEF: CURRENT
-
-- EXP: CURRENT / EXP TO LVL UP
+- DODGE: CURRENT
 
 =================================================
 
 
 **FIGHT SCREEN:**
 (When user chooses to fight in an encounter)
-- ATTACK WITH (NAME OF WEAPON) (Some weapons will have unique properties)
-- BLOCK
-- SPECIAL (Class-unique actions, like powerful spells for mages, or evasion boosts for rogues)
-You have chosen to use ACTION
+- ATTACK OR HEAL OR DEFEND OR RUN
 Screen clears when battle ends
 
 ---

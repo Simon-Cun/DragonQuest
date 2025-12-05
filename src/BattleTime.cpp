@@ -7,7 +7,7 @@
 using std::cout;
 using std::cin;
 
-BattleTime::BattleTime() : isBlocking(false) {}
+BattleTime::BattleTime() : isBlocking(false), escaped(false) {}   // <-- FIXED
 
 void BattleTime::startBattle(PlayerClasses& player, Enemy& enemy) {
     cout << "A " << enemy.getEnemyType() << " enemy appears!\n";
@@ -16,6 +16,11 @@ void BattleTime::startBattle(PlayerClasses& player, Enemy& enemy) {
 
         displayBattleMenu(player, enemy);
         playerTurn(player, enemy);
+
+        if (escaped) {
+            cout << "You escaped successfully!\n";
+            return;
+        }
 
         if (enemy.getHealthStat() <= 0) {
             cout << "Enemy defeated!\n";
@@ -51,11 +56,13 @@ void BattleTime::playerTurn(PlayerClasses& player, Enemy& enemy) {
         case 'A': handleAttack(player, enemy); break;
         case 'H': handleHeal(player); break;
         case 'D': handleDefend(player); break;
+
         case 'R':
             if (handleRun(player, enemy)) {
-                enemy.setHealthStat(0); 
+                escaped = true;        // <-- FIXED (do NOT kill enemy)
             }
             break;
+
         default:
             cout << "Invalid choice.\n";
             break;

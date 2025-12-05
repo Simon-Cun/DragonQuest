@@ -24,6 +24,8 @@ private:
     
     bool isBlocking;
 
+    bool escaped;
+
     void playerTurn(PlayerClasses& player, Enemy& enemy);
     void handleAttack(PlayerClasses& player, Enemy& enemy);
     void handleHeal(PlayerClasses& player);

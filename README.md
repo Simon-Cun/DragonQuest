@@ -234,5 +234,6 @@ When compiled all the executables will appear in build/bin/ where you can run th
 ./bin/game
 ```
  ## Testing
- We tested our project by implementing unit tests for each of the core functions used in the program. We wrote tests using GoogleTest which tested player functinality and behavior, battle logic, an d We also manually tested by playing our game through the terminal. We went through different scenarios that were possible which provided a variety of outputs, which helped test that out program functioned correctly, no matter what path the user chose. 
+ 1. **Unit Testing**: We tested our project by implementing unit tests for each of the core functions used in the program. We wrote tests using GoogleTest which tested player functinality and behavior, battle logic, and correct spawining of enemies.
+ 2. **Manually Testing**: We also manually tested our project by playing our game through the terminal. We went through different scenarios that were possible which provided a variety of outputs, which helped test that out program functioned correctly, no matter what path the user chose. 
  

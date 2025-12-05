@@ -16,10 +16,6 @@ PlayerClasses::PlayerClasses()
 {
 }
 
-// =========================================================
-// Inventory
-// =========================================================
-
 void PlayerClasses::addItem(Items item) {
     Inventory.push_back(item);
 }
@@ -34,10 +30,6 @@ void PlayerClasses::printInventory() {
         std::cout << i << ". " << Inventory[i].getName() << std::endl;
     }
 }
-
-// =========================================================
-// Setters / Getters
-// =========================================================
 
 void PlayerClasses::setPlayerName(std::string inputName) { playerName = inputName; }
 const std::string PlayerClasses::getPlayerName() { return playerName; }
@@ -65,17 +57,12 @@ void PlayerClasses::setPlayerMAXHP(float inputMAXHP) { playerMAXHP = inputMAXHP;
 float PlayerClasses::getPlayerMAXHP() { return playerMAXHP; }
 
 void PlayerClasses::setPlayerHP(float inputHP) {
-    // HP always stays between 0 and maxHP
     playerHP = std::min(playerMAXHP, std::max(0.0f, inputHP));
 }
 
 float PlayerClasses::getPlayerHP() { return playerHP; }
 
 int PlayerClasses::getPlayerLevel() { return playerLVL; }
-
-// =========================================================
-// EXP + Level Up System
-// =========================================================
 
 void PlayerClasses::addEXP(float inputEXP) {
     playerEXPTracker += inputEXP;
@@ -93,20 +80,15 @@ void PlayerClasses::levelUp() {
     if (newLevel > playerLVL) {
         playerLVL = newLevel;
 
-        // Reset stats to a clean formula (prevents compounding errors)
         playerATK    = 10.0f * newLevel;
         playerDEF    = 5.0f  * newLevel;
         playerDodge  = 5.0f  * newLevel;
         playerMAXHP  = 50.0f * newLevel;
-        playerHP     = playerMAXHP;  // full heal on level-up
+        playerHP     = playerMAXHP;
 
         std::cout << "You leveled up to LVL " << newLevel << "!\n\n";
     }
 }
-
-// =========================================================
-// Stats printing
-// =========================================================
 
 void PlayerClasses::printStats() const {
     std::cout << "===== PLAYER STATS =====\n";

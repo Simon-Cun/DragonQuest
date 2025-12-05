@@ -1,4 +1,4 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/EvxoT0RF)
+<img width="1571" height="641" alt="image" src="https://github.com/user-attachments/assets/a965e640-995c-434b-abdb-bff5b9be5081" />[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/EvxoT0RF)
 [![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-2972f46106e565e64193e422d61a12cf1da4916b45550586e14ef0a7c637dd04.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=21165628)
 
 # Text-Based Game - Dragon Quest++
@@ -206,6 +206,16 @@ GameDriver:
 <img width="882" height="972" alt="image" src="https://github.com/user-attachments/assets/16fcc36b-c1da-4503-8100-4a27640657bf" />
 <img width="882" height="892" alt="image" src="https://github.com/user-attachments/assets/930cf6f4-7c5e-4615-8b1d-ec013c9ffbe4" />
 <img width="882" height="1020" alt="image" src="https://github.com/user-attachments/assets/553b6330-d0fe-423f-a7c7-674e2522c079" />
+<img width="882" height="291" alt="image" src="https://github.com/user-attachments/assets/7c74559b-606a-440d-94a5-be8f58091b40" />
+<img width="882" height="243" alt="image" src="https://github.com/user-attachments/assets/c4505598-5ca5-462d-a119-1088b3897ade" />
+<img width="882" height="486" alt="image" src="https://github.com/user-attachments/assets/60173759-74a7-4b20-acba-56fa8bd4be10" />
+<img width="882" height="302" alt="image" src="https://github.com/user-attachments/assets/1b65a65f-dcce-4afd-9358-5890e722549c" />
+<img width="706" height="396" alt="image" src="https://github.com/user-attachments/assets/78e241a3-c8a1-42a3-ad59-3693213d79de" />
+<img width="1571" height="641" alt="image" src="https://github.com/user-attachments/assets/3926abf5-cd90-4a37-be54-a93bb27e2bdb" />
+
+
+
+
 
 
 

@@ -192,7 +192,6 @@ GameDriver:
 ---
  
  ## Screenshots
- > Screenshots of the input/output after running your application
 <img width="882" height="932" alt="image" src="https://github.com/user-attachments/assets/2c2009cf-854e-46e8-ab29-67cc4361045d" />
 <img width="882" height="972" alt="image" src="https://github.com/user-attachments/assets/16fcc36b-c1da-4503-8100-4a27640657bf" />
 <img width="882" height="892" alt="image" src="https://github.com/user-attachments/assets/930cf6f4-7c5e-4615-8b1d-ec013c9ffbe4" />
@@ -205,7 +204,6 @@ GameDriver:
 <img width="1571" height="641" alt="image" src="https://github.com/user-attachments/assets/3926abf5-cd90-4a37-be54-a93bb27e2bdb" />
 
  ## Installation/Usage
- > Instructions on installing and running your application
 Clone the repository
 ```
 git clone https://github.com/cs100/final-project-dahme007-scun002-syou029-idaci001.git

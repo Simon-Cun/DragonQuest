@@ -215,20 +215,24 @@ GameDriver:
 
  ## Installation/Usage
  > Instructions on installing and running your application
-# Clone the repository
+Clone the repository
 git clone https://github.com/<your-org-or-username>/final-project-dahme007-scun002-syou029-idaci001.git
 cd final-project-dahme007-scun002-syou029-idaci001
 
-# Create a build directory
+Create a build directory
 mkdir build
 cd build
 
-# Configure with CMake
+Configure with CMake
 cmake ..
 
-# Build the project
+Build the project
 make
 
+When compiled all the executables will appear in build/bin/ where you can run the game in the bin folder by doing:
+```
+./bin/game
+```
  ## Testing
  We tested our project by implementing unit tests for each of the core functions used in the program. We wrote tests using GoogleTest which tested player functinality and behavior, battle logic, an d We also manually tested by playing our game through the terminal. We went through different scenarios that were possible which provided a variety of outputs, which helped test that out program functioned correctly, no matter what path the user chose. 
  

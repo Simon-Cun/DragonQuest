@@ -180,7 +180,6 @@ void GameDriver::explorationLoop() {
             std::cout << "You move forward cautiously... Nothing happens.\n";
         }
         else if (roll < 80) {
-            std::cout << "A monster appears!\n";
             if (!foughtSlime) {
                 Slime s;
                 fightEnemy(s);
@@ -202,7 +201,7 @@ void GameDriver::explorationLoop() {
                 foughtRobot = true;
             }
 
-            std::cout << "\nEnemy defeated! Continue your journey...\n";
+            if (player.getPlayerHP() < 0.0) break;
         }
         else {
             std::cout << "You found mysterious loot on the ground!\n";

@@ -13,8 +13,6 @@ void Enemy::setDropChance(float stat) {
 }
 
 float Enemy::calcAttackDamage(float oppDefense) {
-    const float modifier = 0.5;
-    float reduction = oppDefense * modifier;
     float totalDMG = attackStat - oppDefense;
     if(totalDMG < 0.0) {
         totalDMG = 0.0;

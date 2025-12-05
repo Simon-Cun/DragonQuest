@@ -65,8 +65,7 @@ void BattleTime::playerTurn(PlayerClasses& player, Enemy& enemy) {
 void BattleTime::handleAttack(PlayerClasses& player, Enemy& enemy) {
     float rawDamage = player.getPlayerATK() - enemy.getDefenseStat();
 
-    if (rawDamage < 1)
-        rawDamage = 1; 
+    if (rawDamage < 1) rawDamage = 1; 
 
     enemy.setHealthStat(enemy.getHealthStat() - rawDamage);
 

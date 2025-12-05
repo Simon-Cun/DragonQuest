@@ -198,7 +198,7 @@ GameDriver:
 <img width="882" height="932" alt="image" src="https://github.com/user-attachments/assets/2c2009cf-854e-46e8-ab29-67cc4361045d" />
 
 
-**Goes into battle with (Input → Output)**
+**Goes into battle with Slime (Input → Output)**
 <img width="882" height="972" alt="image" src="https://github.com/user-attachments/assets/16fcc36b-c1da-4503-8100-4a27640657bf" />
 
 

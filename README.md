@@ -252,6 +252,11 @@ Navigate to the folder with the executable and run:
 ```
 ./DragonQuest
 ```
+
+For linux run as admin:
+```
+chmod +x ~[PATH]
+```
 Wait for command window to pop up
 
  ## Testing

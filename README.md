@@ -192,11 +192,16 @@ GameDriver:
 ---
  
  ## Screenshots
+ 
 
 **Name and Player Creation (Input → Output)**
 <img width="882" height="932" alt="image" src="https://github.com/user-attachments/assets/2c2009cf-854e-46e8-ab29-67cc4361045d" />
+
+
 **Goes into battle with (Input → Output)**
 <img width="882" height="972" alt="image" src="https://github.com/user-attachments/assets/16fcc36b-c1da-4503-8100-4a27640657bf" />
+
+
 **Viewing Inventory and Stats after Battle & Moving through the Game (Input → Output)**
 <img width="882" height="892" alt="image" src="https://github.com/user-attachments/assets/930cf6f4-7c5e-4615-8b1d-ec013c9ffbe4" />
 <img width="882" height="1020" alt="image" src="https://github.com/user-attachments/assets/553b6330-d0fe-423f-a7c7-674e2522c079" />
@@ -205,6 +210,8 @@ GameDriver:
 <img width="882" height="486" alt="image" src="https://github.com/user-attachments/assets/60173759-74a7-4b20-acba-56fa8bd4be10" />
 <img width="882" height="302" alt="image" src="https://github.com/user-attachments/assets/1b65a65f-dcce-4afd-9358-5890e722549c" />
 <img width="706" height="396" alt="image" src="https://github.com/user-attachments/assets/78e241a3-c8a1-42a3-ad59-3693213d79de" />
+
+
 **Clean Valgrind Memcheck Report**
 <img width="1571" height="641" alt="image" src="https://github.com/user-attachments/assets/3926abf5-cd90-4a37-be54-a93bb27e2bdb" />
 

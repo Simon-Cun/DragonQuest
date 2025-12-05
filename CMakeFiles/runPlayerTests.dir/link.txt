@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/runPlayerTests.dir/tests/PlayerTests.cpp.o CMakeFiles/runPlayerTests.dir/src/PlayerClasses.cpp.o CMakeFiles/runPlayerTests.dir/src/players/Mage.cpp.o CMakeFiles/runPlayerTests.dir/src/players/Warrior.cpp.o CMakeFiles/runPlayerTests.dir/src/players/Rogue.cpp.o -o bin/runPlayerTests  lib/libgmock.a lib/libgtest.a lib/libgtest_main.a lib/libgtest.a -lpthread 

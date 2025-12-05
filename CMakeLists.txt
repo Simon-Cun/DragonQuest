@@ -17,88 +17,80 @@ include_directories(
 )
 
 # ===================================================================
+#                        GAME LIBRARY (NEW)
+#       Contains ALL game source files so tests can link correctly
+# ===================================================================
+add_library(game_lib
+    src/GameDriver.cpp
+    src/BattleTime.cpp
+    src/PlayerClasses.cpp
+    src/Enemy.cpp
+    src/BattleTime.cpp
+
+    # Players
+    src/players/Mage.cpp
+    src/players/Warrior.cpp
+    src/players/Rogue.cpp
+
+    # Enemies
+    src/enemies/Slime.cpp
+    src/enemies/Goblin.cpp
+    src/enemies/Ogre.cpp
+    src/enemies/Dragon.cpp
+    src/enemies/Robot.cpp
+
+    # Items
+    src/Items/Items.cpp
+
+    # Armors
+    src/Items/Armors/Armor.cpp
+    src/Items/Armors/Dragonsbane.cpp
+    src/Items/Armors/Obsidiansentinel.cpp
+
+    # Potions
+    src/Items/Potions/Potion.cpp
+    src/Items/Potions/GreaterHealthPotion.cpp
+    src/Items/Potions/LesserHealthPotion.cpp
+
+    # Weapons
+    src/Items/Weapons/Weapon.cpp
+    src/Items/Weapons/Frostforged.cpp
+    src/Items/Weapons/Thunderfury.cpp
+)
+
+target_include_directories(game_lib PUBLIC ${CMAKE_SOURCE_DIR}/include)
+
+# ===================================================================
 #                         PLAYER TESTS
 # ===================================================================
 add_executable(runPlayerTests
     tests/PlayerTests.cpp
-    src/PlayerClasses.cpp
-    src/players/Mage.cpp
-    src/players/Warrior.cpp
-    src/players/Rogue.cpp
 )
-
 target_compile_definitions(runPlayerTests PRIVATE GTEST)
-target_link_libraries(runPlayerTests gmock gtest gtest_main)
+target_link_libraries(runPlayerTests game_lib gmock gtest gtest_main)
 
 # ===================================================================
 #                         ENEMY TESTS
 # ===================================================================
 add_executable(runEnemyTests
     tests/EnemyTest.cpp
-    src/Enemy.cpp
-    src/enemies/Slime.cpp
-    src/enemies/Goblin.cpp
-    src/enemies/Ogre.cpp
-    src/enemies/Dragon.cpp
-    src/enemies/Robot.cpp
 )
-
 target_compile_definitions(runEnemyTests PRIVATE GTEST)
-target_link_libraries(runEnemyTests gmock gtest gtest_main)
+target_link_libraries(runEnemyTests game_lib gmock gtest gtest_main)
 
 # ===================================================================
 #                        BATTLE SYSTEM TESTS
 # ===================================================================
 add_executable(runBattleTests
     tests/BattleTimeTest.cpp
-    src/BattleTime.cpp
-    src/PlayerClasses.cpp
-    src/Enemy.cpp
-
-    src/players/Mage.cpp
-    src/players/Warrior.cpp
-    src/players/Rogue.cpp
-
-    src/enemies/Slime.cpp
-    src/enemies/Goblin.cpp
-    src/enemies/Ogre.cpp
-    src/enemies/Dragon.cpp
-    src/enemies/Robot.cpp
 )
-
 target_compile_definitions(runBattleTests PRIVATE GTEST)
-target_link_libraries(runBattleTests gmock gtest gtest_main)
+target_link_libraries(runBattleTests game_lib gmock gtest gtest_main)
 
 # ===================================================================
 #                        MAIN GAME EXECUTABLE
 # ===================================================================
 add_executable(game
     src/driverDragonQuest.cpp
-    src/BattleTime.cpp
-    src/PlayerClasses.cpp
-    src/Enemy.cpp
-
-    src/players/Mage.cpp
-    src/players/Warrior.cpp
-    src/players/Rogue.cpp
-
-    src/enemies/Slime.cpp
-    src/enemies/Goblin.cpp
-    src/enemies/Ogre.cpp
-    src/enemies/Dragon.cpp
-    src/enemies/Robot.cpp
-
-    src/Items/Items.cpp
-
-    src/Items/Armors/Armor.cpp
-    src/Items/Armors/Dragonsbane.cpp
-    src/Items/Armors/Obsidiansentinel.cpp
-
-    src/Items/Potions/Potion.cpp
-    src/Items/Potions/GreaterHealthPotion.cpp
-    src/Items/Potions/LesserHealthPotion.cpp
-
-    src/Items/Weapons/Weapon.cpp
-    src/Items/Weapons/Frostforged.cpp
-    src/Items/Weapons/Thunderfury.cpp
 )
+target_link_libraries(game game_lib)

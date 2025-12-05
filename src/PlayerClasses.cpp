@@ -6,10 +6,17 @@
 #include <algorithm>
 #include <stdexcept>
 
-PlayerClasses::PlayerClasses() : playerName(""), playerType(""), playerLVL(1), playerEXPTracker(0.0),
-                                 playerATK(0.0), playerDEF(0.0), playerDodge(0.0), playerHP(50.0), hasWeapon(false),
-                                 battlesFought(0), battlesWon(0), damageDealt(0), damageTaken(0), Inventory() {
-                                 }
+PlayerClasses::PlayerClasses() 
+    : playerName(""), playerType(""), playerLVL(1), playerEXPTracker(0.0),
+      playerATK(0.0), playerDEF(0.0), playerDodge(0.0),
+      playerHP(50.0), playerMAXHP(50.0),   // <-- FIXED HERE
+      hasWeapon(false),
+      battlesFought(0), battlesWon(0), damageDealt(0), damageTaken(0),
+      Inventory()
+{
+}
+
+
 
 void PlayerClasses::addItem(Items item) {
     Inventory.push_back(item);
@@ -118,8 +125,8 @@ float PlayerClasses::getPlayerDodge() {return playerDodge;}
 
 void PlayerClasses::setPlayerHP(float inputHP) {
     playerHP = std::min(playerMAXHP, std::max(0.0f, inputHP));
-    // minimum is 0 maximum is maxHP
 }
+
 
 float PlayerClasses::getPlayerHP() {return playerHP;}
 

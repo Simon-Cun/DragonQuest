@@ -220,14 +220,20 @@ git clone https://github.com/<your-org-or-username>/final-project-dahme007-scun0
 cd final-project-dahme007-scun002-syou029-idaci001
 
 Create a build directory
-```mkdir build
-cd build```
+```
+mkdir build
+cd build
+```
 
 Configure with CMake
-```cmake ..```
+```
+cmake ..
+```
 
 Build the project
-```make```
+```
+make
+```
 
 When compiled all the executables will appear in build/bin/ where you can run the game in the bin folder by doing:
 ```

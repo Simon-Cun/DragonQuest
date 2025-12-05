@@ -28,12 +28,38 @@
 #include "Robot.h"
 #include "Dragon.h"
 
+#ifdef GTEST
+#include <gtest/gtest_prod.h>
+#endif
+
 class GameDriver {
 public:
     GameDriver();
     void Menu();
 
+#ifdef GTEST
+public:
+    PlayerClasses& getPlayerForTesting() { return player; }
+    std::string& getNameForTesting() { return playerName; }
+#endif
+
 private:
+
+#ifdef GTEST
+    FRIEND_TEST(GameDriverTests, RandPercentWithinRange);
+    FRIEND_TEST(GameDriverTests, ChooseNameWorks);
+    FRIEND_TEST(GameDriverTests, ChooseMageClassWorks);
+    FRIEND_TEST(GameDriverTests, ChooseWarriorClassWorks);
+    FRIEND_TEST(GameDriverTests, ChooseRogueClassWorks);
+    FRIEND_TEST(GameDriverTests, TitleScreenPrintsCorrectly);
+    FRIEND_TEST(GameDriverTests, IntroDialoguePrintsCorrectly);
+    FRIEND_TEST(GameDriverTests, ExplorationNoEvent);
+    FRIEND_TEST(GameDriverTests, ExplorationEnemyOrder);
+    FRIEND_TEST(GameDriverTests, ExplorationLootDrop);
+    FRIEND_TEST(GameDriverTests, DragonAppearsAfterAllKills);
+    FRIEND_TEST(GameDriverTests, PlayerDiesEndsGame);
+    FRIEND_TEST(GameDriverTests, QuitMenuExitsGame);
+#endif
     PlayerClasses player;
     std::string playerName;
 

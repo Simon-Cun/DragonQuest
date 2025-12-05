@@ -27,7 +27,7 @@ void PlayerClasses::printInventory() {
     }
 
     for (size_t i = 0; i < Inventory.size(); ++i) {
-        std::cout << i << ". " << Inventory[i].getName() << std::endl;
+        std::cout << i << ". " << Inventory.at(i).getName() << std::endl;
     }
 }
 

@@ -5,6 +5,18 @@
 #include <cstdlib>
 #include <ctime>
 
+#include "Items.h"
+#include "Frostforged.h"
+#include "Thunderfury.h"
+#include "Weapon.h"
+#include "Potion.h"
+#include "Armor.h"
+#include "LesserHealthPotion.h"
+#include "GreaterHealthPotion.h"
+#include "Obsidiansentinel.h"
+#include "Dragonsbane.h"
+
+
 #include "PlayerClasses.h"
 #include "Enemy.h"
 #include "BattleTime.h"
@@ -26,6 +38,12 @@ public:
 private:
     PlayerClasses player;
     std::string playerName;
+    Dragonsbane dragonsbane;
+    Frostforged frostforged;
+    Thunderfury thunderfury;
+    Obsidiansentinel obsidiansentinel;
+    LesserHealthPotion lesserhealthpotion;
+    GreaterHealthPotion greaterhealthpotion;
 
     bool foughtSlime;
     bool foughtGoblin;
@@ -48,7 +66,7 @@ GameDriver::GameDriver()
     : player(), playerName("Hero"),
       foughtSlime(false), foughtGoblin(false),
       foughtOgre(false), foughtRobot(false) {}
-
+      
 std::string GameDriver::getLine() {
     std::string s;
     std::getline(std::cin, s);
@@ -206,7 +224,20 @@ void GameDriver::explorationLoop() {
         }
         else {
             std::cout << "You found mysterious loot on the ground!\n";
-            std::cout << "(Loot system not implemented yet.)\n";
+            int randNum = randPercent();
+            if(randNum >= 0 && randNum < 20) {
+                player.addItem(dragonsbane);
+            } else if (randNum >= 20 && randNum < 40) {
+                player.addItem(frostforged);
+            } else if (randNum >= 40 && randNum < 65) {
+                player.addItem(lesserhealthpotion);
+            } else if (randNum >= 65 && randNum < 70) {
+                player.addItem(greaterhealthpotion);
+            } else if (randNum >= 70 && randNum < 85) {
+                player.addItem(thunderfury);
+            } else if (randNum >= 85 && randNum < 100) {
+                player.addItem(obsidiansentinel);
+            }
         }
     }
 }

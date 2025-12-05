@@ -150,7 +150,8 @@ Screen clears when battle ends
 
 ## Class Diagram
 [Dragon Quest++ - Class Diagram](https://lucid.app/lucidchart/419219fc-910f-41ff-aebf-cfc0c0618d76/edit?beaconFlowId=9073B42EF962BC59&page=0_0&invitationId=inv_f315a160-fa9c-49ed-86b4-58bcf5f5f1c6#)
-<img width="1122" height="488" alt="Image" src="https://github.com/user-attachments/assets/ffde4b6b-38ab-4d37-a245-8534d07a92bf" />
+<img width="1950" height="1198" alt="image" src="https://github.com/user-attachments/assets/23da5c88-a4df-4c23-97b6-df2060077d9b" />
+
 
 For playable characters, a single "PlayerClasses" base class encompasses all types of players in the game (i.e. Warrior, Rogue, Mage). The type subclasses set the base stats for the instantiated PlayerClasses.
 

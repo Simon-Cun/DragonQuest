@@ -1,12 +1,29 @@
 #include "PlayerClasses.h"
+#include "Items.h"
 #include <iostream>
 #include <string>
+#include <vector>
 #include <algorithm>
 #include <stdexcept>
 
 PlayerClasses::PlayerClasses() : playerName(""), playerType(""), playerLVL(1), playerEXPTracker(0.0),
                                  playerATK(0.0), playerDEF(0.0), playerDodge(0.0), playerHP(50.0), hasWeapon(false),
-                                 battlesFought(0), battlesWon(0), damageDealt(0), damageTaken(0) {}
+                                 battlesFought(0), battlesWon(0), damageDealt(0), damageTaken(0), Inventory() {
+                                 }
+
+void PlayerClasses::addItem(Items item) {
+    Inventory.push_back(item);
+}
+
+void PlayerClasses::printInventory() {
+    if(Inventory.size() == 0 || Inventory.size() < 0) {
+        std::cout << "Your inventory is empty." << endl;
+        return;
+    }
+    for(int i = 0; i < Inventory.size(); ++i) {
+        std::cout << i << ". " << Inventory.at(i).getName() << endl;
+    }
+}
 
 void PlayerClasses::setPlayerName(std::string inputName) {playerName = inputName;}
 

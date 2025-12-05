@@ -1,10 +1,12 @@
 #pragma once
+#include "Items.h"
 #include <string>
 
 class PlayerClasses {
  protected:
     std::string playerName;
     std::string playerType;
+    std::vector<Items> Inventory;
     int playerLVL;
     float playerEXPTracker;
     float playerATK;
@@ -20,6 +22,8 @@ class PlayerClasses {
 
  public:
     PlayerClasses();
+    void addItem(Items);
+    void printInventory();
     void setPlayerName(std::string inputName);
     const std::string getPlayerName();
     void setPlayerType(char inputType);

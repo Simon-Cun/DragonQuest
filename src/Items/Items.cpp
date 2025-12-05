@@ -12,3 +12,7 @@ void Items::setName(string nameSet) {
 void Items::setDescription(string desc) {
     description = desc;
 }
+
+string Items::getName() {
+    return name;
+}

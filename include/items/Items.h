@@ -9,6 +9,7 @@ class Items {
     public:
         Items();
         void setName(string);
+        string getName();
         void setDescription(string);
 
 

@@ -17,15 +17,13 @@ include_directories(
 )
 
 # ===================================================================
-#                        GAME LIBRARY (NEW)
-#       Contains ALL game source files so tests can link correctly
+#                        GAME LIBRARY
 # ===================================================================
 add_library(game_lib
     src/GameDriver.cpp
     src/BattleTime.cpp
     src/PlayerClasses.cpp
     src/Enemy.cpp
-    src/BattleTime.cpp
 
     # Players
     src/players/Mage.cpp
@@ -39,8 +37,8 @@ add_library(game_lib
     src/enemies/Dragon.cpp
     src/enemies/Robot.cpp
 
-    # Items
-    src/Items/Items.cpp
+    # Items (correct directory)
+    src/Items.cpp
 
     # Armors
     src/Items/Armors/Armor.cpp
@@ -86,6 +84,15 @@ add_executable(runBattleTests
 )
 target_compile_definitions(runBattleTests PRIVATE GTEST)
 target_link_libraries(runBattleTests game_lib gmock gtest gtest_main)
+
+# ===================================================================
+#                        ITEM TESTS
+# ===================================================================
+add_executable(runItemTests
+    tests/ItemTests.cpp
+)
+target_compile_definitions(runItemTests PRIVATE GTEST)
+target_link_libraries(runItemTests game_lib gmock gtest gtest_main)
 
 # ===================================================================
 #                        MAIN GAME EXECUTABLE

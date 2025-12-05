@@ -11,6 +11,5 @@ class Items {
         void setName(string);
         string getName();
         void setDescription(string);
-
-
+        string getDescription();
 };

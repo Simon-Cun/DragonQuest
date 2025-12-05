@@ -205,5 +205,5 @@ GameDriver:
  ## Installation/Usage
  > Instructions on installing and running your application
  ## Testing
- > How was your project tested/validated? If you used CI, you should have a "build passing" badge in this README.
+ We tested our project by implementing unit tests for each of the core functions used in the program. We wrote tests using GoogleTest which tested player functinality and behavior, battle logic, an d We also manually tested by playing our game through the terminal. We went through different scenarios that were possible which provided a variety of outputs, which helped test that out program functioned correctly, no matter what path the user chose. 
  

@@ -51,15 +51,18 @@ void GameDriver::showIntroDialogue() {
 }
 
 void GameDriver::choosePlayerName() {
-    cout << "What is your name?\n";
-    cout << "Enter your name: ";
-    std::string name = getLine();
-    if (!name.empty()) playerName = name;
+    std::cout << "What is your name?\n";
+    std::cout << "Enter your name: ";
 
-    cout << "\nGreetings, " << playerName << ".\n\n";
-    cout << "Press Enter to choose your class...";
+    std::string name = getLine();
+    if (!name.empty())
+        playerName = name;
+
+    std::cout << "\nGreetings, " << playerName << ".\n\n";
+    std::cout << "Press Enter to choose your class...";
     getLine();
-    cout << "\n";
+
+    std::cout << "\n";
 }
 
 void GameDriver::choosePlayerClass() {

@@ -102,8 +102,9 @@ You have encountered a SLIME!
 - DEF: 2
 
 What will you do?
-- FIGHT = F
-- INVENTORY = I
+- ATTACK = A
+- HEAL = H
+- DEFEND = D
 - RUN = R
 
 The screen lets the user choose between fighting, using items, or attempting to roll to run.
@@ -124,22 +125,20 @@ YOUR CURRENT CLASS: **WARRIOR**
 
 
 **STATS SCREEN:**
+NAME: (users name)
 YOUR CURRENT CLASS: **WARRIOR**
+- LEVEL: CURRENT LEVEL
 - HP: CURRENT / MAX
 - ATK: CURRENT
 - DEF: CURRENT
-
-- EXP: CURRENT / EXP TO LVL UP
+- DODGE: CURRENT
 
 =================================================
 
 
 **FIGHT SCREEN:**
 (When user chooses to fight in an encounter)
-- ATTACK WITH (NAME OF WEAPON) (Some weapons will have unique properties)
-- BLOCK
-- SPECIAL (Class-unique actions, like powerful spells for mages, or evasion boosts for rogues)
-You have chosen to use ACTION
+- ATTACK OR HEAL OR DEFEND OR RUN
 Screen clears when battle ends
 
 ---
@@ -150,7 +149,8 @@ Screen clears when battle ends
 
 ## Class Diagram
 [Dragon Quest++ - Class Diagram](https://lucid.app/lucidchart/419219fc-910f-41ff-aebf-cfc0c0618d76/edit?beaconFlowId=9073B42EF962BC59&page=0_0&invitationId=inv_f315a160-fa9c-49ed-86b4-58bcf5f5f1c6#)
-<img width="1122" height="488" alt="Image" src="https://github.com/user-attachments/assets/ffde4b6b-38ab-4d37-a245-8534d07a92bf" />
+<img width="1950" height="1198" alt="image" src="https://github.com/user-attachments/assets/23da5c88-a4df-4c23-97b6-df2060077d9b" />
+
 
 For playable characters, a single "PlayerClasses" base class encompasses all types of players in the game (i.e. Warrior, Rogue, Mage). The type subclasses set the base stats for the instantiated PlayerClasses.
 
@@ -191,19 +191,74 @@ GameDriver:
    
 ---
  
- 
- > ## Final deliverable
- > All group members will give a demo to the reader during lab time. ou should schedule your demo on Calendly with the same reader who took your second scrum meeting. The reader will check the demo and the project GitHub repository and ask a few questions to all the team members. 
- > Before the demo, you should do the following:
- > * Complete the sections below (i.e. Screenshots, Installation/Usage, Testing)
- > * Plan one more sprint (that you will not necessarily complete before the end of the quarter). Your In-progress and In-testing columns should be empty (you are not doing more work currently) but your TODO column should have a full sprint plan in it as you have done before. This should include any known bugs (there should be some) or new features you would like to add. These should appear as issues/cards on your Project board.
- > * Make sure your README file and Project board are up-to-date reflecting the current status of your project (e.g. any changes that you have made during the project such as changes to your class diagram). Previous versions should still be visible through your commit history.
->  * Each team member should also submit the Peer Evaluation Form on Canvas for this final phase. In this form, you need to fill in the names of all team members, the percentage of work contributed by each member for the final phase, and a description of their contributions. Remember that each team member should submit the form individually.
- 
  ## Screenshots
- > Screenshots of the input/output after running your application
+ 
+
+**Name and Player Creation (Input → Output)**
+<img width="882" height="932" alt="image" src="https://github.com/user-attachments/assets/2c2009cf-854e-46e8-ab29-67cc4361045d" />
+
+
+**Goes into battle with Slime (Input → Output)**
+<img width="882" height="972" alt="image" src="https://github.com/user-attachments/assets/16fcc36b-c1da-4503-8100-4a27640657bf" />
+
+
+**Viewing Inventory, Stats after Battle, & Moving through the Game (Input → Output)**
+<img width="882" height="892" alt="image" src="https://github.com/user-attachments/assets/930cf6f4-7c5e-4615-8b1d-ec013c9ffbe4" />
+<img width="882" height="1020" alt="image" src="https://github.com/user-attachments/assets/553b6330-d0fe-423f-a7c7-674e2522c079" />
+<img width="882" height="291" alt="image" src="https://github.com/user-attachments/assets/7c74559b-606a-440d-94a5-be8f58091b40" />
+<img width="882" height="243" alt="image" src="https://github.com/user-attachments/assets/c4505598-5ca5-462d-a119-1088b3897ade" />
+<img width="882" height="486" alt="image" src="https://github.com/user-attachments/assets/60173759-74a7-4b20-acba-56fa8bd4be10" />
+<img width="882" height="302" alt="image" src="https://github.com/user-attachments/assets/1b65a65f-dcce-4afd-9358-5890e722549c" />
+<img width="706" height="396" alt="image" src="https://github.com/user-attachments/assets/78e241a3-c8a1-42a3-ad59-3693213d79de" />
+
+
+**Clean Valgrind Memcheck Report**
+<img width="1571" height="641" alt="image" src="https://github.com/user-attachments/assets/3926abf5-cd90-4a37-be54-a93bb27e2bdb" />
+
  ## Installation/Usage
- > Instructions on installing and running your application
+Clone the repository
+```
+git clone https://github.com/cs100/final-project-dahme007-scun002-syou029-idaci001.git
+```
+
+```
+cd final-project-dahme007-scun002-syou029-idaci001
+```
+
+Create a build directory
+```
+mkdir build
+cd build
+```
+
+Configure with CMake
+```
+cmake ..
+```
+
+Build the project
+```
+make
+```
+
+When compiled all the executables will appear in build/bin/ where you can run the game in the bin folder by doing:
+```
+./bin/game
+```
+Installing the executable: Install the latest release from the repository
+
+Navigate to the folder with the executable and run: 
+```
+./DragonQuest
+```
+
+For linux run as admin:
+```
+chmod +x ~[PATH]
+```
+Wait for command window to pop up
+
  ## Testing
- We tested our project by implementing unit tests for each of the core functions used in the program. We wrote tests using GoogleTest which tested player functinality and behavior, battle logic, an d We also manually tested by playing our game through the terminal. We went through different scenarios that were possible which provided a variety of outputs, which helped test that out program functioned correctly, no matter what path the user chose. 
+ 1. **Unit Testing**: We tested our project by implementing unit tests for each of the core functions used in the program. We wrote tests using GoogleTest which tested player functinality and behavior, battle logic, and correct spawining of enemies.
+ 2. **Manually Testing**: We also manually tested our project by playing our game through the terminal. We went through different scenarios that were possible which provided a variety of outputs, which helped test that out program functioned correctly, no matter what path the user chose. 
  

@@ -7,7 +7,7 @@
 using std::cout;
 using std::cin;
 
-BattleTime::BattleTime() : isBlocking(false), escaped(false) {}   // <-- FIXED
+BattleTime::BattleTime() : isBlocking(false), escaped(false) {}
 
 void BattleTime::startBattle(PlayerClasses& player, Enemy& enemy) {
     cout << "A " << enemy.getEnemyType() << " enemy appears!\n";
@@ -59,7 +59,7 @@ void BattleTime::playerTurn(PlayerClasses& player, Enemy& enemy) {
 
         case 'R':
             if (handleRun(player, enemy)) {
-                escaped = true;        // <-- FIXED (do NOT kill enemy)
+                escaped = true;
             }
             break;
 

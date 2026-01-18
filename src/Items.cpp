@@ -16,3 +16,7 @@ void Items::setDescription(string desc) {
 string Items::getName() {
     return name;
 }
+
+string Items::getDescription() { 
+    return description;
+}

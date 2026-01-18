@@ -17,15 +17,13 @@ include_directories(
 )
 
 # ===================================================================
-#                        GAME LIBRARY (NEW)
-#       Contains ALL game source files so tests can link correctly
+#                        GAME LIBRARY
 # ===================================================================
 add_library(game_lib
     src/GameDriver.cpp
     src/BattleTime.cpp
     src/PlayerClasses.cpp
     src/Enemy.cpp
-    src/BattleTime.cpp
 
     # Players
     src/players/Mage.cpp
@@ -40,7 +38,7 @@ add_library(game_lib
     src/enemies/Robot.cpp
 
     # Items
-    src/Items/Items.cpp
+    src/Items.cpp
 
     # Armors
     src/Items/Armors/Armor.cpp
@@ -63,34 +61,40 @@ target_include_directories(game_lib PUBLIC ${CMAKE_SOURCE_DIR}/include)
 # ===================================================================
 #                         PLAYER TESTS
 # ===================================================================
-add_executable(runPlayerTests
-    tests/PlayerTests.cpp
-)
+add_executable(runPlayerTests tests/PlayerTests.cpp)
 target_compile_definitions(runPlayerTests PRIVATE GTEST)
 target_link_libraries(runPlayerTests game_lib gmock gtest gtest_main)
 
 # ===================================================================
 #                         ENEMY TESTS
 # ===================================================================
-add_executable(runEnemyTests
-    tests/EnemyTest.cpp
-)
+add_executable(runEnemyTests tests/EnemyTest.cpp)
 target_compile_definitions(runEnemyTests PRIVATE GTEST)
 target_link_libraries(runEnemyTests game_lib gmock gtest gtest_main)
 
 # ===================================================================
 #                        BATTLE SYSTEM TESTS
 # ===================================================================
-add_executable(runBattleTests
-    tests/BattleTimeTest.cpp
-)
+add_executable(runBattleTests tests/BattleTimeTest.cpp)
 target_compile_definitions(runBattleTests PRIVATE GTEST)
 target_link_libraries(runBattleTests game_lib gmock gtest gtest_main)
 
 # ===================================================================
+#                        ITEM TESTS
+# ===================================================================
+add_executable(runItemTests tests/ItemTests.cpp)
+target_compile_definitions(runItemTests PRIVATE GTEST)
+target_link_libraries(runItemTests game_lib gmock gtest gtest_main)
+
+# ===================================================================
+#                        GAMEDRIVER TESTS
+# ===================================================================
+add_executable(runGameDriverTests tests/GameDriverTest.cpp)
+target_compile_definitions(runGameDriverTests PRIVATE GTEST)
+target_link_libraries(runGameDriverTests game_lib gmock gtest gtest_main)
+
+# ===================================================================
 #                        MAIN GAME EXECUTABLE
 # ===================================================================
-add_executable(game
-    src/driverDragonQuest.cpp
-)
+add_executable(game src/driverDragonQuest.cpp)
 target_link_libraries(game game_lib)
